@@ -113,5 +113,88 @@ main {
 }
 
 /*************/
+/*WHO ARE I*/
+/*************/
+#who_are_i {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#who_are_i img, #who_are_i div {
+  width: 46%;
+  padding: 2%;
+}
+
+#who_are_i h2{
+  text-align: center;
+}
+
+#who_are_i p {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*************/
+/*THREE THINGS*/
+/*************/
+#three_things {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+.post {
+  width: 30%;
+  /*margin: 1%;*/
+  vertical-align: top;
+  /*text-align: center;*/
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-around;*/
+  /*background-color: #F4F4F4;*/
+}
+.post h3 a {
+  color: black;
+}
+.post h3 {
+  border-bottom: 1px solid black;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  height: 50px;
+  margin: 0;
+  padding: 5%;
+}
+
+.post p {
+  margin: 1em auto;
+  height: 60%;
+}
+
+
+/*************/
 /*PORTFOLIO*/
 /*************/
+
+#portfolio img {
+  padding: .5em;
+}
+
+#left_photo {
+  float: left;
+  clear: both;
+}
+
+#middle_three_photos {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+
+footer nav li a {
+  color: black
+}
