@@ -1,0 +1,121 @@
+@import url(reset.css);
+
+/*--------------- SHARED STYLES ---------------*/
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+html, body { height: 100%; }
+body {
+  color: #333;
+  font-size: 22px;
+  font-family: 'Cardo', serif;
+  line-height: 1.35;
+}
+h1 {
+  font-size: 3.5em;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2.2em;
+  text-decoration: italic;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.8em;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/*--------------- CONTENT START ---------------*/
+div.container {
+  width: 80%;
+  margin: 5% auto;
+  border: 10px solid #333;
+}
+header, main {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/*--------------- HEADER ---------------*/
+header {
+  padding: 1% 0 1%;
+  border-top: 5px double #333;
+  border-bottom: 2px solid #333;
+}
+header h1 {
+  padding-top: 1%;
+  text-align: center;
+  margin-bottom: 1%;
+  border-bottom: 3px solid #333;
+}
+header h1 a img { height: 64px;}
+header h1 a img:nth-of-type(2) { transform: scaleX(-1); }
+header nav {
+  width: 100%;
+  margin-top: 1.5%;
+}
+header nav ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li a i {
+  color: #c788a5; /* dark pink */
+  visibility: hidden;
+}
+header nav ul li a:hover {
+  color: #edb1c1; /* light pink */
+}
+header nav ul li a:hover i {
+  visibility: visible;
+}
+
+/*--------------- FOOTER ---------------*/
+footer {
+  border-top: 7px solid #333;
+  padding: 2% 4% 10%;
+  color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  background: rgba(80, 80, 80, 0.95);
+  background-image: url('../images/flower-footer.png');
+  background-position: center bottom -60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer section.footer-text p { font-size: 0.5em; }
+footer section.footer-text p a {
+  font-style: italic;
+  color: #fefefe;
+}
+footer section.footer-text p i { color: #edb1c1; }
+footer ul.footer-sns {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+footer ul.footer-sns li { margin-left: 20%; }
+footer ul.footer-sns li:first-of-type { margin-left: 0; }
+footer ul.footer-sns li a {
+  color: #fcfcfc;
+}
+footer ul.footer-sns li a:hover {
+  color: #edb1c1;
+}
+
+/*--------------- MAIN INDEX.HTML ---------------*/
+body.index {
+  background: #8fd2c9; /* bright teal */
+  background-image: url('../images/jojo-pattern.png');
+  background-repeat: repeat-x repeat-y;
+}
+main {
+  width: 100%;
+  padding: 5% 4% 10%;
+}
