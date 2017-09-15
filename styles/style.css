@@ -1,0 +1,100 @@
+
+body {
+  color: gray;
+  align-items: center;
+  margin: 0;
+}
+/*********************/
+/* HEADER            */
+/*********************/
+
+header {
+  width: 100%;
+  background-color: #D4C1D9;
+  color: #616061;
+  height: 20%;
+
+
+}
+
+header a {
+  text-decoration: none;
+  color: #616061;
+  margin: 0;
+  width: 100%;
+
+}
+
+header nav {
+  width: 50%;
+  display: inline-flex;
+
+
+  /*display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;*/
+}
+
+header ul {
+  display: inline-flex;
+  width: 100%;
+}
+
+header li {
+  padding: 1% 2%;
+  margin: 5% 5% 5% 5%;
+  list-style: none;
+  display: inline-flex;
+  width: 25%;
+}
+
+header h1 {
+  width: 30%;
+  display: inline-flex;
+  margin-left: 5%;
+}
+
+/*********************/
+/* section hello           */
+/*********************/
+
+.hello {
+ margin-top: 2%;
+ background-color: #E5DEE8;
+ height: 500px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.hello h2 {
+  /*float: left;*/
+  width: 30%;
+  margin: auto auto;
+}
+
+.hello p {
+  /*float: right;*/
+  width: 30%;
+  margin: auto auto;
+}
+#two {
+  height: 500px;
+}
+
+#three {
+  height: 500px;
+}
+
+/*********************/
+/* footer         */
+/*********************/
+footer {
+  margin-top: 1%;
+  background-color: #E5DEE8;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
