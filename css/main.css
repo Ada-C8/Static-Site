@@ -3,29 +3,25 @@
   margin: 0;
 }
 
-nav ul {
-  display: inline-block;
-  list-style: none;
-}
+/********/
+/*colors*/
+/********/
 
-nav li {
-  color: #2e3b48;
-  display: inline-block;
-  font-family: 'Cormorant Garamond';
-  margin: 1rem;
-}
+/*
+dark blue-grey: #666A86
+dark sky blue: #95B8D1
+japanese indigo: #2E3B48
+dutch white: #E8DDB5
+nadeshiko pink: #EDAFB8
+*/
 
-hr {
-  margin: auto;
-  width: 30%;
-}
+/********/
+/*layout*/
+/********/
 
-section.hero {
-  background-color: grey;
-  background-image: url(../images/mountain03.jpg);
-  background-size: 100%;
-  background-position: center center;
-  text-align: center;
+section {
+  height: 800px;
+  width: 100%;
 }
 
 h1 {
@@ -39,7 +35,65 @@ h1 {
   top: 35%;
 }
 
-section {
-  height: 800px;
-  width: 100%;
+/***********/
+/*hero page*/
+/***********/
+
+.hero {
+  background-attachment: fixed;
+  background-color: grey;
+  background-image: url(../images/mountain03.jpg);
+  background-position: center center;
+  background-size: 100%;
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  color: #666A86;
+  display: inline-block;
+  font-family: 'Cormorant Garamond';
+  margin: 1rem;
+}
+
+hr {
+  color: #666A86;
+  margin: auto;
+  width: 30%;
+}
+
+/*******/
+/*about*/
+/*******/
+
+.about {
+  background-color: #2e3b48;
+}
+
+/******/
+/*blog*/
+/******/
+
+.blog {
+  background-color: #E8DDB5;
+}
+
+/***********/
+/*portfolio*/
+/***********/
+
+.portfolio {
+  background-color: #666A86;
+}
+
+/*********/
+/*contact*/
+/*********/
+
+.contact {
+  background-color: #95B8D1;
 }
