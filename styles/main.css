@@ -1,0 +1,117 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/*************/
+/*GENERAL STYLE*/
+/*************/
+body {
+  font-family: helvetica;
+}
+
+p {
+  text-align: justify;
+  padding: .5em;
+}
+
+nav {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1em;
+  background-position: 100%;
+  padding-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+/*************/
+/*HEADER*/
+/*************/
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  height: 60px;
+  background-color: #403C4C;
+  top: 0;
+  color: white;
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+}
+header h2 {
+  float: left;
+  margin: .7em 0;
+  /*line-height: 75px;*/
+  width: 30%;
+  padding: 0 1em;
+
+}
+
+header ul {
+  margin: 1.3em 0;
+}
+
+main {
+  margin-top: 60px;
+}
+
+/*************/
+/*TITLE AND QUOTE BANNERS*/
+/*************/
+
+
+.photo_back {
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+#top_photo {
+  background-image: url('http://lorempixel.com/400/200');
+  background-size: cover;
+}
+
+#top_photo h1 {
+  font-size: 3em;
+}
+
+#bottom_photo {
+  background-image: url('http://lorempixel.com/400/200');
+  background-size: cover;
+}
+
+#bottom_photo h2 {
+  font-size: 3em;
+}
+
+/*************/
+/*PORTFOLIO*/
+/*************/
