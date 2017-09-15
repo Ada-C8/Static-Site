@@ -1,10 +1,55 @@
+li {
+  color: black;
+}
+
+a:link {
+    color: white;
+}
+a:active {
+    color: #9999ff;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: rgb(235, 11, 199);
+}
+
+#header-color {
+  background-color: black;
+}
+
+main {
+  background-color: white;
+}
+
 header h3 {
   width: 20%;
   float: left;
-  margin: 2.5% 0 0 0;
+  margin: 4.7% 0 0 0;
+  color: white;
 }
 
+/* articles */
+section {
+  position: relative;
+  left: 15px;
+}
 
+section .project {
+  display: inline-block;
+  padding: 2%;
+  border: solid;
+  border-radius: 5%;
+  border-color: rgb(108, 108, 113);
+  background-color: rgb(213, 223, 227);
+  width: 25%;
+  height: 250px;
+}
+
+.project p:first-of-type {
+  overflow-wrap: break-word;
+}
 
 /******************/
 /*    Clearfix     */

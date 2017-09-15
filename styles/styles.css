@@ -1,14 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 1px solid red;
-  /*box-sizing: border-box*/
-}
+
 
 /* generic */
 
-li a:hover {
-  color: pink;
+body {
+  background-color: #fdfdfd;
+}
+
+li {
+  color: black;
+}
+
+a:link {
+    color: black;
+}
+a:active {
+    color: #9999ff;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: rgb(235, 11, 199);
 }
 
 li a {
@@ -25,10 +37,10 @@ li a {
 
 .greeting h1 {
   color: white;
-  font-size: 5em;
+  font-size: 2em;
   clear: both;
   text-align: center;
-  padding: 20%;
+  padding: 25%;
 }
 
 
@@ -37,7 +49,7 @@ li a {
 .greeting {
   clear: both;
     /* The image used */
-  background-image: url("../space.jpg");
+  background-image: url("../pale_blue_dot.jpg");
 
   /* Set a specific height */
   height: 100%;
@@ -51,6 +63,10 @@ li a {
 
 header nav {
   float: right;
+}
+
+nav ul {
+  margin-bottom: 0;
 }
 
 header nav li {
