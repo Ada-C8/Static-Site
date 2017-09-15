@@ -1,0 +1,45 @@
+* {
+  /*border: 1px solid lawngreen;*/
+  margin: 0;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  color: #2e3b48;
+  display: inline-block;
+  font-family: 'Cormorant Garamond';
+  margin: 1rem;
+}
+
+hr {
+  margin: auto;
+  width: 30%;
+}
+
+section.hero {
+  background-color: grey;
+  background-image: url(../images/mountain03.jpg);
+  background-size: 100%;
+  background-position: center center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Megrim', serif;
+  font-size: 5rem;
+  margin: auto;
+  opacity: 0.9;
+  position: relative;
+  text-shadow: 0 0 10px #2e3b48;
+  top: 35%;
+}
+
+section {
+  height: 800px;
+  width: 100%;
+}
