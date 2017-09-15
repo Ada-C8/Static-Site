@@ -1,0 +1,25 @@
+html {
+    background-color: #FE;
+    font-family: 'Raleway', helvetica, sans-serif;
+    font-weight: lighter;
+    color: #222;
+    font-size: 2em;
+}
+
+.introduction {
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+
+html { 
+  background: url("https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/images/fire-rainbow.jpg?itok=Gg3a6phB") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
