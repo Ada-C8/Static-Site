@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 *{
   border: 2px solid blue;
 }
@@ -7,14 +10,23 @@ header nav ul li{
   display: inline-block;
   float:right;
 }
+header nav ul li a{
+  text-decoration: none;
+
+  color: white;
+}
 
 header p{
   display: inline-block;
   float: left;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
 }
 header{
   position: fixed;
   width: 100%;
+  background-color: lightseagreen;
+  height: 40px;
 }
 
 
@@ -22,17 +34,34 @@ main{
   margin: 50px auto 50px auto;
 }
 
+main #letter{
+  font-family: 'IM Fell Great Primer', serif;
+  margin: 10px;
+}
+
+main #signature{
+  font-family: pacifico, cursive;
+  font-size: 18;
+  text-align: center;
+}
 
 #main-photo{
   width: 20%;
   border-radius: 200px;
   float: left;
+  margin:10px;
 }
 
+footer{
+  background-color: black;
+}
 
 footer ul li{
   display:inline-block;
   align-content: space-between;
   clear:both;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
+  margin-right: 20px;
   /*position:fixed;*/
 }
