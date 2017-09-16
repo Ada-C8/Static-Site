@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(179, 244, 234);
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+.nav {
+  color: rgba(213, 85, 158, 0.96);
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+}
+.nav:hover {
+  color: rgb(19, 137, 179);
+}
+.nav:hover::before {
+  content:"🥑🥑";
+}
+.nav:hover::after {
+  content:"🥑🥑";
+}

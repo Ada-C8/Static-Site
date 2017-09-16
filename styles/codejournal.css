@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(236, 199, 218);
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  padding: 0 10% 0 10%;
+  color: rgb(19, 113, 153);
+  text-shadow: 1px 1px white;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'VT323', monospace;
+}
+
+article {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 700px;
+  height: 80%;
+  border-radius: 2%;
+  overflow-y: scroll;
+}
