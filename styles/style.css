@@ -4,6 +4,33 @@
 *{
   border: 2px solid blue;
 }
+html, body{
+  height: 100%;
+}
+body{
+  min-width: 400px;
+}
+#container{
+  min-height: 100%;
+  margin-bottom: -40px;
+  position:relative;
+}
+footer{
+  height:40px;
+  position:relative;
+}
+
+.clearfooter {
+height: 40px;
+clear: both;
+}
+
+a:hover{
+  border:1px double white;
+  border-radius: 100px;
+}
+
+
 
 header nav ul li{
   margin-right: 20px;
@@ -12,7 +39,7 @@ header nav ul li{
 }
 header nav ul li a{
   text-decoration: none;
-
+  padding: 5px;
   color: white;
 }
 
@@ -23,7 +50,7 @@ header p{
   color: white;
 }
 header{
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: lightseagreen;
   height: 40px;
@@ -51,7 +78,9 @@ main #signature{
   float: left;
   margin:10px;
 }
-
+/*main article{
+  height: 330px;
+}*/
 footer{
   background-color: black;
 }
