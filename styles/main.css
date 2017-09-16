@@ -83,28 +83,45 @@ main {
 /*TITLE AND QUOTE BANNERS*/
 /*************/
 
+.background {
+}
 
 .photo_back {
-  height: 300px;
+  height: 500px;
   text-align: center;
+  /*position: relative;*/
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  color: white;
+  color: black;
+
 }
 
 #top_photo {
-  background-image: url('http://lorempixel.com/400/200');
+  /*position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  background-color: Black;
+  z-index: 1;
+  opacity: .5;*/
+  background-image: url('../website_photos/arms-up-rainier.jpg');
   background-size: cover;
+
 }
 
 #top_photo h1 {
+  position: relative;
+  /*color: White;
+  z-index: 5;
   font-size: 3em;
+  opacity: 1.4;*/
 }
 
 #bottom_photo {
-  background-image: url('http://lorempixel.com/400/200');
+  background-image: url('../website_photos/bridge-into-mist.jpg');
   background-size: cover;
 }
 
@@ -119,6 +136,9 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
+  opacity: 1.0;
+  z-index: 10;
 }
 
 #who_are_i img, #who_are_i div {
@@ -179,6 +199,10 @@ main {
 
 #portfolio img {
   padding: .5em;
+  width: 30%;
+}
+#portfolio div img:last-child {
+  width: 60%;
 }
 
 #left_photo {
@@ -194,6 +218,10 @@ main {
 
 }
 
+
+/*************/
+/*FOOTER*/
+/*************/
 
 footer nav li a {
   color: black
