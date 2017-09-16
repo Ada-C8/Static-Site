@@ -49,7 +49,7 @@ header h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 0 5% 0;
+  padding: 0 0 10% 0;
 }
 
 /* articles */
@@ -62,13 +62,13 @@ main p:first-of-type {
 
 main .main-content {
   position: relative;
-  left: 65px;
+  left: 45px;
 }
 
 .project {
   background: rgba(204, 204, 204, 0.1);
   width: 80%;
-  height: 250px;
+  height: 350px;
   display: inline-block;
   margin: 5%;
 }
