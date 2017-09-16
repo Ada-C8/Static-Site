@@ -8,7 +8,7 @@ html{
 /**********/
 header {
   /*height: 100px;*/
-  border-bottom: 1px solid blue;
+  /*border-bottom: 1px solid blue;*/
   background-color: rgb(249, 249, 249);
 }
 
@@ -29,12 +29,13 @@ header {
 
 .flex-container li {
   list-style-type: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 header a {
   text-decoration: none;
   color: #4e4e4e;
+  font-size: 1.5em;
 }
 
 header a:hover {
@@ -44,6 +45,7 @@ header a:hover {
 #header-title a{
   color: #4e4e4e;
   margin-left: 30px;
+  font-size: 3em;
 }
 
 /*****   *****/
@@ -58,7 +60,9 @@ header a:hover {
 
 .section1-content {
   text-align: left;
-  padding: 3em;
+  padding: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
   position: relative;
   /*width: 100%;*/
   height: auto;
@@ -69,6 +73,8 @@ header a:hover {
   color: #c9c9c9;
   font-weight: 600;
   font-size: 3em;
+  margin-top: .5em;
+  margin-bottom: 1em;
 }
 
 .box1 p {
