@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
+body{
+  font-family: "IM Fell Great Primer"
+}
+main section h2{
+  font-size: 36;
+  text-align: center;
+}
+
+section .contact-me img{
+  width: 100px;
+  float: inline-end;
+}
+
+section .contact-me{
+  display: inline-block;
+}
