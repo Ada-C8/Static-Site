@@ -13,13 +13,13 @@ body {
   line-height: 1.35;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 3.6em;
   font-family: 'Pathway Gothic One', sans-serif;
   text-transform: uppercase;
 }
 h2 {
-  font-size: 2.2em;
-  text-decoration: italic;
+  font-size: 2.0em;
+  font-style: italic;
   font-weight: 700;
 }
 h3 {
@@ -39,7 +39,16 @@ div.container {
   border: 10px solid #333;
 }
 header, main {
+  background: #fefefe;
   background: rgba(255, 255, 255, 0.95);
+}
+.index { background: #8acfb8; /* green */ }
+.about { background: #71b9d0; /* blue */ }
+.portfolio { background: #d8d04f; /* yellow */ }
+.blog { background: #be8fb6; /* purple */ }
+body.patterned {
+  background-image: url('../images/jojo-pattern.png');
+  background-repeat: repeat-x repeat-y;
 }
 
 /*--------------- HEADER ---------------*/
@@ -67,16 +76,19 @@ header nav ul {
   display: flex;
   justify-content: space-around;
 }
-header nav ul li a i {
-  color: #c788a5; /* dark pink */
+header nav ul li.inactive a i {
+  color: #8293c4; /* dark blue */
   visibility: hidden;
 }
-header nav ul li a:hover {
-  color: #edb1c1; /* light pink */
-}
-header nav ul li a:hover i {
+header nav ul li.inactive a:hover { color: #88c6ea; /* light blue */ }
+header nav ul li.inactive a:hover i {
   visibility: visible;
 }
+header nav ul li.active a {
+  cursor: default;
+  color: #aaa;
+}
+header nav ul li.active a i { color: #999; }
 
 /*--------------- FOOTER ---------------*/
 footer {
@@ -86,7 +98,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: center;
-
   background: rgba(80, 80, 80, 0.95);
   background-image: url('../images/footerflowers.png');
   background-position: center bottom -60px;
@@ -114,11 +125,6 @@ footer ul.footer-sns li a:hover {
 }
 
 /*--------------- MAIN INDEX.HTML ---------------*/
-body.index {
-  background: #8fd2c9; /* bright teal */
-  background-image: url('../images/jojo-pattern.png');
-  background-repeat: repeat-x repeat-y;
-}
 main {
   width: 100%;
   padding: 5% 4% 8%;
@@ -133,14 +139,15 @@ main figure {
   align-items: center;
 }
 main figure img {
-  height: 300px;
+  max-height: 260px;
   border-radius: 50%;
   border: 5px double #333;
+  filter: grayscale(100%);
 }
 main div.index-text {
   width: 60%;
   position: relative;
-  margin-left: 13%;
+  margin-left: 10%;
 }
 main div.index-text div.text-bubble {
   position: relative;
@@ -148,17 +155,18 @@ main div.index-text div.text-bubble {
   margin: 1em 1em 3em 0;
   color: #000;
   border-radius: 10px;
-  background: #b48bb6;
+  background: #ccc;
   font-size: 0.8em;
 }
-main div.index-text div.text-bubble h3 {
+main div.index-text div.text-bubble h2 {
+  font-size: 1.8em;
   margin-bottom: 2%;
   line-height: 1.8;
   letter-spacing: 1.5px;
 }
 main div.index-text div.text-bubble p {
   margin-left: 3%;
-  border-left: 3px solid #dad35a;
+  border-left: 3px solid #666;
   padding: 1% 3%;
   line-height: 1.6;
 }
@@ -181,5 +189,17 @@ main div.index-text div.text-bubble::after {
   left: -50px;
   bottom: auto;
   border-width: 10px 50px 10px 0;
-  border-color: transparent #b48bb6;
+  border-color: transparent #ccc;
 }
+
+
+/*--------------- MAIN ABOUT.HTML ---------------*/
+
+
+/*main {
+  width: 100%;
+  padding: 5% 4% 8%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}*/
