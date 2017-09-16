@@ -8,7 +8,7 @@ html, body{
   height: 100%;
 }
 body{
-  min-width: 400px;
+  min-width: 588px;
 }
 #container{
   min-height: 100%;
@@ -16,7 +16,7 @@ body{
   position:relative;
 }
 footer{
-  height:40px;
+  height:50px;
   position:relative;
 }
 
@@ -37,10 +37,15 @@ header nav ul li{
   display: inline-block;
   float:right;
 }
-header nav ul li a{
+header nav ul li a, footer ul li a{
   text-decoration: none;
   padding: 5px;
   color: white;
+}
+
+header nav ul li a, header p{
+  text-shadow: 2px 2px 7px #111111;
+
 }
 
 header p{
@@ -48,12 +53,14 @@ header p{
   float: left;
   font-family: 'IM Fell Great Primer', serif;
   color: white;
+  font-size: 18px;
+  vertical-align: top;
 }
 header{
   position: relative;
   width: 100%;
   background-color: lightseagreen;
-  height: 40px;
+  height: 50px;
 }
 
 
@@ -83,6 +90,9 @@ main #signature{
 }*/
 footer{
   background-color: black;
+}
+footer ul li a{
+  text-shadow: 2px 2px 7px lightseagreen;
 }
 
 footer ul li{
