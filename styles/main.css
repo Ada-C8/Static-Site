@@ -2,6 +2,10 @@ html{
   font-family: "proxima-nova",sans-serif;
 }
 
+
+/**********/
+/* Header */
+/**********/
 header {
   /*height: 100px;*/
   border-bottom: 1px solid blue;
@@ -40,4 +44,45 @@ header a:hover {
 #header-title a{
   color: #4e4e4e;
   margin-left: 30px;
+}
+
+/*****   *****/
+/* Section 1 */
+/*****   *****/
+
+.box1 {
+  display: block;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+}
+
+.section-content {
+  text-align: left;
+  padding: 3em;
+  position: relative;
+  /*width: 100%;*/
+  height: auto;
+}
+
+.box1 h2 {
+  display: block;
+  color: #c9c9c9;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.box1 p {
+  font-size: 2em;
+  font-weight: 400;
+  color: #707070;
+}
+
+p>span {
+  font-style: italic;
+  color:#de6162;
+}
+
+.box1 p a {
+  text-decoration: none;
+  color: #707070;
 }
