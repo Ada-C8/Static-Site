@@ -30,10 +30,11 @@ a {
   color: #333;
   text-decoration: none;
 }
+a:hover { cursor: pointer; }
 
 /*--------------- CONTENT START ---------------*/
 div.container {
-  width: 75%;
+  width: 80%;
   margin: 5% auto;
   border: 10px solid #333;
 }
@@ -53,6 +54,7 @@ header h1 {
   margin-bottom: 1%;
   border-bottom: 3px solid #333;
 }
+header h1:hover { cursor: pointer; }
 header h1 a img { height: 48px;}
 header h1 a img:nth-of-type(2) { transform: scaleX(-1); }
 header nav {
@@ -131,7 +133,7 @@ main figure {
   align-items: center;
 }
 main figure img {
-  height: 200px;
+  height: 300px;
   border-radius: 50%;
   border: 5px double #333;
 }
@@ -163,6 +165,11 @@ main div.index-text div.text-bubble p {
 main div.index-text div.text-bubble p i {
   margin-right: 4%;
   color: #555;
+}
+main div.index-text div.text-bubble p i.mini {
+  margin-right: 0;
+  color: #fcfcfc;
+  font-size: 0.9em;
 }
 main div.index-text div.text-bubble::after {
   content: "";
