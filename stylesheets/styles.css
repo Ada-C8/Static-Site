@@ -93,7 +93,7 @@ header nav ul li.active a i { color: #999; }
 /*--------------- FOOTER ---------------*/
 footer {
   border-top: 7px solid #333;
-  padding: 2% 4% 10%;
+  padding: 2% 4% 6%;
   color: #fefefe;
   display: flex;
   justify-content: space-between;
@@ -119,6 +119,7 @@ footer ul.footer-sns li { margin-left: 20%; }
 footer ul.footer-sns li:first-of-type { margin-left: 0; }
 footer ul.footer-sns li a {
   color: #fcfcfc;
+  font-size: 0.9em;
 }
 footer ul.footer-sns li a:hover {
   color: #edb1c1;
