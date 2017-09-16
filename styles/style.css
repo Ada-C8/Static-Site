@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Arima Madurai');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Flamenco');
+@import url('https://fonts.googleapis.com/css?family=Amatica SC');
 
 body {
   color: gray;
@@ -10,9 +15,9 @@ body {
 
 header {
   width: 100%;
-  background-color: #D4C1D9;
+  background-color: #F2EAF4;
   color: #616061;
-  height: 20%;
+  height: 5%;
 
 
 }
@@ -28,12 +33,6 @@ header a {
 header nav {
   width: 50%;
   display: inline-flex;
-
-
-  /*display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;*/
 }
 
 header ul {
@@ -43,7 +42,7 @@ header ul {
 
 header li {
   padding: 1% 2%;
-  margin: 5% 5% 5% 5%;
+  /*margin: 5% 5% 5% 5%;*/
   list-style: none;
   display: inline-flex;
   width: 25%;
@@ -53,45 +52,68 @@ header h1 {
   width: 30%;
   display: inline-flex;
   margin-left: 5%;
+
 }
 
 /*********************/
 /* section hello           */
 /*********************/
+.hello a {
+  text-decoration: none;
+    color: white;
+  margin: 0;
+  width: 100%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 150%;
+
+}
+
+.hello nav {
+  width: 100%;
+  display: inline-flex;
+
+}
+
+.hello ul {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hello li {
+  padding: 1% 8%;
+  /*margin: 5% 5% 5% 5%;*/
+  list-style: none;
+  width: 20%;
+}
 
 .hello {
- margin-top: 2%;
- background-color: #E5DEE8;
- height: 500px;
+ background-image: url('../images/the_point_2000.jpg');
+ background-size: cover;
+ height: 800px;
  display: flex;
  justify-content: space-between;
+ flex-direction: column;
+ font-family: 'Amatica SC';
+ color: white;
 }
 
 .hello h2 {
-  /*float: left;*/
-  width: 30%;
   margin: auto auto;
+  font-size: 700%;
 }
 
 .hello p {
-  /*float: right;*/
-  width: 30%;
-  margin: auto auto;
-}
-#two {
-  height: 500px;
+  margin: 12% auto;
+  font-size: 200%;
 }
 
-#three {
-  height: 500px;
-}
 
 /*********************/
 /* footer         */
 /*********************/
 footer {
-  margin-top: 1%;
-  background-color: #E5DEE8;
+  background-color: #EDEBED;
   height: 5%;
   display: flex;
   justify-content: center;
