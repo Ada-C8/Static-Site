@@ -2,34 +2,52 @@
 
 
 html {
-/*    background-color: #FE;*/
-    font-family: Flavors;
-    font-weight: lighter;
-    color: #222;
-    font-size: 2em;
+  font-family: Aclonica;
+  font-weight: lighter;
+  color: #222;
+  font-size: 2em;
 }
 
 .introduction {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
 }
 
-header nav {color:azure
-    
+.head1 {display: inline-block
+  
 }
 
-.boi {color: whitesmoke;
-    text-decoration: none;
-    
+.head2 { display: inline-block;
+    position: absolute;
+    right: 0px;
 }
+
+.head2 a, .head1 a {color:whitesmoke;
+    text-decoration: none;
+} 
+    
+
+
+
+.title{
+  
+  text-align: center;
+  
+}
+
+.paragraph{
+  text-align: justify;
+  
+}
+
 
 
 
 html { 
-  background: url("https://ak7.picdn.net/shutterstock/videos/30041287/thumb/1.jpg") no-repeat center center fixed; 
+  background: url("https://images.unsplash.com/photo-1488711500009-f9111944b1ab?dpr=2&auto=format&fit=crop&w=1080&h=719&q=80&cs=tinysrgb&crop=") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,5 +56,38 @@ html {
 
 
 body { 
-    color: whitesmoke
+  color: whitesmoke
+}
+
+
+/*articles*/
+
+h3 {color: white
+  
+}
+
+article {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  border-style: solid;
+  border-color: beige;
+  border-radius: 9%;
+  margin: 4%;
+  text-align: center;
+  color: lightseagreen;
+  background-color: rgba(250,235,215,.8);   
+  
+}
+
+
+
+footer {
+    background:RGBA(205, 208, 215,.2);
+    width:360px;
+    margin:4px auto;
+    text-align: center;
+    position:  bottom: 0;
+    margin-top: -35px;
+    height: 35px;
 }
