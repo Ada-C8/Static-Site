@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Overlock');
+
+body {
+  /*background: #0E3745;*/
+  background: #EBF7F7;
+  background-image: image("./pics/background.jpeg");
+  background-repeat: repeat;
+  border-left: #25A0A0 10px double;
+  border-right: #25A0A0 10px double;
+  margin: 10vw;
+  padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #FDF7E1;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2vw;
+  height: 100%;
+  font-family: 'Arima Madurai', cursive;
+  margin-top: 2vw;
+}
+
+nav ul li:hover {
+  text-transform: uppercase;
+  color: #19647E;
+  margin-bottom: 1vw;
+}
+
+
+header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6vw;
+  background: #19647E;
+  color: #FDF7E1;
+  font-family: 'Arima Madurai', cursive;
+  z-index: 1000;
+}
+
+header h1 {
+  display: inline-block;
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+  padding: 1vw;
+  margin: 0;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 4vw;
+  text-align: left;
+  padding: 0;
+
+}
+
+header h1:hover {
+  text-transform: uppercase;
+}
+
+header p {
+  position: absolute;
+  top: 4.7vw;
+  left: 0;
+  padding-left: 10vw;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 1.2vw;
+  min-width: 300px;
+  /*color: #9C873C;*/
+  color: #FDF7E1;
+  font-style: italic;
+  /*display: block;*/
+  background: #1F271B;
+  width: 100%;
+}
+
+header nav {
+  display: inline-block;
+  position: absolute;
+  right: 2vw;
+  bottom: 0;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 2.5vw;
+  text-decoration: none;
+}
+
+/*main*/
+main {
+  z-index: 0;
+  margin: 10vw;
+  position: relative;
+  overflow: hidden;
+}
+
+main h1, main p, main h2{
+  font-family: 'Overlock', cursive;
+}
+
+
+.intro {
+  position: relative;
+  display: block;
+  padding: 5vw;
+  /*border: #13495C 1px solid;*/
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10vw;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 5vw;
+  padding-bottom: 3vw;
+  border-bottom: #EE964B double 10px;
+  border-top: #EE964B double 10px;
+  padding: 2vw;
+  color: #9C873C;
+  max-width: 600px;
+}
+
+#profile_img img{
+  max-height: 20vw;
+  border-radius: 50%;
+  border: solid 1px #9C873C;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+
+.intro article {
+  display: inline-block;
+  text-align: center;
+  padding: 5vw;
+  padding-top: 0;
+  border: solid 4px #9C873C;
+  max-width: 400px;
+}
+
+.say_this {
+  display: block;
+  position: relative;
+  left: 3vw;
+
+  width: 90%;
+  padding: 0;
+  border: #825229 2px solid;
+  text-align: center;
+}
+
+
+
+.say_this article:nth-child(n) {
+  text-align: center;
+  border:  10px solid #25A0A0;
+  padding: 1vw;
+  margin: 2vw;
+  /*background: #FDF7E1;*/
+  max-height: 15vw;
+  /*border: #825229 1px solid;*/
+  /*border-right: #825229 3px solid;*/
+  /*border-bottom: #825229 3px solid;*/
+  width: 20vw;
+  height: 12vw;
+  position: relative;
+  left: 5%;
+
+}
+
+.say_this article:nth-child(2n) {
+  position: relative;
+  left: 42%;
+}
+
+.say_this article:nth-child(n) h2 {
+  border: #25A0A0;
+}
+
+
+/*FOOTER*/
+
+footer {
+  background :#1F271B;
+  left:0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 8vw;
+}
+
+footer li{
+  margin: 0;
+}
+
+
+/*main*/
+
+
+/*colors:
+dark green: #1F271B
+dark blue: #19647E
+light sea green: #28AFB0
+blond: #FDF7E1
+peach bluff: #F8D8BD
+
+*/
