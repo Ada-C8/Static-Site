@@ -24,16 +24,10 @@ p {
   padding: .5em;
 }
 
-nav {
-  float: right;
-  width: 50%;
-  text-align: right;
-}
 
 nav li {
   display: inline-block;
   padding-left: 1em;
-  background-position: 100%;
   padding-right: 1em;
 }
 
@@ -49,6 +43,11 @@ a:visited {
 /*************/
 /*HEADER*/
 /*************/
+header nav {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
 
 header {
   position: fixed;
@@ -175,14 +174,18 @@ main {
   justify-content: space-around;*/
   /*background-color: #F4F4F4;*/
 }
+
+.post h4 {
+  margin: 0;
+}
+
 .post h3 a {
   color: black;
 }
 .post h3 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid grey;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
-  height: 50px;
   margin: 0;
   padding: 5%;
 }
@@ -196,6 +199,9 @@ main {
 /*************/
 /*PORTFOLIO*/
 /*************/
+#portfolio {
+  text-align: center;
+}
 
 #portfolio img {
   padding: .5em;
@@ -222,7 +228,33 @@ main {
 /*************/
 /*FOOTER*/
 /*************/
+footer {
+  display: flex;
+  margin: 1em 0;
+}
 
-footer nav li a {
-  color: black
+footer a {
+  color: black;
+}
+footer a:visited {
+  color: black;
+}
+
+footer nav:first-of-type {
+  float: left;
+}
+
+footer nav:last-of-type {
+  float: right;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer h4 {
+  float: left;
+  margin: 0;
+  padding-left: 1em;
 }
