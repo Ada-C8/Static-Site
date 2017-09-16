@@ -86,3 +86,64 @@ p>span {
   text-decoration: none;
   color: #707070;
 }
+
+/*****   *****/
+/* Section 2 link to portfolio site */
+/*****   *****/
+
+#portfolio-intro {
+  background: url(http://dbhurley.com/media/uploads/2014/09/clean_office_desk.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  display: table;
+  background-position: 50% 50%;
+}
+
+.portfolio-intro-content {
+  height: 30em;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color:#f9f9f9;
+}
+
+.portfolio-intro-content h4 {
+  font-size: 1.3em;
+  padding: 0;
+  font-weight: 100;
+  /*display: block;*/
+}
+
+.portfolio-intro-content h3 {
+  color: #ED2030;
+  font-size: 3.2em;
+  font-weight: 700;
+}
+.portfolio-intro-content p {
+  padding: 1em 0 1em;
+  width: 15em;
+  margin: 0 auto;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.portfolio-intro-content a {
+  font-size: 1.1em;
+  border: 2px solid #f9f9f9;
+  border-radius: 4px;
+  padding: 1em 0.8em;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+.portfolio-intro-content a:hover {
+  background-color: #f9f9f9;
+  color: #707070;
+}
+
+.darken-overlay div {
+  width: 100%;
+  /*height: 100%;*/
+  background-color: rgba(0, 0, 0, 0.5);
+}
