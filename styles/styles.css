@@ -1,0 +1,96 @@
+/* BASE RULES */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*GRIDDING*/
+
+.l-wrap {
+    max-width: 156rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-item::after {
+    /*display: table; /* why? */
+    */ clear: both;
+    content: '';
+}
+
+.grid-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #EEE;
+    float: left;
+}
+
+.l-bar {
+    /*cols 1-4*/
+    width: calc((400% / 12) - 2rem);
+    background-color: red;
+}
+
+.l-main {
+    /*cols 5-10 */
+    width: calc((50%) - 2rem);
+    background-color: yellow;
+}
+
+.l-sidebar {
+    /* cols 11&12 */
+    width: calc((200% / 12) - 2rem);
+    background-color: orange;
+}
+
+.sub-left {
+    /* 1/3 width */
+    width: calc((100% / 3) - 1rem);
+    background-color: aqua;
+    float: left;
+}
+
+.sub-right {
+    /* 2/3 width */
+    width: calc((200% / 3) - 1rem);
+    background-color: cornsilk;
+    float: right;
+}
+
+
+/* OTHER STYLING */
+
+.profile {
+    text-align: center;
+    width: 75%;
+    max-width: 20rem;
+    border-radius: 50%;
+}
