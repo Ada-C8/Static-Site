@@ -1,58 +1,67 @@
 body {
+  background-image: url("../images_style_sheets/beach.jpg");
   background-color: rgb(206, 245, 206);
 }
 
 ul {
   list-style-type: none;
 }
+nav ul li{
+  display: inline-block;
+}
 .nav {
   color: rgba(213, 85, 158, 0.96);
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
-  padding: 5px;
   display: flex;
-  height: 20px;
   justify-content: center;
-  align-items: flex-end;
+  /*padding-left: 150px;*/
+  margin: 10px 10px 10px 10px;
+  height: 20px;
   font-size: 18px;
+  /*text-align: center;*/
 }
 .nav:hover {
   color: rgb(19, 137, 179);
+  font-weight: bold;
 }
-.nav:hover::before {
-  content:"🥑🥑";
-}
-.nav:hover::after {
-  content:"🥑🥑";
+h2 {
+  font-family: 'Londrina Shadow', cursive;
+  color: rgb(51, 48, 97);
+  font-size: 450%;
+  text-align: center;
+  margin: 10px 0 20px 0;
 }
 img {
   height: 400px;
   float: left;
   padding-left: 100px;
 }
-section {
-  font-family:
+.words {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px black;
 }
-h2 {
-  font-family: 'Londrina Shadow', cursive;
+.link-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.links {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 30px;
+  text-decoration: none;
   color: rgb(51, 48, 97);
-  font-size: 300%;
-  margin-left: 0;
+  text-shadow: 1px 1px white;
+}
+.links:hover {
+  font-weight: bold;
+  color: rgb(19, 137, 179);
+}
+.words {
+  background-color: rgba(111, 196, 163, 0.72);
 }
 p {
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 2em;
-  text-align: justify;
-  width: 40%;
-  line-height: 100%;
-  margin: 0;
-  padding: 0 10px 10px 50%;
+  margin-bottom: 10px;
 }
-/*section {
-display: inline-block;
-width: 50%;*/
-/*text-align: center;*/
-/*float: right;*/
-/*width: 200px;
-text-align: justify;
-padding: 5px 50px;*/

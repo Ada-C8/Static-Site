@@ -1,16 +1,20 @@
 body {
+  /*background-image: url("../images_style_sheets/chicago.jpg");
+  background-size: 1000px;*/
+  /*background: cover;*/
   background-color: rgb(179, 244, 234);
 }
 header {
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
 }
 img {
-  height: 300px;
-  border-radius: 50%;
+  height: 500px;
+  /*border-style: double;*/
+  /*border-color: white;*/
+  padding-right: 20px;
+  /*border-radius: 50%;*/
 }
-
 ul {
   list-style-type: none;
 }
@@ -19,6 +23,7 @@ ul {
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   padding: 5px;
+  margin-bottom: 1px;
   display: flex;
   height: 20px;
   justify-content: center;
@@ -33,4 +38,28 @@ ul {
 }
 .nav:hover::after {
   content:"🥑🥑";
+}
+.hello {
+  display: flex;
+  justify-content: center;
+}
+.parent {
+  font-family: 'Amatic SC';
+
+  /*font-family: 'Nixie One', cursive;*/
+  color: black;
+  font-size: 2em;
+  width: 600px;
+  /*background-color: white;*/
+}
+
+.parent a {
+  text-decoration: none;
+}
+.parent a:hover {
+  font-weight: bold;
+  color: rgb(102, 51, 167);
+}
+.parent h1 {
+  margin-top: 0;
 }

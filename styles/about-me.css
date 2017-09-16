@@ -1,0 +1,12 @@
+
+body {
+  background: url("../images_style_sheets/chicago.jpg");
+  background-size: cover;
+  /*transform: scale(1);*/
+  /*background-size: cover;*/
+  /*background-size: 80%;*/
+}
+
+header {
+
+}
