@@ -11,6 +11,7 @@ p, .blog ul li{
   color: #8161CA;
 }
 
+/*navigation*/
 header {
   position: fixed;
   width: 100vw;
@@ -30,21 +31,29 @@ header h2 {
   float: left;
   margin-left: 10px;
   margin-top: 5px;
-  list-style-type: none;
 }
 
+header h2 img {
+  width: 50px;
+  height: auto;
+}
+
+header nav ul {
+  width: 95vw;
+  height: auto;
+  margin-top: 15px;
+}
 header li a {
   postion: relative;
   margin-right: 50px;
   float: right;
   letter-spacing: .1em;
-  display: inline-block;
   color: white;
-  text-align: center;
-  padding: 10px 16px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   text-decoration: none;
+  width: auto;
+	/*display: flex;*/
+  /*flex-wrap: wrap;*/
+	/*justify-content: space-between;*/
 }
 
 header li a:hover, .active {
@@ -65,7 +74,9 @@ body {
   background: #F1D3FF;
 }
 
-/*change to .home later */
+footer {
+
+}
 .home, .portfolio, .blog, .about {
   padding: 100px 100px 100px 0;
   margin: 0 auto;
@@ -93,7 +104,7 @@ h1{
 }
 
 .portfolio .col {
-  width: 100%;
+  width: 100vw;
   margin: 2% 0;
   height: auto;
   border: 10px dotted white;
@@ -103,6 +114,7 @@ h1{
   width: 28%;
   height: 250px;
 }
+
 
 /* blog */
 .blog .flex-grid {
@@ -115,7 +127,7 @@ h1{
 }
 
 .blog .col {
-  width: 100%;
+  width: 100vw;
   margin: 2% 0;
   height: auto;
   border: 10px dotted white;
@@ -146,10 +158,19 @@ h1{
 }
 
 .about .col {
-  width: 100%;
+  width: 100vw;
   margin: 2% 0;
   height: auto;
   border: 10px dotted white;
   padding: 15px;
   font-size: 1.5em;
+}
+
+footer p {
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
 }
