@@ -56,7 +56,7 @@ header a:hover {
   background-color: rgb(249, 249, 249);
 }
 
-.section-content {
+.section1-content {
   text-align: left;
   padding: 3em;
   position: relative;
@@ -101,7 +101,22 @@ p>span {
   background-position: 50% 50%;
 }
 
-.portfolio-intro-content {
+#about-me-intro {
+  background: url('../images/ClubNats_2016_SRB.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  display: table;
+  background-position: 95% 5%;
+}
+
+#about-me-intro h3 {
+  color: #2F2F2D;
+}
+
+
+.section2-content {
   height: 30em;
   display: table-cell;
   vertical-align: middle;
@@ -109,19 +124,19 @@ p>span {
   color:#f9f9f9;
 }
 
-.portfolio-intro-content h4 {
+.section2-content h4 {
   font-size: 1.3em;
   padding: 0;
   font-weight: 100;
   /*display: block;*/
 }
 
-.portfolio-intro-content h3 {
+.section2-content h3 {
   color: #ED2030;
   font-size: 3.2em;
   font-weight: 700;
 }
-.portfolio-intro-content p {
+.section2-content p {
   padding: 1em 0 1em;
   width: 15em;
   margin: 0 auto;
@@ -129,7 +144,7 @@ p>span {
   font-weight: 400;
   line-height: 1.5;
 }
-.portfolio-intro-content a {
+.section2-content a {
   font-size: 1.1em;
   border: 2px solid #f9f9f9;
   border-radius: 4px;
@@ -137,7 +152,7 @@ p>span {
   color: #f9f9f9;
   text-decoration: none;
 }
-.portfolio-intro-content a:hover {
+.section2-content a:hover {
   background-color: #f9f9f9;
   color: #707070;
 }
