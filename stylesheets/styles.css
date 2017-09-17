@@ -40,17 +40,17 @@ header nav, footer nav {
   float: right;
 }
 
-header nav, .social {
+header nav, .social, footer h4 {
   font-size: 0.75em;
   letter-spacing: 0.4em;
   font-weight: 800;
 }
 
-/* ----------- Header ----------- */
-
-header h1, header nav{
+header h1, header nav, footer h4, footer nav{
   display: inline-block;
 }
+
+/* ----------- Header ----------- */
 
 header h1 {
   font-size: 0.8em;
@@ -65,4 +65,11 @@ header h1 {
 header h1:hover {
   color: #1d1d1d;
   background: #C5CAB3;
+}
+
+/* ----------- Footer ----------- */
+
+footer h4 {
+  padding-top: 8px;
+  letter-spacing: 0.1em;
 }
