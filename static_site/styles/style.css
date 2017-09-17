@@ -3,8 +3,8 @@
 
 html {
   font-family: Aclonica;
-/*  font-weight: lighter;*/
-/*  color: #222;*/
+  /*  font-weight: lighter;*/
+  /*  color: #222;*/
   font-size: 2em;
 }
 
@@ -22,14 +22,14 @@ ul {
 }
 
 .head2 { display: inline-block;
-    position: absolute;
-    right: 0px;
+  position: absolute;
+  right: 0px;
 }
 
 .head2 a, .head1 a {color:whitesmoke;
-    text-decoration: none;
+  text-decoration: none;
 } 
-    
+
 
 
 
@@ -59,7 +59,7 @@ html {
 
 body { 
   color: whitesmoke;  
-       text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -70,7 +70,7 @@ h3 {color: white
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 article {
@@ -88,7 +88,7 @@ article {
 }
 
 .art {
-    display: center;
+  display: center;
 }
 
 /*
@@ -99,11 +99,11 @@ article {
 
 
 footer {
-    background:RGBA(205, 208, 215,.2);
-    width:360px;
-    margin:4px auto;
-    text-align: center;
-    position:  bottom: 0;
-    margin-top: -35px;
-    height: 35px;
+  background:RGBA(205, 208, 215,.2);
+  width:360px;
+  margin:4px auto;
+  text-align: center;
+  position:  bottom: 0;
+  margin-top: -35px;
+  height: 35px;
 }
