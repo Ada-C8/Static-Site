@@ -1,0 +1,152 @@
+* {
+  font-family: "Courier New";
+}
+
+body {
+  margin: 0;
+}
+/* Header */
+header{
+  background-color: lightcyan;
+  overflow: auto;
+  content: "";
+  width: 100%;
+  z-index: 10;
+}
+
+header h2 {
+  margin-left: 10px;
+  float: left;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header nav ul{
+  float: right;
+  margin-top: 15px;
+}
+
+header nav ul li{
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 15px;
+}
+/*End Header*/
+
+/* Intro With Text */
+#intro {
+  margin: auto;
+  width: 70vw;
+  font-size: 14pt;
+
+}
+/* End Intro With Text */
+
+/* Terminal */
+#terminal_body, #terminal_title_bar{
+  border-radius: 5px;
+}
+
+#terminal_body{
+  margin: auto;
+  margin-bottom: 30px;
+  height: 350px;
+  width: 50vw;
+  min-width: 600px;
+  background-color: rgba(50,50,90,0.8);
+}
+
+#terminal_body *, #terminal_code:before{
+  font-size: 20pt;
+  color: lime
+}
+
+#terminal_title_bar {
+  background-color: #ccc;
+  padding-left: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.terminal_button{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin: 6px 2.5px;
+}
+
+#terminal_close_button{
+  background-color: red;
+}
+
+#terminal_hide_button{
+  background-color: yellow;
+}
+
+#terminal_fullscreen_button{
+  background-color: green;
+}
+
+.terminal_choice a{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.terminal_choice a:before{
+  content: "> ";
+}
+
+/* To animate the terminal code */
+/* Text Cursor */
+.terminal_choice:hover ~ #terminal_code:before{
+  border-right: .7em solid;
+  padding-right: 2px;
+	overflow: auto;
+	animation: blink-caret .5s step-end infinite alternate;
+}
+
+#portfolio_choice:hover ~ #terminal_code:before{
+  content: "isaac show project_inventory";
+}
+
+#codejournal_choice:hover ~ #terminal_code:before{
+  content: "isaac show code_journal";
+}
+
+#about_choice:hover ~ #terminal_code:before{
+  content: "isaac history";
+}
+
+#terminal_code, #dollarsign{
+  font: bold 12pt Consolas, Monaco, monospace;
+  display: inline-block;
+}
+
+#dollarsign{
+  margin-left: 10px;
+  position: absolute;
+  font-size: 20pt;
+}
+
+#terminal_code{
+  position: absolute;
+  margin: 0;
+  margin-left: 2.7em; /* space between dollar sign and code */
+}
+
+@keyframes blink-caret { 50% { border-color: transparent; } }
+/* End terminal code animation */
+/* End Terminal */
+
+/* Footer */
+footer{
+  background-color: pink;
+  padding: 20px;
+}
+footer h4, footer p {
+  display: inline;
+}
