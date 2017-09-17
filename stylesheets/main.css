@@ -58,6 +58,11 @@ header li a:hover, .active {
   box-shadow: -3px 3px 2px white;
 }
 
+header h2:hover {
+  background: #8161CA;
+  box-shadow: -3px 3px 2px white;
+}
+
 header h2 a:link {
   text-decoration: none;
 }
@@ -128,7 +133,6 @@ main.flex-container {
 .flex-container .col {
   position: relative;
   border: 10px dotted white;
-  /*specific to .portfolio*/
   width: 80%;
   height: 60%;
   margin: auto;
@@ -190,7 +194,6 @@ main.blog {
   height: auto;
   border: 10px dotted white;
   padding: 15px;
-  /*specific to .blog*/
   font-size: 1.1em;
 }
 
