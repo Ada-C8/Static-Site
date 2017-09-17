@@ -13,26 +13,7 @@ lighter ochre: #ffe6b3 */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-header {
-  background-color: olive;
-  position: fixed;
-  width: 100%;
-  color: white;
-}
 
-header a {
-  color: white
-}
-
-a:hover {
-  color: yellow;
-}
-
-footer  {
-  width: 100%;
-  position: fixed; bottom: 0; left:0; right: 0; height: 100px;
-
-}
 
 
 main {
@@ -253,3 +234,98 @@ main p {
   /*position: fixed;*/
   position: absolute;
 }
+
+
+/**/
+/**/
+/**/
+
+/*.fade-in header {
+  height: 100vw;
+  width: 100%;
+}*/
+
+.fade-in span {
+  display: inline-block;
+  width: 100%;
+  z-index: 200000;
+  position: relative;
+}
+
+
+.fade-in p {
+  font-size: 2.5em;
+  color: white;
+  font-style: bold;
+  z-index: 20000;
+  height: 4em;
+  width: 20%;
+  margin-top: 15vw;
+  z-index: 1000
+}
+
+@keyframes fadeIn
+to {
+   opacity: 1; }
+
+.fade-in {
+animation: fadeIn 1.0s ease forwards;
+
+}
+
+@keyframes fadeIn{
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+  .fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+  }
+
+/**/
+/**/
+/**/
