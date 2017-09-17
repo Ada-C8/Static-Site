@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(240, 251, 232);
+  background-image: url("../images_style_sheets/backdrop1.jpg");
+  background-size: cover;
+  /*background-color: rgb(250, 255, 219);*/
 }
 ul {
   list-style-type: none;
@@ -16,7 +18,7 @@ header {
   float: right;
   clear: right;
   font-size: 50px;
-  background-color: rgb(230, 251, 217);
+  background-color: rgb(250, 255, 219);
 }
 .nav:hover {
   color: rgb(19, 137, 179);
@@ -60,4 +62,8 @@ img:nth-last-of-type(odd) {
 }
 img:nth-last-of-type(even) {
   float: right;
+}
+footer p{
+  margin-left: 10px;
+  color: rgb(35, 99, 93);
 }
