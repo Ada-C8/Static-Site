@@ -1,17 +1,23 @@
 /*generic*/
 
 li {
-  color: black;
+  color: white;
 }
 
 a:link {
-    color: white;
+  color: white;
 }
+
 a:visited {
-    color: gray;
+  color: gray;
 }
+
 a:hover {
-    color: rgb(235, 11, 199);
+  color: white;
+}
+
+a:active {
+  color: rgb(235, 11, 199);
 }
 
 /*header*/
@@ -37,18 +43,7 @@ header h3 {
 /*main*/
 
 .main-background-image {
-  clear: both;
-    /* The image used */
-  background-image: url("../pale_blue_dot.jpg");
-
-  /* Set a specific height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../images/pale_blue_dot.jpg");
   padding: 0 0 10% 0;
 }
 
