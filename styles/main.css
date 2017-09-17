@@ -1,0 +1,71 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: #fff;
+}
+header {
+  height: 150px;
+  width: 100%;
+  background-color: #8912FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header h1 a {
+  color: #fff;
+  margin-top: 85px;
+  font-size: 3em;
+  text-decoration: none;
+}
+nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  float: right;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav li a:hover {
+
+}
+
+main {
+  margin-top: 175px;
+}
+
+main h3 {
+  text-align: center;
+}
+
+.site-footer {
+  font-size: .90em;
+  margin: auto;
+  height: 125px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  color: black;
+ }
+
+
+ footer a:hover {
+  text-decoration: none;
+  color: #8912FF;
+ }
+
+ footer .wrapper {
+  width:900px;
+  margin: auto;
+  margin-top: 40px;
+ }
