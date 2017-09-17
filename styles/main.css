@@ -209,26 +209,90 @@ main {
   text-align: center;
 }
 
+
 #portfolio img {
-  padding: .5em;
-  width: 30%;
-}
-#portfolio div img:last-child {
-  width: 60%;
+  /*margin: .5em;*/
+  width: 100%;
 }
 
-#left_photo {
-  float: left;
-  clear: both;
+/*#middle_three_photos img:last-child {
+  width: 200%;
+}*/
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-#middle_three_photos {
+ul.img-list li {
+  display: inline-block;
+  height: 300px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 20%;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: inherit;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: inherit;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+/*#left_photo {
+float: left;
+clear: both;
+padding: .5em;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#left_photo img {
+  width: 100%;
+  z-index: 10;
+}*/
+
+
+
+
+/*#middle_three_photos {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: flex-start;
 
-}
+}*/
 
 
 /*************/
