@@ -19,6 +19,12 @@ body {
   font-family: helvetica;
 }
 
+h1 {
+  text-align: center;
+  width: 50%;
+}
+
+
 p {
   text-align: justify;
   padding: .5em;
@@ -111,7 +117,7 @@ main {
 
 }
 
-#top_photo h1 {
+#top_photo h2 {
   position: relative;
   /*color: White;
   z-index: 5;
