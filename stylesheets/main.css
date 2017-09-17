@@ -4,9 +4,15 @@ General Stuff
 ******************/
 
 body {
-  background-color:
-  #ece5c8;
-  color:  #604872;
+  background-color: white;
+  /*#dae7e2;*/
+
+  /*#abcabd;*/
+  /*#7caa96;*/
+  /*#ece5c8;*/
+  color: #bb5019;
+  /*color: #fd9764;*/
+  /*color:  #604872;*/
   font-family: Verdana;
 }
 
@@ -18,6 +24,10 @@ a:hover {
   color: #d67950;
 }
 
+a:visited {
+  color: black;
+}
+
 /******************
 Header
 ******************/
@@ -26,7 +36,6 @@ Header
 header nav {
   width: 100%;
   height: 60px;
-  background-color: #f3deb0;
   margin-bottom: 0px;
 }
 
@@ -34,7 +43,7 @@ header nav ul {
   list-style-type: none;
   text-decoration: none;
   margin: 0;
-  padding-left: 5px;
+  padding-left: 15px;
   padding-top: 15px;
   z-index: 100;
 }
@@ -44,12 +53,20 @@ header nav li {
   padding-right: 10px;
 }
 
+header img {
+  position: relative;
+  left: 240px;
+  width: 8%;
+}
+
 header .internal-links {
+  border: 1px solid blue;
   float: left;
   clear: left;
 }
 
 header .contact-links {
+  border: 1px solid red;
   float: right;
   clear: right;
 }
@@ -62,19 +79,20 @@ Index Page
 ******************/
 
 .opening-info {
-  background: url('../images/punchcards.jpg');
+  background: url('../images/official_punch.jpg');
   background-repeat: no-repeat;
-  /*background-position: center center;*/
+  /*background-position: top;*/
   background-size: cover;
   clear: both;
-  height: 900px;
+  height: 760px;
+  margin: 0;
 }
 
 .opening-titles {
   text-align: center;
   padding-top: 30px;
   position: relative;
-  left: 950px;
+  left: 1015px;
   top: 100px;
   margin: 0px;
   width: 30%;
@@ -85,86 +103,80 @@ About Page
 ******************/
 
 .about_images {
-  border: 5px black solid;
   height: 800px;
-  /*position: absolute;*/
   width: 100%;
 }
 
-.top-left-box img {
+.about_images h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.about_images img {
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  width: 40%;
+}
+
+.left {
+  clear: left;
+  float: left;
+  left: 100px;
+}
+
+.right {
+  clear: right;
+  float: right;
+  right: 100px;
+}
+
+.top {
   /*ignite*/
-  border: 5px silver solid;
-  clear: left;
-  float: left;
-  /*display: inline-block;*/
-  position: relative;
-  left: 100px;
-  top: 75px;
+  top: 30px;
   margin: 0;
+}
+
+.bottom {
+  top: 70px;
+}
+
+/******************
+Blog Page
+******************/
+
+.blog-background {
+  background: url('../images/brown_background.jpg');
+  background-repeat: no-repeat;
+  border: 5px solid green;
+  /*background-position: top;*/
+  background-size: cover;
+  clear: both;
+  height: 960px;
+  margin: 0;
+}
+
+/*.opening-titles {
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+  left: 1015px;
+  top: 100px;
+  margin: 0px;
   width: 30%;
-}
-
-.top-right-box img {
-  border: 5px red solid;
-  clear: right;
-  float: right;
-  position: relative;
-  right: 100px;
-  top: 80px;
-  margin: 0;
-  width: 40%;
-  /*name*/
-}
-
-.bottom-left-box  {
-  border: 5px blue solid;
-  clear: left;
-  float: left;
-  position: relative;
-  left: 100px;
-  top: 100px;
-  width: 40%;
-  /*ada*/
-}
-
-.bottom-left-box img {
-  width: 100%;
-}
-.bottom-left-box h4 {
-  border: 3px purple solid;
-  text-align: center;
-}
-
-.bottom-right-box {
-  border: 1px green solid;
-  clear: right;
-  float: right;
-  position: relative;
-  right: 100px;
-  top: 100px;
-  width: 40%;
-  /*seattle*/
-}
-
-.bottom-right-box img {
-  width: 100%;
-}
-
-.bottom-left-box h4 {
-  border: 3px purple solid;
-  text-align: center;
-}
-
+}*/
 
 /******************
 Portfolio Page
 ******************/
-.picture_container {
+/*.picture_container {
   border: 5px solid red;
   width: 100%;
   height: 100%;
   /*position: absolute;*/
-}
+/*}
 
 .main_picture {
   border: 2px solid green;
@@ -174,31 +186,21 @@ Portfolio Page
   margin-left: auto;
   margin-right: auto;
   /*padding: 0, auto; */
-}
+/*/
 
 /******************
 Footer
 ******************/
 
-footer {
+/*footer {
   border: 1px red solid;
   margin-top: 0;
+  opacity: .5;
 }
 
 footer p {
   border: 1px green solid;
   color: red;
+  font-size: .5em;
   margin-top: 0;
-}
-
-
-
-/*@import url('https://fonts.googleapis.com/css?family=Oswald');*/
-/*url('https://fonts.google.com/?category=Sans+Serif&query=lekt&selection.family=Lekton');*/
-
-/*#AFAFA8; */
-/*#4A423C
-#0E0D0D
-#FFC0A9
-#748D5C
-5A656D*/
+}*/
