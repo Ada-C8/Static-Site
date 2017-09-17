@@ -1,0 +1,25 @@
+
+.title {
+  background-color: #e6fff2;
+}
+
+main {
+  height: 90vw;
+  background-color: #99d6ff ;
+}
+
+body {
+  background-color: #99d6ff ;
+
+}
+
+
+footer {
+  background-color: #e6fff2;
+  position: fixed; bottom: 0; left:0; right: 0;
+}
+
+
+nav li a:hover {
+  border-bottom: solid #99d6ff;
+}

@@ -253,38 +253,3 @@ main p {
   /*position: fixed;*/
   position: absolute;
 }
-
-
-
-footer {
-  background-color: #ffccff;
-  height: 8vw;
-  font-family: 'Source Code Pro'
-}
-
-footer nav {
-  display: inline-block;
-  text-align: right;
-  width: 30%
-}
-
-footer h3 {
-  margin-left: 3vw;
-  display: inline-block;
-  width: 60%;
-}
-
-nav li {
-  display: inline-block;
-  width: 40%;
-}
-
-nav li a {
-  text-decoration: none;
-  color: black;
-}
-
-nav li a:hover {
-  border-bottom: solid #e6fff2;
-  color: black;
-}
