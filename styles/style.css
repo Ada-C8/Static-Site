@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Hind:700');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body {
   height: 100%;
@@ -6,7 +7,11 @@ html, body {
 }
 
 body {
-  background-image: url("../images/wall-paper.svg");
+  background-image: url("../images/wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav ul li:hover {
@@ -18,16 +23,22 @@ nav ul li.active {
   background-color: #4CAF50;
 }
 
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
 /******** HEADER ********/
 
 #top-header {
   padding: 2% 5%;
-  background-color: yellow;
+  background-color:rgba(245, 245, 245, 0.5);
 }
 
 #top-header h1 {
   float: left;
   display: inline-block;
+  font-family: 'Sacramento', cursive;
 }
 
 #top-header nav {
@@ -53,8 +64,9 @@ nav ul li.active {
 main {
   height: 60%;
   position: relative;
-  font-family: 'Hind', sans-serif;
-  font-size: 4em;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
 }
 
 main h1 {
@@ -64,6 +76,7 @@ main h1 {
   margin: 0 auto;
   top: 50%;
   transform: translateY(-50%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /******** FOOTER ********/
@@ -74,31 +87,31 @@ footer {
   bottom: 0;
   left: 0;
   padding: 0.5rem;
-  background-color: #efefef;
   text-align: center;
+  font-size: 12px;
+  background-color:rgba(245, 245, 245, 0.5)
 }
 
 footer header {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer nav {
   text-align: center;
 }
 
+footer ul {
+  padding: 0;
+}
+
 footer nav li {
   display: inline-block;
+  padding: 5px;
 }
-/*footer nav ul li {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}*/
 
 /******** CLEARFIX ********/
+
 .clearfix:after {
   visibility: hidden;
   display: block;
