@@ -5,11 +5,36 @@ html {
 body {
   display: block;
   background-color: white;
-  font-family: 'Work Sans', sans-serif;
+  /*font-family: 'Work Sans', sans-serif;*/
+  font-family: 'Open', sans-serif;
   /*font-family: 'Raleway', sans-serif;*/
   /*font-family: 'Bungee', sans-serif;*/
   /*font-family: 'Play', sans-serif;*/
 }
+
+.home {
+  /*background-color: #ffc000;*/
+  background-color: #fff;
+}
+
+/*this doesnt work but i want it to*/
+/*.home .sticky-nav {
+  visibility: collaps;
+}*/
+
+.portfolio {
+  /*background-color: #db2518;*/
+  background-color: #ffc000;
+}
+
+.code-journal {
+  background-color: #0e3c7f;
+}
+
+.about {
+  background-color: #0a6037;
+}
+
 
 a {
   text-decoration: none;
@@ -112,6 +137,10 @@ main {
   margin-top: 130px;
   display: flex;
   padding: 30px;
+  width: 90%;
+  margin: 130px auto 0 auto;
+  background-color: white;
+  border-radius: 15px;
   /*margin-top:30px;*/
   /*display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -127,6 +156,8 @@ main {
 
 main article {
   padding: 20px;
+  /*width: 60%;
+  flex-wrap: wrap;*/
 }
 
 main article:hover {
@@ -154,12 +185,12 @@ p.blog-post {
 .featured.project {
   /*just to see the shape*/
   margin: 10px;
-  border: black solid 2px;
-
+  /*border: black solid 2px;*/
+  overflow-y: scroll;
 }
 
 .project {
-  border: black dotted 2px;
+  /*border: black dotted 2px;*/
   margin: auto;
 }
 
@@ -285,11 +316,65 @@ ul.social-icons {
     background-color: #e25714;
 }
 
+/*playing with shapes */
+/*https://css-tricks.com/examples/ShapesOfCSS/*/
+/*https://1stwebdesigner.com/css-shapes/*/
+/*https://css-tricks.com/working-with-shapes-in-web-design/*/
+/*https://www.html5rocks.com/en/tutorials/shapes/getting-started/*/
 #egg {
-    width: 136px;
+    width: 100%;
     height: 190px;
     background: #ffc000;
     display: block;
     -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    text-align: center;
+}
+
+#egg.hover {
+
+}
+
+
+#tv {
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+
+#tv:before {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+
+#about-blurb {
+  width: 60%;
+  background-color: #0a6037;
+  padding: 10px;
+}
+
+/*below doesnt work*/
+/*#about-blurb article:hover {
+  transform: rotateY(45deg) translateZ(0);
+}*/
+
+#shape {
+  background-color: #0e3c7f;
+  width: 60%;
+}
+
+.home main {
+  width: 70%;
 }
