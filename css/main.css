@@ -20,8 +20,10 @@ nadeshiko pink: #EDAFB8
 /********/
 
 section {
+  clear: both;
   height: 800px;
   min-width: 1027px;
+  text-align: center;
   width: 100%;
 }
 
@@ -38,13 +40,31 @@ h1 {
 
 h2 {
   color: white;
-  font-family: 'Megrim', sans-serif;
+  font-family: 'Permanent Marker', sans-serif;
   font-size: 5rem;
+  font-weight: lighter;
   margin: auto;
   opacity: 0.9;
   position: relative;
   text-shadow: 0 0 10px #2e3b48;
   top: 35%;
+}
+
+h3 {
+  color: #2E3B48;
+  display: inline;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #666A86;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 1rem auto;
+  opacity: 0.9;
 }
 
 p {
@@ -71,7 +91,6 @@ p a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
 nav ul {
@@ -102,7 +121,6 @@ hr {
 
 .about {
   background-color: #2e3b48;
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -127,7 +145,7 @@ hr {
   display: inline-block;
   height: 90%;
   margin: auto;
-  min-width: 925px;
+  min-width: 955px;
   vertical-align: middle;
   width: 80%;
 }
@@ -154,6 +172,59 @@ hr {
 
 .blog {
   background-color: #E8DDB5;
+}
+
+.blog h1 {
+  top: 0;
+}
+
+.blog .container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blog-post {
+  background-color: white;
+  border-radius: 2rem;
+  display: inline-block;
+  height: 30rem;
+  margin: auto;
+  padding: 2rem;
+  width: 12rem;
+}
+
+.blog-post h3 {
+  display: inline-block;
+  height: 12rem;
+}
+
+.blog-post p {
+  color: #666A86;
+  height: 12rem;
+  margin: 1rem auto;
+}
+
+.blog-post button {
+  background-color: #95B8D1;
+  border-radius: 3rem;
+  font-family: 'Megrim';
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.blog-post button:hover {
+  background-color: #666A86;
+}
+
+.blog-post button a {
+  color: white;
+  text-decoration: none;
+}
+
+.post-holder {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 60rem;
+  vertical-align: top;
 }
 
 /***********/
