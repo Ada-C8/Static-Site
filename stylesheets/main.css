@@ -11,6 +11,13 @@ p, .blog ul li{
   color: #8161CA;
 }
 
+.portfolio, .blog, .about {
+  padding: 100px 100px 100px 0;
+  margin: 0 auto;
+  width: 80vw;
+  height: 97vh;
+}
+
 /*navigation*/
 header {
   position: fixed;
@@ -76,13 +83,6 @@ body {
   background: #F1D3FF;
 }
 
-.portfolio, .blog, .about {
-  padding: 100px 100px 100px 0;
-  margin: 0 auto;
-  width: 80vw;
-  height: 97vh;
-}
-
 h1{
   font-family: 'Bungee Shade', cursive;
   font-size: 5em;
@@ -112,7 +112,6 @@ h1{
   z-index: 100;
 }
 
-
 /*porfolio boxes held in flex-container*/
 .portfolio h2 {
   font-family: 'Bungee Hairline', cursive;
@@ -121,6 +120,7 @@ h1{
   width: 80vw;
   color: #8161CA;
 }
+
 article.flex-container {
   padding: 2% 0;
   display: flex;
@@ -215,7 +215,7 @@ main.blog {
   font-weight: bold;
 }
 
-/* About */
+/* about */
 .about .flex-grid {
   width: 80vw;
   margin-left: 0;
@@ -234,10 +234,8 @@ main.blog {
   font-size: 1.5em;
 }
 
+/* footer */
 footer p {
-  /*margin-top: 2%;*/
-  /*display: block;*/
-  /*width: 100vw;*/
   bottom: 0;
   text-align: center;
 }
