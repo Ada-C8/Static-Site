@@ -1,29 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Hind:700');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body {
   height: 100%;
   width: 100%;
 }
 
-nav ul li:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-nav ul li.active {
-  background-color: #4CAF50;
+body {
+  background-image: url("../images/wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
 }
 
 /******** HEADER ********/
 
 #top-header {
   padding: 2% 5%;
-  background-color: yellow;
+  background-color:rgba(245, 245, 245, 0.5);
 }
 
 #top-header h1 {
   float: left;
   display: inline-block;
+  font-family: 'Sacramento', cursive;
 }
 
 #top-header nav {
@@ -42,12 +44,27 @@ nav ul li.active {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: grey;
 }
 
+#top-header li:hover {
+  border-bottom: 1px black solid;
+}
+
+#top-header li a:visited {
+  color: black;
+}
+
+#top-header li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
 /******** MAIN ********/
 
 main {
   font-family: 'Hind', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main header {
@@ -66,7 +83,6 @@ section.column-container {
   float: left;
   height: 200px;
   width: 40%;
-  background:#9c9;
   text-align: right;
 }
 
@@ -77,17 +93,17 @@ section.column-container {
 
 .right-column {
   float: right;
-  height:200px;
   width: 60%;
   margin: 0;
-  background:#c9c;
   text-align: justify;
 }
 
 .right-column p {
-  padding: 1em;
+  padding: 15px;
+  height: 170px;
   width: 60%;
   margin: 0;
+  background-color: white;
 }
 
 /******** FOOTER ********/
@@ -98,29 +114,29 @@ footer {
   bottom: 0;
   left: 0;
   padding: 0.5rem;
-  background-color: #efefef;
   text-align: center;
+  font-size: 10px;
+  background-color:rgba(245, 245, 245, 0.5)
 }
 
 footer header {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer nav {
   text-align: center;
 }
 
+footer ul {
+  padding: 0;
+}
+
 footer nav li {
   display: inline-block;
+  padding: 5px;
 }
-/*footer nav ul li {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}*/
+
 
 /******** CLEARFIX ********/
 .clearfix:after {
