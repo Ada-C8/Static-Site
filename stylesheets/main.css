@@ -31,6 +31,7 @@ header h2 {
   float: left;
   margin-left: 10px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 header h2 img {
@@ -58,7 +59,7 @@ header li a:hover, .active {
   box-shadow: -3px 3px 2px white;
 }
 
-header h2:hover {
+header h2:hover, .home-icon {
   background: #8161CA;
   box-shadow: -3px 3px 2px white;
 }
@@ -78,8 +79,8 @@ body {
 .portfolio, .blog, .about {
   padding: 100px 100px 100px 0;
   margin: 0 auto;
-  width: 90vw;
-  height: 100vh;
+  width: 80vw;
+  height: 97vh;
 }
 
 h1{
@@ -88,7 +89,7 @@ h1{
   color: #8161CA;
   letter-spacing: .5em;
   text-align: center;
-  width: 90vw;
+  width: 80vw;
 }
 
 /*home page*/
@@ -101,24 +102,30 @@ h1{
   padding-top: 100px;
   background-position: left bottom;
   filter:hue-rotate(70deg);
-
 }
 
 .home h1{
-  position: absolute;
-  top: 100px;
-  left: -200px;
+  position: relative;
+  top: 1%;
+  left: -15%;
   text-align: center;
   z-index: 100;
 }
 
 
 /*porfolio boxes held in flex-container*/
+.portfolio h2 {
+  font-family: 'Bungee Hairline', cursive;
+  padding: 4% 0 2% 0;
+  text-align: center;
+  width: 80vw;
+  color: #8161CA;
+}
 main.flex-container {
   padding: 2% 0;
   display: flex;
   flex-wrap: wrap;
-  width: 90vw;
+  width: 80vw;
   height: 90%;
   justify-content: space-between;
   align-items: center;
@@ -180,7 +187,7 @@ main.blog {
 }
 
 .blog .flex-grid {
-  width: 90vw;
+  width: 80vw;
   margin-left: 0;
 	display: flex;
   flex-wrap: wrap;
@@ -189,7 +196,7 @@ main.blog {
 }
 
 .blog .col {
-  width: 100vw;
+  width: 80vw;
   margin: 2% 0;
   height: auto;
   border: 10px dotted white;
@@ -210,7 +217,7 @@ main.blog {
 
 /* About */
 .about .flex-grid {
-  width: 90vw;
+  width: 80vw;
   margin-left: 0;
 	display: flex;
   flex-wrap: wrap;
@@ -228,14 +235,9 @@ main.blog {
 }
 
 footer p {
-  margin-top: 15px;
-  display: block;
-  width: 100vw;
+  /*margin-top: 2%;*/
+  /*display: block;*/
+  /*width: 100vw;*/
   bottom: 0;
   text-align: center;
 }
-
-/*.home p {
-  position: absolute;
-  bottom: 0;
-}*/
