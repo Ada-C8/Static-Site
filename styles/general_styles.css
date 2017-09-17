@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Overlock');
+
+h1, h2, li {
+  font-family: 'Arima Madurai', cursive;
+}
+
+body {
+  position: relative;
+  background: #EBF7F7;
+  /*border-left: #25A0A0 10px double;
+  border-right: #25A0A0 10px double;*/
+  margin: 10vw;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF7E1;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2vw;
+  height: 100%;
+  font-family: 'Arima Madurai', cursive;
+  margin-top: 2vw;
+}
+
+nav ul li:hover {
+  text-transform: uppercase;
+  color: #19647E;
+  margin-bottom: 1vw;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6vw;
+  background: #19647E;
+  color: #FDF7E1;
+  font-family: 'Arima Madurai', cursive;
+  z-index: 1000;
+}
+
+.header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vw;
+}
+
+.header li:hover {
+  text-transform: uppercase;
+  padding-bottom: 1vw;
+}
+
+
+header p {
+  position: absolute;
+  top: 4.7vw;
+  left: 0;
+  padding-left: 10vw;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 1.2vw;
+  min-width: 300px;
+  /*color: #9C873C;*/
+  color: #FDF7E1;
+  font-style: italic;
+  /*display: block;*/
+  background: #1F271B;
+  width: 100%;
+}
+
+header nav {
+  display: inline-block;
+  position: absolute;
+  right: 2vw;
+  bottom: 0;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 2.5vw;
+  text-decoration: none;
+}
+
+/*#background {
+  background-image: url("../pics/background.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}*/
+
+/*FOOTER*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background :#1F271B;
+  left:0;
+  bottom: 0;
+  margin: 0;
+  margin-top: 5vw;
+  width: 100%;
+  max-height: 4vw;
+  z-index: 1000;
+}
+
+footer nav {
+  float: right;
+  position: relative;
+  bottom: 2vw;
+}
+
+footer li{
+  margin: 0;
+}
