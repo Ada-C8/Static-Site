@@ -1,99 +1,244 @@
 * {
   /*border: 1px solid lawngreen;*/
   margin: 0;
-  padding: 0;
 }
 
-p {
-  color: #2e3b48;
-  font-family: 'Cormorant Garamond';
-  line-height: 2;
-}
+/********/
+/*colors*/
+/********/
 
-nav ul {
-  /*display: inline-block;*/
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
+/*
+dark blue-grey: #666A86
+dark sky blue: #95B8D1
+japanese indigo: #2E3B48
+dutch white: #E8DDB5
+nadeshiko pink: #EDAFB8
+*/
 
-nav li {
-  color: silver;
-  /*display: inline-block;*/
-  font-family: 'Cormorant Garamond';
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 1rem 1rem 1rem 0;
-}
+/********/
+/*layout*/
+/********/
 
-header {
-  background-color: #2e3b48;
-  display: inline-block;
+section {
+  clear: both;
   height: 800px;
-  text-align: right;
-  padding: 1rem;
-  width: 35%;
-}
-
-hr {
-  width: 20%;
-}
-
-h1 {
-  color: tomato;
-  display: inline-block;
-  font-family: 'Cormorant Garamond';
-  font-size: 2rem;
-  margin: 50% 0 0 0;
-}
-
-.image-bank {
-  display: inline-block;
-  float: right;
-  position: absolute;
-  height: 800px;
-  line-height: 0;
-  width: 65%;
-}
-
-.image-box {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  width: 49%;
-  height: 400px;
-}
-
-.one {
-  background-image: url(../images/mountain01.jpg);
-  background-position: top center;
-  background-size: 150%;
-}
-
-.two {
-  background-image: url(../images/mountain02.jpg);
-  background-position: center center;
-  background-size: 200%;
-}
-
-.three {
-  background-image: url(../images/mountain03.jpg);
-  background-position: center center;
-  background-size: 200%;
-}
-
-.four {
-  background-image: url(../images/mountain04.jpg);
-  background-position: top center;
-  background-size: 100%;
-}
-
-.top {
-  display: inline-block;
-  height: 800px;
-  vertical-align: top;
+  min-width: 1027px;
+  text-align: center;
   width: 100%;
 }
 
-/*text-shadow: 0 0 10px #2e3b48;*/
+h1 {
+  color: white;
+  font-family: 'Megrim', sans-serif;
+  font-size: 5rem;
+  margin: auto;
+  opacity: 0.9;
+  position: relative;
+  text-shadow: 0 0 10px #2e3b48;
+  top: 35%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin: auto;
+  opacity: 0.9;
+  position: relative;
+  text-shadow: 0 0 10px #2e3b48;
+  top: 35%;
+}
+
+h3 {
+  color: #2E3B48;
+  display: inline;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #666A86;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 1rem auto;
+  opacity: 0.9;
+}
+
+p {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+p a {
+  color: #EDAFB8;
+  text-decoration: none;
+}
+
+/***********/
+/*hero page*/
+/***********/
+
+.hero {
+  background-attachment: fixed;
+  background-color: grey;
+  background-image: url(../images/mountain03.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Cormorant Garamond';
+  margin: 1rem;
+}
+
+nav li a {
+  color: #666A86;
+  text-decoration: none;
+}
+
+hr {
+  color: #666A86;
+  margin: auto;
+  width: 30%;
+}
+
+/*******/
+/*about*/
+/*******/
+
+.about {
+  background-color: #2e3b48;
+  vertical-align: middle;
+}
+
+.about h2 {
+  display: inline-block;
+  position: relative;
+  right: 18%;
+  top: 15%;
+  transform: rotate(-8deg);
+}
+
+.about p {
+  float: left;
+  left: 5%;
+  position: relative;
+  top: 27%;
+  width: 50%;
+}
+
+.container {
+  clear: both;
+  display: inline-block;
+  height: 90%;
+  margin: auto;
+  min-width: 955px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.center-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#author-pic {
+  border-radius: 5rem;
+  display: block;
+  float: left;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  width: auto;
+}
+
+/******/
+/*blog*/
+/******/
+
+.blog {
+  background-color: #E8DDB5;
+}
+
+.blog h1 {
+  top: 0;
+}
+
+.blog .container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blog-post {
+  background-color: white;
+  border-radius: 2rem;
+  display: inline-block;
+  height: 30rem;
+  margin: auto;
+  padding: 2rem;
+  width: 12rem;
+}
+
+.blog-post h3 {
+  display: inline-block;
+  height: 12rem;
+}
+
+.blog-post p {
+  color: #666A86;
+  height: 12rem;
+  margin: 1rem auto;
+}
+
+.blog-post button {
+  background-color: #95B8D1;
+  border-radius: 3rem;
+  font-family: 'Megrim';
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.blog-post button:hover {
+  background-color: #666A86;
+}
+
+.blog-post button a {
+  color: white;
+  text-decoration: none;
+}
+
+.post-holder {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 60rem;
+  vertical-align: top;
+}
+
+/***********/
+/*portfolio*/
+/***********/
+
+.portfolio {
+  background-color: #666A86;
+}
+
+/*********/
+/*contact*/
+/*********/
+
+.contact {
+  background-color: #95B8D1;
+}
