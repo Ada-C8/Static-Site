@@ -3,7 +3,10 @@
   box-sizing: border-box;
   font-family: 'Fira Sans Extra Condensed', Helvetica;
   background-color: #62e6ac;
+}
 
+h1 {
+  margin: 0.2em 0;
 }
 
 #wrapper {
@@ -68,6 +71,10 @@ header li {
 #front-page a {
   color: #191919;
   text-decoration: none;
+}
+
+#front-page a:hover {
+  text-decoration: underline;
 }
 
 #front-page h3, #front-page h3>a {
