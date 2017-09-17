@@ -1,0 +1,41 @@
+.content-wrapper {
+  position: relative;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.line .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid black;
+  position: absolute;
+  top: -25px;
+}
+.line {
+  position: relative;
+  border-bottom: 1px solid black;
+}
+.odd .line {
+  margin-right: 50px;
+}
+.even .line {
+  margin-left: 50px;
+}
+.odd .circle {
+  right: -50px;
+}
+.even .circle {
+  left: -50px;
+}
+.content,
+.header {
+  padding: 0 60px;
+}
+.odd .content,
+.odd .header {
+  text-align: right;
+}
+.even .content,
+.even .header {
+  text-align: left;
+}
