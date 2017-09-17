@@ -1,0 +1,108 @@
+/* HEADER STYLING */
+header {
+  /*display: flex;*/
+  position: fixed;
+  /*background-color: #D3634B;*/
+  background-color: #183059;
+  /*background-color: #E71D36;*/
+  height: 4rem;
+  width: 100%;
+  z-index: 2;
+  /*justify-content: space-between;*/
+}
+
+.nav-bar {
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Nova Mono', helvetica, monospace;
+  font-size: 1.25em;
+  margin-left: 2.5rem;
+}
+
+.nav-bar li:last-of-type {
+  padding-right: 3rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #EB5E28;
+}
+/*.header-name {
+  /*display: flex;*/
+  /*color: #7FD1B9;*/
+  /*align-items: flex-end;*/
+
+.header-name {
+  /*font-size: 2.5rem;*/
+  color: #EB5E28;
+  font-family: 'Nova Mono', monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  /*word-wrap: break-word;*/
+  /*width: 5rem;*/
+  padding-left: 3rem;
+
+}
+
+.name-container {
+  display: inline-block;
+  width: 49%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+  /*position: relative;*/
+  /*top: 4rem;*/
+  /*background-color: #E0E0E2;*/
+  background-color: #FDFFFC;
+  height: 100%;
+}
+
+
+.intro {
+  position: relative;
+  top: 16rem;
+  text-align: center;
+}
+
+main h1 {
+  color: #EB5E28;
+  font-family: 'Nova Mono', monospace;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-align: center;
+  /*position: relative;
+  top: 16rem;*/
+}
+
+.intro-text {
+  color: #666666;
+  font-size: 1.75rem;
+  font-family: 'Oswald', 'Helvetica', sans-serif;
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  height: 3rem;
+  background-color: #183059;
+  color: white;
+  position: relative;
+  top: -3rem;
+}
