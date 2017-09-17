@@ -121,7 +121,7 @@ h1{
   width: 80vw;
   color: #8161CA;
 }
-main.flex-container {
+article.flex-container {
   padding: 2% 0;
   display: flex;
   flex-wrap: wrap;
