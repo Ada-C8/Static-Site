@@ -4,7 +4,7 @@
 }
 
 main {
-  height: 160vw;
+  /*height: 160vw;*/
   background-color: #ffccff ;
 }
 
@@ -15,10 +15,19 @@ body {
 
 #photo {
   /*display: inline-block;*/
-  width: 50%;
+  width: 45%;
   margin-top: 40px;
+  margin-left: 25px;
   position: fixed;
   z-index: 10;
+}
+
+#alley {
+  width: 45%;
+  margin-top: 40px;
+  margin-left: 25px;
+  position: fixed;
+  z-index: 1;
 }
 
 #info {
@@ -46,6 +55,7 @@ body {
   text-align: center;
   float: right;
   clear: right;
+  margin-bottom: 10vw;
 }
 
 img {
@@ -56,10 +66,14 @@ img {
 
 }
 
+#photo img:hover {
+  opacity: .35;
+}
+
 footer {
   background-color: #99d6ff;
   position: fixed; bottom: 0; left:0; right: 0;
-  clear: both;
+  clear: right;
 }
 
 

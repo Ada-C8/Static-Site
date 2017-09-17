@@ -31,17 +31,20 @@ article {
   height: 30vw;
   margin: 2vw 1vw;
   overflow: hidden;
-  border: solid;
+  border: solid rgba(0,0,0,0.25);
   font-size: .7em;
 }
 
 
 article h4 {
-  border-bottom: solid;
+  border-bottom: solid rgba(0,0,0,0.25);
 }
 
 article:hover {
-  border-color: #99d6ff;
+  box-shadow:
+    0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+  /*color: #ffccff;*/
 }
 
 footer {
