@@ -7,7 +7,7 @@
 
 /* BASE RULES */
 html {
-  font-size: 100%;
+  font-size: 80%;
   height: 100%;
 }
 
@@ -82,7 +82,7 @@ header nav {
 /*MAIN CONTENT AREA*/
 main {
   display: flow-root;
-  padding-top: 14.6rem; /*for header */
+  padding: 14.6rem 15% 10rem 15%; /*for header */
 }
 
 .left {
@@ -91,14 +91,6 @@ main {
 
 .right {
   width: 100%;
-}
-
-.two-column {
-  padding: 0 15%;
-}
-
-.two-column span {
-  width: 48%;
 }
 
 .two-column img {
@@ -169,8 +161,17 @@ footer nav {
     float: right;
   }
 
-  .two-column {
+  .two-column, three-column {
     max-width: 114rem;
     padding: 0 auto;
+  }
+
+  .two-column span {
+    width: 48%;
+  }
+
+  .three-column section {
+    width: 31%;
+    margin: 0 1%;
   }
 }
