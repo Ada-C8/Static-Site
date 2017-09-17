@@ -162,10 +162,10 @@ footer ul li {
   list-style: none;
 }
 
-img {
+footer ul li a img {
   opacity: 0.5;
 }
-img:hover {
+footer ul li a img:hover {
   /*background-color: white;*/
   /*opacity: 0.5;*/
   opacity: 1.0;
