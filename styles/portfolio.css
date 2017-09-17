@@ -2,6 +2,7 @@ main h1 {
   position: relative;
   top: 10vw;
   text-align: center;
+  font-size: 5vw;
 }
 
 .intro_work {
@@ -34,15 +35,36 @@ main h1 {
   margin-left: 2vw;
 }
 
-.intro_work a {
+.intro_work a, .my_work a {
   color: black;
   text-decoration: underline;
 }
 
+.my_work {
+  position: relative;
+  margin-top: 10vw;
+  padding: 0;
+}
+
 .my_work img {
+  position: relative;
+  top: 5vw;
+  width: 40%;
+}
+
+.my_work p {
+  position: relative;
+  top: 5vw;
   width: 50%;
 }
 
-.my_work article:nth-child(2n) img {
-  float: right;
+.my_work li {
+  display: inline-block;
+  width: 50%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.my_work li:hover {
+  width: 150%;
 }
