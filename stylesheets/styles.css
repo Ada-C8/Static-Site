@@ -15,13 +15,19 @@ a:hover {
   color: rgba(0,0,0,0.5);
 }
 
-h1, h2, h3, h4, header nav ul li, .social {
+h1, h2, h3, h4, header nav ul li, .social, .more-button {
   text-transform: uppercase;
+}
+
+h4 {
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-style: italic;
 }
 
 p {
   text-align: justify;
-  line-height: 1.6em;
+  line-height: 1.8em;
 }
 
 ul {
@@ -38,6 +44,12 @@ img {
   height: auto;
 }
 
+header nav, .social, footer h4, .more-button {
+  font-size: 0.75em;
+  letter-spacing: 0.4em;
+  font-weight: 800;
+}
+
 /* ----------- Header & Footer ----------- */
 
 header, footer {
@@ -48,12 +60,6 @@ header, footer {
 header nav, footer nav {
   margin-top: 8px;
   float: right;
-}
-
-header nav, .social, footer h4 {
-  font-size: 0.75em;
-  letter-spacing: 0.4em;
-  font-weight: 800;
 }
 
 header h1, header nav, footer h4, footer nav{
@@ -74,12 +80,13 @@ header h1 {
 
 header h1:hover {
   color: #1d1d1d;
-  background: #C5CAB3;
+  background: #f4d4cd;
 }
 
 /* ----------- Footer ----------- */
 
 footer h4 {
+  font-style: normal;
   padding-top: 8px;
   letter-spacing: 0.1em;
 }
@@ -98,4 +105,39 @@ main {
 
 main .social {
   text-align: right;
+}
+
+main h2 {
+  color: #f4d4cd;
+  margin: 0 0 0 -10px;
+  padding: 0 0 0 14px;
+  height: 0;
+  font-size: 2em;
+  letter-spacing: 0.8em;
+  transform: rotate(90deg);
+  transform-origin: left top;
+}
+
+/* ----------- Portfolio ----------- */
+
+.portfolio-item {
+  padding-bottom: 100px;
+}
+
+.portfolio-item:last-child {
+  padding-bottom: 0;
+}
+
+.portfolio h3, .portfolio h4, .more-button {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.portfolio h3 {
+  border-bottom: 2px solid #f4d4cd;
+}
+
+.portfolio p:nth-child(4) {
+  padding: 15px 0;
 }
