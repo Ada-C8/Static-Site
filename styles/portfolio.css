@@ -71,18 +71,30 @@ main header {
   text-align: center;
 }
 
+main a:visited {
+  color: black;
+}
 .articles-wrapper {
   width: 80%;
   margin: 0 auto;
 }
-
 
 main article {
   max-width: 20%;
   display: inline-block;
   background-color: blue;
   padding: 1em;
+  background-color: white;
+  text-align: justify;
+  transition: all 0.4s ease-in-out;
+
 }
+
+main article:hover {
+  box-shadow:
+    0 0 50px rgba(0,0,0,1);
+}
+
 /******** FOOTER ********/
 
 footer {
