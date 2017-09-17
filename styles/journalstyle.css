@@ -1,9 +1,45 @@
-*{
-  border: solid;
-}
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
 body {
   background-image: url('../assets/book.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 10%;
+}
+
+h1 {
+    font-family: 'Codystar';
+    font-size: 3em;
+    -webkit-animation: color-change 4s infinite;
+  }
+
+  @-webkit-keyframes color-change {
+      0% { color: black; }
+      40% { color: #5A6F75; }
+      70% { color: #7878E3; }
+      100% { color: #26429E;}
+  }
+
+a{
+  font-family: 'Codystar';
+  color: #83578F;
+  text-decoration: none;
+}
+
+a:hover{
+color: blue;
+}
+
+p{
+  font-family: 'Cutive Mono', monospace;
+  color: black;
+}
+
+h2{
+  font-family: 'Codystar';
+  color: black;
+  text-decoration: none;
 }
