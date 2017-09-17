@@ -1,9 +1,10 @@
 
-
 /******************/
 /*    HEADER     */
 /*****************/
-
+header{
+  background-color: beige;
+}
 header {
   height: 70px;
   position: fixed;
@@ -14,7 +15,6 @@ header {
   padding-bottom: 20px;
   font-family: "Vollkorn" serif;
   font-size: 21px;
-  color: olive
 
 }
 
@@ -85,7 +85,13 @@ header a:hover {
   font-weight: 300;
   color: orangered;
 }
-
+/*.welcome h3{
+  font-family: "Vollkorn", serif;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 300;
+  color: olive;
+}*/
 main li{
   display: inline;
   width: 30%;
@@ -115,73 +121,6 @@ main #traveler::after{
 /* Contact */
 /***********/
 
-/*
-
-i {
-  padding: 0 10px;
-}
-
-.wrapper i:nth-child(1) {
-  color: #4867AA;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
-}
-
-.wrapper i:nth-child(1):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
-}
-
-.wrapper i:nth-child(2) {
-  color: #1DA1F2;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
-}
-
-.wrapper i:nth-child(2):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
-}
-
-.wrapper i:nth-child(3) {
-  color: #007bb5;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
-  transition: all ease-in-out 150ms;
-}
-
-.wrapper i:nth-child(3):hover {
-  margin-top: -10px;
-  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-  transform: translate(0, -5);
-}
-.wrapper i:nth-child(4) {
-  color: #000000;
-  cursor: pointer;
-  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
-  transition: all ease-in-out 150ms;
-}
-.wrapper i:nth-child(4):hover {
-  margin-top: -10px;
-  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
-  transform: translate(0, -8);
-}*/
-
-
-/*html {
-	font-size: 20px;
-}
-body {
-	background-color: #ccc;
-	padding: 50px;
-	text-align: center;
-}*/
-
-/* Wrapper */
 .wrapper {
   padding-left: -50px;
   margin-top: 145px;
@@ -195,10 +134,6 @@ body {
   justify-content: center;
 
 }
-
-/*.wrapper i{
-    padding-right: 30px;
-}*/
 
 .icon-button {
 	background-color: white;
