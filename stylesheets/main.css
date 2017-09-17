@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-/*url('https://fonts.google.com/?category=Sans+Serif&query=lekt&selection.family=Lekton');*/
 
-/*#AFAFA8; */
-/*#4A423C
-#0E0D0D
-#FFC0A9
-#748D5C
-5A656D*/
 /******************
 General Stuff
 ******************/
@@ -14,14 +6,8 @@ General Stuff
 body {
   background-color:
   #ece5c8;
-  /*#D0CDC2;*/
   color:  #604872;
-  /*#8cbfa0;*/
-  /*#577070;*/
-  /*#58260f;*/
-  /*#98b4e6;*/
-  /*#252600;*/
-  font-family: Oswald;
+  font-family: Verdana;
 }
 
 a:link {
@@ -30,8 +16,6 @@ a:link {
 
 a:hover {
   color: #d67950;
-  /*color: #fe9a6d;*/
-  /*#748D53;*/
 }
 
 /******************
@@ -43,11 +27,6 @@ header nav {
   width: 100%;
   height: 60px;
   background-color: #f3deb0;
-  /*#e697b2;*/
-  /*#e6b798;
-  opacity: .7;*/
-  /*de98e6;*/
-  /*98B4B6;*/
   margin-bottom: 0px;
 }
 
@@ -84,7 +63,6 @@ Index Page
 
 .opening-info {
   background: url('../images/punchcards.jpg');
-  /*background: url('http://via.placeholder.com/1600x900');*/
   background-repeat: no-repeat;
   /*background-position: center center;*/
   background-size: cover;
@@ -93,7 +71,6 @@ Index Page
 }
 
 .opening-titles {
-  /*border: 1px red solid;*/
   text-align: center;
   padding-top: 30px;
   position: relative;
@@ -119,10 +96,10 @@ About Page
   border: 5px silver solid;
   clear: left;
   float: left;
-  /*display: inline-block;
-  position: relative;*/
-  /*left: 300px;
-  top: 100px;*/
+  /*display: inline-block;*/
+  position: relative;
+  left: 100px;
+  top: 75px;
   margin: 0;
   width: 30%;
 }
@@ -131,79 +108,54 @@ About Page
   border: 5px red solid;
   clear: right;
   float: right;
-  /*position: relative;*/
-  /*display: inline-block;*/
-  /*right: 300px;
-  top: 100px;*/
+  position: relative;
+  right: 100px;
+  top: 80px;
   margin: 0;
   width: 40%;
   /*name*/
 }
 
-.bottom-left-box img {
-  border: 1px blue solid;
+.bottom-left-box  {
+  border: 5px blue solid;
   clear: left;
   float: left;
-  /*clear: both;
-  display: block;*/
-  /*position: relative;*/
-  /*left: 300px;
-  top: 100px;*/
+  position: relative;
+  left: 100px;
+  top: 100px;
   width: 40%;
   /*ada*/
 }
 
-.bottom-right-box img {
+.bottom-left-box img {
+  width: 100%;
+}
+.bottom-left-box h4 {
+  border: 3px purple solid;
+  text-align: center;
+}
+
+.bottom-right-box {
   border: 1px green solid;
   clear: right;
   float: right;
-  /*position: relative;*/
-  /*clear: both;*/
-  /*display: inline-block;*/
-  /*right: 300px;
-  top: 100px;*/
-  width: 20%;
+  position: relative;
+  right: 100px;
+  top: 100px;
+  width: 40%;
   /*seattle*/
 }
 
-
-
-
-
-
-
-
-
-
-/*.left-box {
-border: 1px blue solid;
-clear: left;
-float: left;
-left: 200px;
-top: 100px;
-position: relative;
-width: 30%;
+.bottom-right-box img {
+  width: 100%;
 }
 
-.left-box li {
-padding: 10px;
+.bottom-left-box h4 {
+  border: 3px purple solid;
+  text-align: center;
 }
 
-.right-box img {
-height: 800px;
-width: 600px;
-}
 
-.right-box {
-border: 1px red solid;
-clear: right;
-background-color: grey;
-float: right;
-position: relative;
-right: 300px;
-top: 100px;
-width: 30%;
-}*/
 /******************
 Portfolio Page
 ******************/
@@ -238,3 +190,15 @@ footer p {
   color: red;
   margin-top: 0;
 }
+
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Oswald');*/
+/*url('https://fonts.google.com/?category=Sans+Serif&query=lekt&selection.family=Lekton');*/
+
+/*#AFAFA8; */
+/*#4A423C
+#0E0D0D
+#FFC0A9
+#748D5C
+5A656D*/
