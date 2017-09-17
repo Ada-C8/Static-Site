@@ -5,6 +5,10 @@ html, body {
   width: 100%;
 }
 
+body {
+  background-image: url("../images/wall-paper.svg");
+}
+
 nav ul li:hover {
   background-color: #ddd;
   color: black;
