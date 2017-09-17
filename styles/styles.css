@@ -7,7 +7,6 @@ body {
 }
 /* Header */
 header{
-  background-color: lightcyan;
   overflow: auto;
   content: "";
   width: 100%;
@@ -25,8 +24,10 @@ header h2 {
   float: left;
 }
 
-header a{
+header a, button a{
   text-decoration: none;
+  color: white;
+  font-size: 14pt;
 }
 
 header nav ul{
@@ -35,12 +36,15 @@ header nav ul{
 }
 
 header nav ul li{
-  color: black;
-  padding: 10px;
   margin-right: 15px;
   display: inline-block;
+}
+
+header nav ul li, button{
   background-color: #6ABAD0;
   border-radius: 5px;
+  padding: 10px;
+  border: none;
 }
 
 /* When window is smaller than 592px... */
@@ -60,6 +64,18 @@ header nav ul li{
     margin-top: 5px;
     display: block;
     text-align: center;
+  }
+
+  article.portfolio-item {
+    height: inherit;
+    padding-bottom: 20px;
+    width: 90%;
+  }
+
+  article.portfolio-item img{
+    width: 100%;
+    height: 90vw;
+    margin-top: 0;
   }
 }
 /*End Header*/
@@ -117,6 +133,7 @@ main{
   height: 350px;
   width: 75vw;
   background-color: rgba(50,50,90,0.8);
+  margin-bottom: 20px;
 }
 
 #terminal_title_bar {
@@ -188,7 +205,47 @@ main{
 /* END INDEX */
 
 /* Begin Portfolio CSS */
+.portfolio-items{
+  margin-left: 3vw;
+  overflow: hidden;
+}
 
+.portfolio-item{
+  border: 1px solid black;
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+  z-index: 5;
+  height: 480px;
+  vertical-align: top;
+}
+
+.portfolio-item img{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.portfolio-description{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 1078px) {
+  .portfolio-item{
+    width: 45%;
+    margin: 10px;
+    height: 500px;
+  }
+}
+
+
+/* End Portfolio CSS */
+
+/* Non-index.html CSS*/
 aside.not-index-terminal{
   margin-top: 10px;
   margin-left: 41px;
@@ -201,16 +258,35 @@ aside.not-index-terminal{
 
 /* typing animation */
 .not-index-terminal p {
-	width: 20ch; /* # of chars */
 	white-space: nowrap;
-	animation: typing 2s steps(20, end), /* # of steps = # of chars */
-	           blink-caret .5s step-end infinite alternate;
 }
 
-/* End Portfolio CSS */
+#portfolio p{
+  width: 20ch; /* # of chars */
+  	animation: typing 2s steps(20, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
 
-/* Non-index.html CSS*/
-  main section{
-    margin: 50px;
-  }
+#about p{
+  width: 13ch; /* # of chars */
+  animation: typing 2s steps(13, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
+
+#code-journal p{
+  width: 23ch; /* # of chars */
+  animation: typing 2s steps(23, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
+
+main > section{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+object{
+  margin-left: 50px;
+  height: 500px;
+}
 /* End Non-index.html CSS*/
