@@ -1,11 +1,12 @@
 body {
-  background-color: #DB5461;
-  font-family: arial;
+  background-color: /*#DB5461 #AEE8D5*/#FFBFA0;
+  /*font-family: arial;*/
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   box-sizing: content-box;
 }
 body:after {
-    background:#FFBFA0;
+    background:/*#FFBFA0*/#7EB4D3;
     position:fixed;
     top:0;
     bottom:7vh;
@@ -42,35 +43,68 @@ ul li a:hover {
 
 .contact {
 	perspective: 1000px;
+  color: grey;
+
 }
 	/* flip the pane when hovered */
-	.contact:hover .flipper, .contact.hover .flipper {
-		transform: rotateY(180deg);
+.contact:hover .flipper, .contact.hover .flipper {
+	transform: rotateY(180deg);
+}
 
-	}
+
+.recto p:first-of-type {
+  font-size: 1.3rem;
+  /*text-transform: uppercase;*/
+  font-size: 1.8rem;
+  font-family: 'Lobster', cursive;
+    margin-top: 62px;
+    margin-bottom: 0em;
+}
+
+.recto p:nth-of-type(2) {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Nixie One', cursive;
+  margin-top: 0.2em;
+  margin-bottom: 0em;
+}
+
+.verso p a, .verso p  {
+  /*font-size: 1rem;
+  text-transform: uppercase;*/
+  margin-top: 0.5rem;
+  margin-bottom: 0em;
+  text-decoration: none;
+  color: grey;
+}
+.verso-content {
+  margin-top: 54px;
+}
 
 .contact, .recto, .verso {
 	width: 300px;
 	height: 190px;
   margin: auto;
   margin-top: 10vh;
+
 }
 
 /* flip speed goes here */
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
 /* hide back of pane during swap */
 .recto, .verso {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
+  box-shadow: 0px 0px 1px #505151;
 }
 
 /* front pane, placed above back */
@@ -78,15 +112,40 @@ ul li a:hover {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
-  background-color: beige;
+  /*background-color: beige;*/
+  background-color: #F5ECCD;
   border-radius: 15px;
 }
 
 /* back, initially hidden pane */
 .verso {
 	transform: rotateY(180deg);
-  background-color: beige;
+  /*background-color: beige;*/
+  background-color: #F5ECCD;
+
   border-radius: 15px;
+}
+
+.arrow {
+  /*position absolute;*/
+  /*margin: auto;*/
+  position: relative;
+  margin: auto;
+  top: 130px;
+  text-align: center;
+  bottom: 0px;
+  width: 15px;
+  height: 15px;
+  border-bottom: 2px white solid;
+  border-right: 2px white solid;
+  transform: rotateZ(45deg)rotateY(0deg);
+  animation: upanddown 1.5s infinite;
+
+}
+@keyframes upanddown {
+    0%   {top: 330px;}
+    50%  {top: 335px}
+    100% {top: 330px;}
 }
 
 /* FOOTER */
