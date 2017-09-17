@@ -1,0 +1,86 @@
+/*********** FONTS **********/
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Berkshire Swash', cursive;
+
+.dosis-font {
+  font-family: 'Dosis', sans-serif;
+}
+
+.comfortaa-font {
+  font-family: 'Comfortaa', cursive;
+}
+
+.berkshire-font {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+/*********** DRY ************/
+.pos-abs {
+  position: absolute;
+}
+
+.full-width {
+ width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex-display {
+  position: relative;
+  display: flex; /* flex display */
+  align-items: center; /* up and down */
+  justify-content: center; /* left and right */
+}
+
+/*********** BODY ***********/
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/********** HEADER **********/
+header {
+  height: 20%;
+  background-color: #009FB7;
+  position: relative;
+  display: flex; /* flex display */
+  align-items: center; /* up and down */
+}
+
+/*********** MAIN ***********/
+main {
+  height: 70%;
+}
+
+div.profile-wrapper img {
+  border-radius: 100em;
+  height: 400px;
+}
+
+img.contact {
+  height: 75px;
+}
+
+/*********** FOOTER *********/
+footer {
+  height: 10%;
+}
+
+footer p {
+  font-size: 1em;
+  padding: 0;
+  background-color: #F4F4F8;
+}
+
+footer a {
+  color: grey;
+}

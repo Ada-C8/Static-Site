@@ -1,0 +1,68 @@
+/************ DRY ***********/
+
+.div-height {
+  height: 33%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*********** MAIN ***********/
+
+main {
+  height: 90%;
+}
+
+p {
+  font-size: 40px;
+  padding-top: 1.75em;
+  margin: 0;
+  height: 3em;
+}
+
+.p1 {
+  background-color: #FE4A49;
+}
+.p2 {
+  background-color: #FED766;
+}
+.p3 {
+  background-color: #009FB7;
+}
+
+/********** HOVER **********/
+
+.flex-display {
+  position: relative;
+  display: flex; /* flex display */
+  align-items: center; /* up and down */
+  justify-content: center; /* left and right */
+}
+
+.overlay {
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #E6E6EA;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+  text-decoration:none;
+}
+
+.flex-display:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  padding: 1px 0 2px 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
