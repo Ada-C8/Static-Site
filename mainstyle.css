@@ -11,7 +11,11 @@
   width: 150px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;}
+  margin: 5px;
+  font-family: "Codystar";
+  color: white;
+  text-decoration: none;
+  }
 
 .button:hover {
   color : #C877D9;
@@ -27,7 +31,8 @@
   left:70%;
 }
 
-.topleft{position:absolute;
+.topleft{
+  position:absolute;
   left:0;
   top:0
 }
@@ -48,16 +53,13 @@
   font-family: 'Cutive Mono', monospace;
 }
 
+
 h1 {
 font-family: "Codystar";
 font-size: 4em;
 color: white;
 }
 
-h2 {
-  font-family: "Codystar";
-  color: white;
-}
 .photocred {
     position:absolute;
     right:5%;
