@@ -77,12 +77,17 @@ main .main-content {
 
 .project .post {
   color: rgb(250, 249, 244);
-  margin: 3%5%;
+  margin: 5%;
   height: 210px;
   width: 90%;
   overflow-wrap: break-word;
   overflow: scroll;
   line-height: 1.5em;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
 }
 
 .project a {
@@ -100,6 +105,17 @@ footer {
 
 footer h4 {
   color: white;
+}
+
+footer img {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+footer img:hover {
+  border: 2px solid white;
 }
 
 /******************/
