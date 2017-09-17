@@ -12,10 +12,16 @@ header{
   content: "";
   width: 100%;
   z-index: 10;
+  background-color: #4C5556;
+}
+
+header a:visited{
+  color: white;
 }
 
 header h2 {
-  margin-left: 10px;
+  color: white;
+  margin-left: 20px;
   float: left;
 }
 
@@ -30,22 +36,77 @@ header nav ul{
 
 header nav ul li{
   color: black;
-  background-color: yellow;
   padding: 10px;
-  display: inline-block;
   margin-right: 15px;
+  display: inline-block;
+  background-color: #6ABAD0;
+  border-radius: 5px;
+}
+
+/* When window is smaller than 592px... */
+@media (max-width: 592px) {
+  header h2, header nav ul{
+    float: none;
+  }
+
+  header h2{
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    display: block;
+  }
+  header nav ul li{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+  }
 }
 /*End Header*/
+
+/* Footer */
+footer{
+  background-color: pink;
+  padding: 20px;
+}
+footer h4, footer p {
+  display: inline;
+}
+
+
+/* Main */
+main{
+  overflow: auto;
+  background-color: #EEEEEE;
+}
+/* End Main */
 
 /* Intro With Text */
 #intro {
   margin: auto;
-  width: 70vw;
+  width: 90vw;
   font-size: 14pt;
-
 }
 /* End Intro With Text */
 
+/* Terimal Code Font CSS */
+#terminal_body *, #terminal_code:before, .not-index-terminal p, .not-index-terminal .dollarsign{
+  color: lime;
+  font-size: 20pt;
+}
+
+#terminal_code, .not-index-terminal > p{
+  position: absolute;
+  margin: 0;
+  margin-left: 50px; /* space between dollar sign and code */
+}
+
+@keyframes typing { from { width: 0; } }
+
+#terminal_code, .dollarsign, .not-index-terminal > p{
+  font: bold 20pt Consolas, Monaco, monospace;
+  display: inline-block;
+}
 /* Terminal */
 #terminal_body, #terminal_title_bar{
   border-radius: 5px;
@@ -53,16 +114,9 @@ header nav ul li{
 
 #terminal_body{
   margin: auto;
-  margin-bottom: 30px;
   height: 350px;
-  width: 50vw;
-  min-width: 600px;
+  width: 75vw;
   background-color: rgba(50,50,90,0.8);
-}
-
-#terminal_body *, #terminal_code:before{
-  font-size: 20pt;
-  color: lime
 }
 
 #terminal_title_bar {
@@ -102,15 +156,15 @@ header nav ul li{
 
 /* To animate the terminal code */
 /* Text Cursor */
-.terminal_choice:hover ~ #terminal_code:before{
-  border-right: .7em solid;
+.terminal_choice:hover ~ #terminal_code:before, .not-index-terminal p{
+  border-right: .7em solid; /* blinking cursor */
   padding-right: 2px;
 	overflow: auto;
 	animation: blink-caret .5s step-end infinite alternate;
 }
 
 #portfolio_choice:hover ~ #terminal_code:before{
-  content: "isaac show project_inventory";
+  content: "isaac show portfolio";
 }
 
 #codejournal_choice:hover ~ #terminal_code:before{
@@ -121,32 +175,42 @@ header nav ul li{
   content: "isaac history";
 }
 
-#terminal_code, #dollarsign{
-  font: bold 12pt Consolas, Monaco, monospace;
-  display: inline-block;
-}
 
-#dollarsign{
+.dollarsign{
   margin-left: 10px;
   position: absolute;
-  font-size: 20pt;
-}
-
-#terminal_code{
-  position: absolute;
-  margin: 0;
-  margin-left: 2.7em; /* space between dollar sign and code */
 }
 
 @keyframes blink-caret { 50% { border-color: transparent; } }
 /* End terminal code animation */
 /* End Terminal */
 
-/* Footer */
-footer{
-  background-color: pink;
-  padding: 20px;
+/* END INDEX */
+
+/* Begin Portfolio CSS */
+
+aside.not-index-terminal{
+  margin-top: 10px;
+  margin-left: 41px;
+  margin-bottom: 50px;
 }
-footer h4, footer p {
-  display: inline;
+
+.not-index-terminal p, .not-index-terminal .dollarsign{
+  color: black;
 }
+
+/* typing animation */
+.not-index-terminal p {
+	width: 20ch; /* # of chars */
+	white-space: nowrap;
+	animation: typing 2s steps(20, end), /* # of steps = # of chars */
+	           blink-caret .5s step-end infinite alternate;
+}
+
+/* End Portfolio CSS */
+
+/* Non-index.html CSS*/
+  main section{
+    margin: 50px;
+  }
+/* End Non-index.html CSS*/
