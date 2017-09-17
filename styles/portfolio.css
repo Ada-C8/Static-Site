@@ -30,7 +30,7 @@ a:hover {
 header h3 {
   width: 20%;
   float: left;
-  margin: 4% 0 1% 0;
+  padding: 1% 0 0 0;
   color: white;
 }
 
@@ -62,7 +62,7 @@ main p:first-of-type {
 
 main .main-content {
   position: relative;
-  left: 50px;
+  text-align: center;
 }
 
 section .project {
@@ -74,7 +74,7 @@ section .project {
   padding: 7%;
   /*border: solid;
   border-color: black;*/
-  margin: 5% 2% 2% 1%;
+  margin: 3%;
 }
 
 .project p:first-of-type {
@@ -95,18 +95,22 @@ section .project {
 .project p:last-child {
   text-align: center;
   vertical-align: bottom;
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
 }
 
 .project a {
   color: black;
 }
 
+img {
+  height: 30px;
+  width: 30px;
+}
+
 /*footer*/
 
 footer {
   background-color: black;
-  padding: 1.8%;
   border-style: solid;
   border-top-width: 1px;
   border-top-color: white;
@@ -114,8 +118,6 @@ footer {
 
 footer h4 {
   color: white;
-  font-size: 0.5em;
-  margin: 0;
 }
 
 /******************/

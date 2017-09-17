@@ -30,7 +30,7 @@ a:hover {
 header h3 {
   width: 20%;
   float: left;
-  margin: 4% 0 1% 0;
+  padding: 1% 0 0 0;
   color: white;
 }
 
@@ -97,7 +97,6 @@ main .main-content {
 
 footer {
   background-color: black;
-  padding: 1.8%;
   border-style: solid;
   border-top-width: 1px;
   border-top-color: white;
@@ -105,8 +104,6 @@ footer {
 
 footer h4 {
   color: white;
-  font-size: 0.5em;
-  margin: 0;
 }
 
 /******************/
