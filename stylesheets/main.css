@@ -4,7 +4,8 @@ General Stuff
 ******************/
 
 body {
-  background-color: white;
+  background-color: pink;
+  /*white;*/
   /*#dae7e2;*/
 
   /*#abcabd;*/
@@ -14,6 +15,16 @@ body {
   /*color: #fd9764;*/
   /*color:  #604872;*/
   font-family: Verdana;
+}
+
+.left {
+  clear: left;
+  float: left;
+}
+
+.right {
+  clear: right;
+  float: right;
 }
 
 a:link {
@@ -32,10 +43,10 @@ a:visited {
 Header
 ******************/
 
-
 header nav {
+  background-color: #dae7e2;
   width: 100%;
-  height: 60px;
+  height: 45px;
   margin-bottom: 0px;
 }
 
@@ -57,18 +68,6 @@ header img {
   position: relative;
   left: 240px;
   width: 8%;
-}
-
-header .internal-links {
-  border: 1px solid blue;
-  float: left;
-  clear: left;
-}
-
-header .contact-links {
-  border: 1px solid red;
-  float: right;
-  clear: right;
 }
 
 /******************
@@ -102,46 +101,73 @@ Index Page
 About Page
 ******************/
 
-.about_images {
-  height: 800px;
-  width: 100%;
-}
-
 .about_images h5 {
   margin: 0;
   text-align: center;
 }
 
 .about_images img {
+  margin-top: 10px;
   width: 100%;
 }
 
 .box {
+  border: 1px solid blue;
+  padding: 10px;
   position: relative;
-  width: 40%;
+  width: 38%;
+  height: 100%;
 }
 
-.left {
-  clear: left;
-  float: left;
+.about_images .left {
   left: 100px;
 }
 
-.right {
-  clear: right;
-  float: right;
+.about_images .right {
   right: 100px;
 }
 
-.top {
-  /*ignite*/
-  top: 30px;
+.about_images .top {
+  top: 10px;
   margin: 0;
 }
 
-.bottom {
-  top: 70px;
+.about_images .bottom {
+  top: 40px;
 }
+
+/******************
+Portfolio Page
+******************/
+
+
+.portfolio_images img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.portfolio_images h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio_images .left {
+  left: 100px;
+}
+
+.portfolio_images .right {
+  right: 100px;
+}
+
+.portfolio_images .top {
+  top: 10px;
+  margin: 0;
+}
+
+.portfolio_images .bottom {
+  top: 40px;
+}
+
 
 /******************
 Blog Page
@@ -171,22 +197,7 @@ Blog Page
 /******************
 Portfolio Page
 ******************/
-/*.picture_container {
-  border: 5px solid red;
-  width: 100%;
-  height: 100%;
-  /*position: absolute;*/
-/*}
 
-.main_picture {
-  border: 2px solid green;
-  display: block;
-  width: 50%;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  /*padding: 0, auto; */
-/*/
 
 /******************
 Footer
@@ -204,3 +215,21 @@ footer p {
   font-size: .5em;
   margin-top: 0;
 }*/
+
+
+/*.picture_container {
+  border: 5px solid red;
+  width: 100%;
+  height: 100%;
+  /*position: absolute;*/
+/*}
+
+.main_picture {
+  border: 2px solid green;
+  display: block;
+  width: 50%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding: 0, auto; */
+/*/
