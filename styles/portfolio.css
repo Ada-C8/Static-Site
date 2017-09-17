@@ -85,14 +85,28 @@ section .project {
   margin: 5% 0 0 0 ;
 }
 
-.project p:last-child {
-  text-align: center;
-  vertical-align: bottom;
-  margin: 5% 0 0 0;
-}
-
 .project a {
   color: black;
+}
+.project div p:last-child {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: none;
+  text-align: center;
+  vertical-align: bottom;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.project div p:hover {
+  background: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.project div p:active {
+  background: rgb(235, 11, 199);
+  opacity: 0.5;
 }
 
 img {
