@@ -1,0 +1,189 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Sans Extra Condensed', Helvetica;
+  background-color: #62e6ac;
+
+}
+
+#wrapper {
+  min-height: 100%;
+  /*position:relative;*/
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+header {
+  padding: 2em 2em;
+  height: 10em; /* TODO change?*/
+}
+
+header a {
+  text-decoration: none;
+  /*color: #efefef;
+  opacity: 0.7;*/
+  color: #efefef;
+}
+
+header li {
+  /*background-color: #fff;
+  opacity: 0.8;*/
+}
+
+#nav-right {
+  float: right;
+}
+
+#nav-right li {
+  display: inline;
+  text-decoration: none;
+  list-style-position: outside;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  border: 1px solid #efefef;
+  padding: 0.5em;
+}
+
+#nav-right li:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+}
+
+#front-page {
+  /*position: absolute;*/
+  clear: right;
+  font-size: 7vw;
+  padding-left: 5vw;
+  /*line-height: 0.5;*/
+  color: #191919;
+  margin-top: 0em;
+}
+
+#front-page {
+  margin: -1em 0;
+}
+
+#front-page a {
+  color: #191919;
+  text-decoration: none;
+}
+
+#front-page h3, #front-page h3>a {
+  text-transform: uppercase;
+  font-size: 5vw;
+  color: #efefef;
+  margin: 0.15em 0;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*background-color: #62e6ac;*/
+  height: 5%;
+  color: #efefef;
+  /*opacity: 0.7;*/
+}
+
+footer li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 2em;
+  list-style-position: outside;
+}
+
+#footer-left {
+  position: absolute;
+  bottom: 1em;
+  float: left;
+  padding-left: 1em;
+}
+
+#footer-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+  padding-right: 1em;
+}
+
+footer img {
+  width: 2em;
+}
+
+
+.typewriter h3 {
+  /*color: #fff;*/
+  background-color: #191919;
+  /*font-family: monospace;*/
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  padding-left: 0.5em;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  /*margin: 0 auto; /* Gives that scrolling effect as the typing happens */*/
+}
+
+.typewriter h3.first {
+  width: 60%;
+  animation-delay: 0s;
+  -webkit-animation:
+  typing1 4.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+  animation:
+  typing1 4.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+.typewriter h3.second {
+  width: 90%;
+  -webkit-animation:
+  hide 5s,
+  typing2 4.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+  animation:
+  hide 5s,
+  typing2 4.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+  animation-delay: 0s, 5s;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing1 {
+  from { width: 0 }
+  to { width: 60% }
+}
+@keyframes typing1 {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+@-webkit-keyframes typing2 {
+  from { width: 0 }
+  to { width: 90% }
+}
+@keyframes typing2 {
+  from { width: 0 }
+  to { width: 90% }
+}
+
+@-webkit-keyframes hide {
+  from { opacity: 0; } to { opacity: 0 }
+}
+
+@keyframes hide {
+  from { opacity: 0; } to { opacity: 0 }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
