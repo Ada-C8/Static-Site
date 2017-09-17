@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 *{
-  border: 2px solid blue;
+  /*border: 1px solid blue;*/
 }
 html, body{
   height: 100%;
@@ -24,18 +24,24 @@ footer{
 height: 40px;
 clear: both;
 }
-
+a{
+  border: 3px double rgba(255, 255, 255, 0);
+}
 a:hover{
-  border:1px double white;
+  border:3px double white;
   border-radius: 100px;
 }
 
-
-
-header nav ul li{
+header nav {
   margin-right: 20px;
   display: inline-block;
   float:right;
+}
+
+header nav ul li{
+  /*margin-right: 20px;*/
+  display: inline-block;
+  /*float:right;*/
 }
 header nav ul li a, footer ul li a{
   text-decoration: none;
@@ -53,7 +59,7 @@ header p{
   float: left;
   font-family: 'IM Fell Great Primer', serif;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   vertical-align: top;
 }
 header{

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+main article{
+  display: inline-block;
+width: 25%;
+/*height: 150px;*/
+display: inline-block;
+border-radius: 20px;
+box-shadow: 5px 5px 5px gray;
+margin: 10px;
+padding: 10px;
+}
+
+main article h3{
+  text-align: center;
+  font-family: IM Fell Great Primer, serif;
+  font-size: 16
+}
+main article:nth-last-of-type(even){
+background-color: lightgoldenrodyellow;
+}
+main article:nth-last-of-type(odd){
+background-color: powderblue;
+}
+
+main article p{
+  font-family: helvetica, arial;
+}
+
+main img{
+  width: 100%;
+}
