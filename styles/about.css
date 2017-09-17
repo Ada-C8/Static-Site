@@ -64,6 +64,7 @@ article {
   background: rgba(204, 204, 204, 0.1);
   width: 310px;
   height: 310px;
+  border: 1px solid rgba(251, 251, 251, 0.6);
   border-radius: 50%;
   display: inline-block;
   padding: 7%;
