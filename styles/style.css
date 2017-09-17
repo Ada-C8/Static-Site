@@ -1,6 +1,10 @@
 /*COLORS:
-
-
+#ffdbdb - light pink
+#c5e9df - light teal
+#97beb9 - teal
+#f9f0df - milk
+#9b9690 - olive gray
+#7a664d - olive brown
 */
 
 /*GLOBAL*/
@@ -16,10 +20,17 @@ body a {
 }
 
 body {
+  color: #9b9690;
+}
+
+body {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 16px;
 }
 
+body a:hover, .active {
+  font-weight: bold;
+}
 
 /*GENERAL*/
 .clearfix:after {
@@ -42,12 +53,6 @@ body {
   margin: auto;
 }
 
-.active {
-  font-weight: bold;
-}
-
-
-
 /*HEADER*/
 nav.social-nav ul * {
   display: inline-block;
@@ -59,16 +64,21 @@ nav.social-nav li {
 }
 
 nav.social-nav {
-  border-bottom: 2px solid red;
+  border-bottom: 1px solid #7a664d;
 }
 
 #signature img {
   display: block;
-  margin: auto;
+  margin: 1.2rem auto;
+  width: 40%;
 }
 
 header li {
   list-style: none;
+}
+
+header a:visited {
+  color: #9b9690;
 }
 
 nav.main-nav ul * {
@@ -91,60 +101,78 @@ main #spotlight {
   margin: .5rem 0;
 }
 
-main h1, h4 {
+main.index h1, h4 {
   display: inline-block;
   position: absolute;
 }
 
-main h1 {
+main.index h1 {
+  color: #7a664d;
   left: 55%;
   top: 45%;
 }
 
-main h4 {
+main.index h4 {
   left: 50%;
   top: 60%;
 }
 
-main div.line {
+main.index div.line {
   width: 10%;
   padding: 1rem;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #7a664d;
   position: absolute;
   left: 59%;
   top: 51.5%;
 }
 
-main section {
+main.index section {
   text-align: center;
-  margin: .5rem 0;
+  margin: .5rem 0 3rem 0;
 }
 
-main section a * {
+main.index section a * {
   display: inline-block;
   width: 32%;
   max-width: 310px;
 }
 
-main section a:first-of-type * {
+main.index section a:first-of-type * {
   float: left;
 }
 
-main section a:last-of-type * {
+main.index section a:last-of-type * {
   float: right;
 }
 
-main section a:nth-of-type(2) * {
+main.index section a:nth-of-type(2) * {
   margin: 0 1.47%;
+}
+
+main.code h2{
+  color: #7a664d;
+  padding-top: 2rem;
+}
+
+main.code h5 {
+  padding: .2rem 0 .5rem 0;
+  border-top: 1px solid #9b9690;
+}
+
+main.code img {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  padding-right: .5rem;
 }
 
 /*FOOTER*/
 footer {
-  /*margin-top: 5rem;*/
+  border-top: 3px solid #7a664d;
 }
 
 footer p {
   font-size: .8rem;
-  margin: 2rem 0 1rem 0;
+  margin: .8rem 0 1rem 0;
   text-align: center;
 }
