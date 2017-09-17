@@ -6,12 +6,9 @@ header {
   font-size: 40px;
   padding: 2% 10% 0 10%;
   color: rgb(19, 113, 153);
-  text-shadow: 1px 1px white;
-  font-family: 'Source Code Pro', monospace;
+  text-shadow: 2px 2px white;
   font-family: 'VT323', monospace;
-}
-p {
-  margin: 0;
+  margin-bottom: 30px;
 }
 article {
   position: fixed;
@@ -22,27 +19,16 @@ article {
   border-radius: 2%;
   overflow-y: scroll;
 }
-
 ul {
   list-style-type: none;
 }
 .nav {
-  color: rgba(213, 85, 158, 0.96);
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Londrina Shadow', cursive;
   text-decoration: none;
-  padding: 5px;
-  display: flex;
-  height: 20px;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 18px;
+  float: right;
+  clear: right;
+  font-size: 50px;
 }
 .nav:hover {
   color: rgb(19, 137, 179);
-}
-.nav:hover::before {
-  content:"🥑🥑";
-}
-.nav:hover::after {
-  content:"🥑🥑";
 }

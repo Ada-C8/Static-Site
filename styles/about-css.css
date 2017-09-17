@@ -1,58 +1,57 @@
-body {
-  /*background-image: url("../images_style_sheets/chicago.jpg");
-  background-size: 1000px;*/
-  /*background: cover;*/
-  background-color: rgb(179, 244, 234);
-}
-header {
-  display: flex;
-  justify-content: center;
-}
 img {
   height: 500px;
-  /*border-style: double;*/
-  /*border-color: white;*/
-  padding-right: 20px;
-  /*border-radius: 50%;*/
+  padding-right: 50px;
+}
+header {
+  height: 5%;
+  background-image: url("../images_style_sheets/fronds5.jpg");
 }
 ul {
   list-style-type: none;
+  margin: 0;
 }
 .nav {
-  color: rgba(213, 85, 158, 0.96);
-  font-family: 'Source Code Pro', monospace;
+  color: white;
+  /*font-weight: bold;*/
+  /*color: rgb(123, 164, 209);*/
+  /*color: rgba(213, 85, 158, 0.96);*/
+  font-family: 'Londrina Shadow', cursive;
+font-weight: bold;
+   /*font-family: 'Source Code Pro', monospace;*/
   text-decoration: none;
-  padding: 5px;
-  margin-bottom: 1px;
+  padding: 0px;
   display: flex;
-  height: 20px;
-  justify-content: center;
-  align-items: flex-end;
-  font-size: 18px;
+  justify-content: flex-end;
+  font-size: 50px;
 }
 .nav:hover {
-  color: rgb(19, 137, 179);
+  color: rgb(242, 255, 134);
 }
-.nav:hover::before {
-  content:"🥑🥑";
+/*.nav:hover::before {
+content:"🥑🥑";
 }
 .nav:hover::after {
-  content:"🥑🥑";
-}
+content:"🥑🥑";
+}*/
 .hello {
+  max-height: 60%;
   display: flex;
   justify-content: center;
+  background-color: rgb(233, 177, 211);
 }
 .parent {
   font-family: 'Amatic SC';
-
-  /*font-family: 'Nixie One', cursive;*/
-  color: black;
+  color: rgb(102, 51, 167);
   font-size: 2em;
   width: 600px;
-  /*background-color: white;*/
 }
-
+.parent h1 {
+  color: white;
+  margin-bottom: 0;
+}
+.parent p {
+  margin-top: 0;
+}
 .parent a {
   text-decoration: none;
 }
@@ -60,6 +59,14 @@ ul {
   font-weight: bold;
   color: rgb(102, 51, 167);
 }
-.parent h1 {
+footer p {
   margin-top: 0;
+  margin-bottom: 0px;
+  color: white;
+  height: 50px;
+  font-family: 'Source Code Pro', monospace;
+  background-image: url("../images_style_sheets/fronds5.jpg");
+}
+html {
+  margin-bottom: 0;
 }
