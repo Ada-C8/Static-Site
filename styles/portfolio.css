@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 html, body {
   height: 100%;
@@ -63,7 +64,7 @@ body {
 /******** MAIN ********/
 
 main {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   text-align: center;
 }
 
@@ -75,8 +76,9 @@ main a:visited {
   color: black;
 }
 .articles-wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  vertical-align: middle:
 }
 
 main article {
@@ -87,7 +89,6 @@ main article {
   background-color: white;
   text-align: justify;
   transition: all 0.3s ease-in-out;
-
 }
 
 main article:hover {
@@ -104,13 +105,13 @@ footer {
   left: 0;
   padding: 0.5rem;
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   color: white;
 }
 
 footer header {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 footer nav {
@@ -123,8 +124,8 @@ footer ul {
 
 footer nav li {
   display: inline-block;
-  padding: 5px;
 }
+
 /******** CLEARFIX ********/
 .clearfix:after {
   visibility: hidden;
