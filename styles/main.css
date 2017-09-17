@@ -34,7 +34,15 @@ header {
 }
 
 .portfolio_banner {
-  background-image: url("../images/DSCN6835.JPG")
+  background-image: url("../images/Beach.JPG")
+}
+
+.camino_banner {
+  background-image: url("../images/Camino_sign.JPG")
+}
+
+.about_banner {
+  background-image: url("../images/lake.JPG")
 }
 
 .main_banner {
