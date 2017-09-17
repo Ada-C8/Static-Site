@@ -70,9 +70,6 @@ body {
   background: #F1D3FF;
 }
 
-footer {
-
-}
 .home, .portfolio, .blog, .about {
   padding: 100px 100px 100px 0;
   margin: 0 auto;
@@ -89,45 +86,42 @@ h1{
   width: 90vw;
 }
 
-/*porfolio columns*/
-.portfolio {
+/*porfolio boxes held in flex-container*/
+main.flex-container {
+  padding: 2% 0;
   display: flex;
   flex-wrap: wrap;
+  width: 90vw;
+  height: 90%;
   justify-content: space-between;
+  align-items: center;
 }
 
-.portfolio .flex-grid {
-  width: 20vw;
-  margin-left: 0;
-
-
+.flex-container .flex-grid {
+  width: 25vw;
+  height: 25vw;
 	text-align: center;
-  /*perspective: 900;*/
 }
 
-.portfolio .col {
+.flex-container .col {
   position: relative;
-  /*margin: 2% 0;*/
   border: 10px dotted white;
   /*specific to .portfolio*/
-  width: 100%;
-  height: 250px;
+  width: 80%;
+  height: 60%;
+  margin: auto;
   transition: all 0.6s ease;
   transform-style: preserve-3d;
 }
 
-.portfolio .front, .portfolio .back {
+.flex-container .front, .flex-container .back {
   backface-visibility: hidden;
 }
-.flex-grid:hover .col{
+
+.flex-container>.flex-grid:hover .col{
   transform: rotateY(180deg);
 }
 
-/*.portfolio .front { trying something out
-  width: auto;
-  height: 100%;
-  margin: 0 auto;
-}*/
 .front, .back {
   position: absolute;
   height: 100%;
@@ -137,36 +131,21 @@ h1{
   left: 0;
 }
 
-.portfolio img {
+.flex-container img {
   width: 100%;
   height: 100%;
   margin: auto;
 }
 
-/*.portfolio .back { trying something out, removebelow to fix
-  display: block;
-  position: relative;
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: purple;
-  transform: rotateY(180deg);
-}*/
-.portfolio .back {
+.flex-container .back {
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/*.portfolio p { dont know what im doing
-  position: absolute;
-  padding: 5%;
-  font-size: 1.5em;
-  text-align: justify;
-  background: blue;
-}*/
+.flex-container p {
+  font-size: 1.2em;
+}
 
 /* blog */
 main.blog {
