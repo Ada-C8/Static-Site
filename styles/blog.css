@@ -1,7 +1,6 @@
 body {
   background-image: url("../images_style_sheets/backdrop1.jpg");
   background-size: cover;
-  /*background-color: rgb(250, 255, 219);*/
 }
 ul {
   list-style-type: none;
@@ -11,10 +10,8 @@ header {
   background-image: url("../images_style_sheets/fronds2.jpg");
   background-size: cover;
 }
-
 .nav {
   font-family: 'Londrina Shadow', cursive;
-  text-decoration: none;
   float: right;
   clear: right;
   font-size: 50px;
@@ -22,6 +19,33 @@ header {
 }
 .nav:hover {
   color: rgb(19, 137, 179);
+}
+.body {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+#sidebar {
+  color: black;
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  padding-bottom: 3px;
+  border-bottom: thick dotted rgb(70, 60, 97);
+}
+aside a:hover {
+  color: rgb(135, 61, 181);
+}
+aside ul {
+  padding-left: 2px;
+}
+aside {
+  background-color: rgb(229, 255, 222);
+  width: 150px;
+  position: fixed;
+  margin-left: -10px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(16, 67, 156);
 }
 h2 {
   font-family: 'Londrina Shadow', cursive;
@@ -46,7 +70,7 @@ p {
   font-family: 'Nunito Sans', sans-serif;
 }
 article {
-  padding-left: 20%;
+  padding-left: 30%;
   width: 700px;
 }
 img {
