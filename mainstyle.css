@@ -1,0 +1,45 @@
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;}
+
+  .container{
+  position:relative
+}
+.display-middle{
+  position:absolute;
+  top:30%;
+  left:70%;
+}
+
+.topleft{position:absolute;
+  left:0;
+  top:0
+}
+
+.bottomleft{
+  position:absolute;
+  left:10%;
+  bottom:10%;
+}
+
+h1 {
+font-family: "Codystar";
+font-size: 4em;
+color: white;
+}
+
+h2 {
+  font-family: "Codystar";
+  color: white;
+}
