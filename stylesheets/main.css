@@ -34,6 +34,14 @@ header li {
   opacity: 0.8;*/
 }
 
+#nav-left {
+  padding: 0 0.23em;
+  font-family: 'Mrs Sheppards';
+  font-size: 3em;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
 #nav-right {
   float: right;
 }
