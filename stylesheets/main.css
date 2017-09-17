@@ -8,13 +8,13 @@
 #748D5C
 5A656D*/
 /******************
-  General Stuff
+General Stuff
 ******************/
 
 body {
   background-color:
   #ece5c8;
-   /*#D0CDC2;*/
+  /*#D0CDC2;*/
   color:  #604872;
   /*#8cbfa0;*/
   /*#577070;*/
@@ -35,7 +35,7 @@ a:hover {
 }
 
 /******************
-  Header
+Header
 ******************/
 
 
@@ -76,23 +76,20 @@ header .contact-links {
 }
 
 /******************
-  Main Content
+Main Content
 ******************/
 /******************
-  Index Page
+Index Page
 ******************/
 
 .opening-info {
   background: url('../images/punchcards.jpg');
-  /*background: url('https://www.shutterstock.com/image-photo/stack-computer-punch-cards-circa-1960s70s-23155063');*/
-  /*background: '..images/cranes.jpg';*/
   /*background: url('http://via.placeholder.com/1600x900');*/
   background-repeat: no-repeat;
   /*background-position: center center;*/
   background-size: cover;
-
   clear: both;
-    height: 900px;
+  height: 900px;
 }
 
 .opening-titles {
@@ -100,46 +97,115 @@ header .contact-links {
   text-align: center;
   padding-top: 30px;
   position: relative;
-  left: 800px;
+  left: 950px;
   top: 100px;
   margin: 0px;
   width: 30%;
 }
 
 /******************
-  About Page
+About Page
 ******************/
-.left-box {
+
+.about_images {
+  border: 5px black solid;
+  height: 800px;
+  /*position: absolute;*/
+  width: 100%;
+}
+
+.top-left-box img {
+  /*ignite*/
+  border: 5px silver solid;
+  clear: left;
+  float: left;
+  /*display: inline-block;
+  position: relative;*/
+  /*left: 300px;
+  top: 100px;*/
+  margin: 0;
+  width: 30%;
+}
+
+.top-right-box img {
+  border: 5px red solid;
+  clear: right;
+  float: right;
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*right: 300px;
+  top: 100px;*/
+  margin: 0;
+  width: 40%;
+  /*name*/
+}
+
+.bottom-left-box img {
   border: 1px blue solid;
   clear: left;
   float: left;
-  left: 200px;
-  top: 100px;
-  position: relative;
-  width: 30%;
+  /*clear: both;
+  display: block;*/
+  /*position: relative;*/
+  /*left: 300px;
+  top: 100px;*/
+  width: 40%;
+  /*ada*/
+}
+
+.bottom-right-box img {
+  border: 1px green solid;
+  clear: right;
+  float: right;
+  /*position: relative;*/
+  /*clear: both;*/
+  /*display: inline-block;*/
+  /*right: 300px;
+  top: 100px;*/
+  width: 20%;
+  /*seattle*/
+}
+
+
+
+
+
+
+
+
+
+
+/*.left-box {
+border: 1px blue solid;
+clear: left;
+float: left;
+left: 200px;
+top: 100px;
+position: relative;
+width: 30%;
 }
 
 .left-box li {
-  padding: 10px;
+padding: 10px;
 }
 
 .right-box img {
-  height: 800px;
-  width: 600px;
+height: 800px;
+width: 600px;
 }
 
 .right-box {
-  border: 1px red solid;
-  clear: right;
-  background-color: grey;
-  float: right;
-  position: relative;
-  right: 300px;
-  top: 100px;
-  width: 30%;
-}
+border: 1px red solid;
+clear: right;
+background-color: grey;
+float: right;
+position: relative;
+right: 300px;
+top: 100px;
+width: 30%;
+}*/
 /******************
-  Portfolio Page
+Portfolio Page
 ******************/
 .picture_container {
   border: 5px solid red;
@@ -159,7 +225,7 @@ header .contact-links {
 }
 
 /******************
-  Footer
+Footer
 ******************/
 
 footer {
