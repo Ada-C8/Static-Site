@@ -1,0 +1,155 @@
+/*font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Biryani', sans-serif;
+font-family: 'Bungee', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+
+html {
+  overflow-x:hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*HEADER */
+
+@media all and (min-width: 600px) {
+  header h1 { flex: 1 auto; }
+  ul  { flex: 1 0; }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 5px;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4em;
+  font-family: 'Bowlby One SC', cursive;
+  /*border: 10px dotted purple;*/
+  margin: 0px;
+  padding-left: 10px;
+}
+
+nav {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+nav ul {
+  display: inline-flex;
+  /*border: 10px dotted blue;*/
+}
+
+nav ul li {
+  list-style-type: none;
+  font-family: 'Bowlby One SC', cursive;
+  padding-right: 60px;
+}
+
+header a:hover {
+  color: orange;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*HOME PAGE: ARROW AND HEADSHOT BELOW HEADER*/
+
+/*@media all and (min-width: 600px) {
+  .arrow { flex: 1 0; }
+  .headshot { flex: 1 0; }
+}*/
+
+.arrow-headshot {
+  display:flex;
+  flex-wrap: nowrap;
+  padding-left: 190px;
+}
+
+.arrow {
+  max-height: 200px;
+  align-self:flex-start;
+}
+
+.headshot {
+  max-height: 300px;
+}
+
+/*TRYING TO MAKE THE PHOTO DIAMOND SHAPED (OR OTHER IDEAS IN THIS CODEPEN)*/
+/*https://codepen.io/CreativeJuiz/pen/Hizkh*/
+/*.diamond, .dia {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+}
+
+.diamond {
+  transform: rotate(45deg) translateY(-25px) translateX(-25px);
+}
+
+.diamond .dia {
+  transform: rotate(-45deg);
+}*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*FOOTER*/
+footer-links.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*ELEMENTS USED THROUGHOUT*/
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*PORTFOLIO PAGE*/
+.project-posts-container {
+
+}
+
+.project {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 10px dotted green;
+}
+
+.projectname {
+  font-family: 'Biryani', sans-serif;
+  font-size: 2em;
+  border: 10px dotted purple;
+
+}
+
+.projectimage {
+  display:inline-flex;
+  max-width: auto;
+  height:300px;
+}
+
+.projectdate {
+
+}
+
+.projectdescription {
+  border: 10px dotted yellow;
+
+}
