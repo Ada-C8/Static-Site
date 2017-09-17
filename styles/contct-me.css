@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 
 body{
-  font-family: "IM Fell Great Primer"
+  font-family: "IM Fell Great Primer";
+  background-color: lightcyan;
+  background-image: url("../images/computer-2557644_1920.jpg");
+  background-blend-mode: screen;
+  background-size: cover;
 }
 main section h2, main section article h3{
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
 }
 
 section .contact-me img{
   width: 100px;
+  text-align: center;
+  margin: 0px;
 }
-
+.contact-me h3{
+  font-size: 18px;
+}
 section .contact-me{
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
+  vertical-align: middle;
+  text-align: center;
+  width:15%;
 }
+
 
 img{
   width: 100%;

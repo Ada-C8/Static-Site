@@ -12,19 +12,25 @@ padding: 10px;
 main h2{
   font-family: IM Fell Great Primer, serif;
   text-align: center;
-  font-size: 36px;
+  font-size: 48px;
+  background-image: url("../images/nature-animal-fog-insect-18572.jpg");
+  background-size: 100%;
+  height: 200px;
+  color: white;
+    text-shadow: 2px 2px 7px #111111;
+
 }
 
 main article h3{
   text-align: center;
   font-family: IM Fell Great Primer, serif;
-  font-size: 16
+  font-size: 24px;
 }
 main article:nth-last-of-type(even){
-background-color: lightgoldenrodyellow;
+background-color: mistyrose;
 }
 main article:nth-last-of-type(odd){
-background-color: powderblue;
+background-color: paleturquoise;
 }
 main article p{
   font-family: helvetica, arial;

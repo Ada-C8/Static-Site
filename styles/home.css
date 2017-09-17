@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+h2{
+  text-align: center;
+  font-family: helvetica, serif;
+  margin: 20px;
+  font-size: 36px;
+  /*width: 100%;*/
+  border: 3px dotted;
+  text-shadow: 2px 2px 7px white;
+}
+
+.language{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: mistyrose;
+  clear:both;
+  height: 200px;
+  width: 25%;
+  margin: 20px;
+  border-radius: 20px;
+    background-blend-mode: screen;
+    /*filter: opacity(.2)*/
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.language h3{
+      padding-top: 50px;
+      font-family: helvetica, serif;
+      font-size: 36px;
+      color: white;
+      text-shadow: 2px 2px 7px black;
+      vertical-align: middle;
+
+}
+#section-one{
+  vertical-align: middle;
+}
+#ruby{
+  background-image:url("../images/emerald-1294690_1280.png");
+  background-size: 20%;
+}
+#javascript{
+  background-image: url("../images/technology-1283624_1920.jpg");
+  /*filter: contrast(50%);*/
+  background-size: 100%;
+  /*background-blend-mode: screen;*/
+  /*z-index: 99;*/
+}
+#html{
+  background-image: url("../images/code-1076533_1920.jpg");
+  background-size: 150%;
+
+}
+#css{
+  background-image: url("../images/code-1797778_1920.jpg");
+  background-size: 150%;
+  background-position: center;
+}
+
+#rails{
+  background-image: url("../images/gleise-1066111_1920.jpg");
+  background-size: 150%;
+  background-position: center;
+}
+
+section{
+  color: lightseagreen;
+  font-family: "IM Fell Great Primer", Arial;
+  background-color: lightcyan;
+}

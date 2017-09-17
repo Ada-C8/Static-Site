@@ -59,12 +59,17 @@ header p{
   float: left;
   font-family: 'IM Fell Great Primer', serif;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   vertical-align: top;
 }
 header{
   position: relative;
   width: 100%;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, lightseagreen, mistyrose); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, lightseagreen, mistyrose); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, lightseagreen, mistyrose); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, lightseagreen, mistyrose);
   background-color: lightseagreen;
   height: 50px;
 }
@@ -77,11 +82,13 @@ main{
 main #letter{
   font-family: 'IM Fell Great Primer', serif;
   margin: 10px;
+  font-size: 24px;
+  margin: 10px;
 }
 
 main #signature{
   font-family: pacifico, cursive;
-  font-size: 18;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -100,7 +107,9 @@ footer{
 footer ul li a{
   text-shadow: 2px 2px 7px lightseagreen;
 }
-
+footer nav{
+  position: absolute;
+}
 footer ul li{
   display:inline-block;
   align-content: space-between;
