@@ -1,0 +1,105 @@
+body {
+  background-color: #DB5461;
+  font-family: arial;
+  text-align: center;
+  box-sizing: content-box;
+}
+body:after {
+    background:#FFBFA0;
+    position:fixed;
+    top:0;
+    bottom:7vh;
+    right:0;
+    left:0;
+    content:" ";
+    z-index:-1;
+}
+
+/* HEADER */
+ul {
+  padding: 5px;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  /*font-weight: bold;*/
+  padding: 5px
+}
+ul li a:hover {
+  color: #7D827A;
+  border-bottom: 2px white solid;
+  /*text-decoration: underline;*/
+  /*font-weight: bold;*/
+}
+
+/* MAIN */
+
+.contact {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.contact:hover .flipper, .contact.hover .flipper {
+		transform: rotateY(180deg);
+
+	}
+
+.contact, .recto, .verso {
+	width: 300px;
+	height: 190px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.recto, .verso {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.recto {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+  background-color: beige;
+  border-radius: 15px;
+}
+
+/* back, initially hidden pane */
+.verso {
+	transform: rotateY(180deg);
+  background-color: beige;
+  border-radius: 15px;
+}
+
+/* FOOTER */
+footer {
+}
+[src="images/phone.png"] {
+  width: 200px;
+  position: absolute;
+  right: 2vw;
+  bottom: 3vh;
+
+  /*margin: auto;*/
+  /*bottom: -65vh;*/
+  /*top: 62vh;*/
+  /*left: 38vw;*/
+}

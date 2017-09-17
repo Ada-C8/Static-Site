@@ -1,0 +1,61 @@
+body {
+  background-color: #DB5461;
+  font-family: arial;
+  text-align: center;
+  box-sizing: content-box;
+}
+body:after {
+    background:#FFBFA0;
+    position:fixed;
+    top:0;
+    bottom:7vh;
+    right:0;
+    left:0;
+    content:" ";
+    z-index:-1;
+}
+
+/* HEADER */
+ul {
+  padding: 5px;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  /*font-weight: bold;*/
+  padding: 5px
+}
+ul li a:hover {
+  color: #7D827A;
+  border-bottom: 2px white solid;
+  /*text-decoration: underline;*/
+  /*font-weight: bold;*/
+}
+
+/* MAIN */
+
+div.about {
+  position: relative;
+  margin: auto;
+  top: 15vh;
+  text-align: center;
+}
+[src="images/my-face.png"] {
+  /*position: absolute;*/
+  width: 200px;
+}
+div.about p {
+  /*position: absolute;*/
+  font-size: 1rem;
+  width: 250px;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+  color: white;
+}
