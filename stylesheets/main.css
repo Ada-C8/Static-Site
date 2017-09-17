@@ -70,7 +70,7 @@ body {
   background: #F1D3FF;
 }
 
-.home, .portfolio, .blog, .about {
+.portfolio, .blog, .about {
   padding: 100px 100px 100px 0;
   margin: 0 auto;
   width: 90vw;
@@ -78,13 +78,35 @@ body {
 }
 
 h1{
-  font-family: 'Unica One', cursive;
-  font-size: 4em;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 5em;
   color: #8161CA;
   letter-spacing: .5em;
   text-align: center;
   width: 90vw;
 }
+
+/*home page*/
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/cover.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  background-position: left bottom;
+  filter:hue-rotate(70deg);
+
+}
+
+.home h1{
+  position: absolute;
+  top: 100px;
+  left: -200px;
+  text-align: center;
+  z-index: 100;
+}
+
 
 /*porfolio boxes held in flex-container*/
 main.flex-container {
@@ -177,9 +199,10 @@ main.blog {
 }
 
 .blog h2 {
-  font-family: Lato;
+  font-family: 'Bungee Hairline', cursive;
   text-align: justify;
   color: #8161CA;
+  font-weight: bold;
 }
 
 /* About */
@@ -209,7 +232,7 @@ footer p {
   text-align: center;
 }
 
-.home p {
+/*.home p {
   position: absolute;
   bottom: 0;
-}
+}*/
