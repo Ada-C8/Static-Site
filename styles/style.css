@@ -1,6 +1,13 @@
+/* COLOR SCHEME
+#F28F3B Tiger's Eye (DarkOrange)
+#C8553D Cedar Chest (FireBrick)
+#588B8B Steel Teal (DarkCyan or Teal)
+#FFD5C2 Very Pale Orange (Nothing close... MistyRose? Faded LightSalmon? Faded Coral? Faded Tomato?) */
+
+
 /* BASE RULES */
 html {
-  font-size: 62.5%;
+  font-size: 100%;
   height: 100%;
 }
 
@@ -17,6 +24,7 @@ body {
 
 .override h1 { font-size: 4.8rem; line-height: 1.4; }
 .override h2 { font-size: 2.4rem; line-height: 1.4; }
+.override h3 { font-size: 1.8rem; line-height: 1.4; }
 .override h4 { font-size: 1rem; line-height: 1.4; }
 .override p, cite { font-size: 1.6rem; line-height: 1.4; }
 
@@ -74,7 +82,7 @@ header nav {
 /*MAIN CONTENT AREA*/
 main {
   display: flow-root;
-  padding: 14.6rem 0 6rem 0;
+  padding-top: 14.6rem; /*for header */
 }
 
 .left {
@@ -99,8 +107,8 @@ main {
 
 /* FOOTER */
 .wrapper {
-  min-height: 100%;
-  padding-bottom: 10rem;
+  min-height: calc(100% - 16rem);
+  padding-bottom: 16rem;
   position: relative;
 }
 
@@ -108,12 +116,13 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  min-height: 10rem;
-  width: 100%;
+  /*min-height: 10rem;*/
+  width: calc(100% - 4rem);
   background-color: MistyRose;
-  padding: 2%;
+  padding: 2rem;
 }
 
+}
 footer h4 {
   float: left;
   width: 50%;
@@ -131,24 +140,27 @@ footer nav {
 
 #icons li {
   display: inline;
-  padding-left: 2%;
+  padding-left: 5%;
+  font-size: 2rem;
 }
 
 .quote-of-the-day {
   font-style: italic;
   text-align: center;
-  max-width: 50rem;
+  max-width: 60rem;
   margin: auto;
   padding-bottom: 1rem;
 }
 
-.quote-of-the-day h2 {
+.quote-of-the-day h3 {
   font-family: 'Zilla Slab', serif;
 }
 
 /* LARGER THAN MOBILE */
 @media (min-width: 700px) {
-
+  html {
+    font-size: 62.5%
+  }
   .left {
     float:left;
   }
