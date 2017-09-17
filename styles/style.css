@@ -21,12 +21,15 @@ html {
 body {
   height: 100%;
 }
-
+.override article {
+  padding: 1rem;
+  margin: 1rem 0;
+}
 .override h1 { font-size: 4.8rem; line-height: 1.4; }
 .override h2 { font-size: 2.4rem; line-height: 1.4; }
-.override h3 { font-size: 1.8rem; line-height: 1.4; }
-.override h4 { font-size: 1rem; line-height: 1.4; }
-.override p, cite { font-size: 1.6rem; line-height: 1.4; }
+.override h3 { font-size: 2.0rem; line-height: 1.4; font-family: 'Zilla Slab', serif;}
+.override h4 { font-size: 1.6rem; line-height: 1.4; font-style: italic;}
+.override p, cite { font-size: 1.6rem; line-height: 1.4;}
 
 .override a, a:hover, a:visited, a:active, a:link {
   text-decoration: none;
@@ -84,6 +87,8 @@ main {
   display: flow-root;
   padding: 14.6rem 15% 10rem 15%; /*for header */
 }
+main h3, main h4 {text-align: right;}
+main p { text-align: justify;}
 
 .left {
   width: 100%;
@@ -118,6 +123,7 @@ footer {
 footer h4 {
   float: left;
   width: 50%;
+  font-size: .8rem;
 }
 
 footer nav {
@@ -144,7 +150,7 @@ footer nav {
   padding-bottom: 1rem;
 }
 
-.quote-of-the-day h3 {
+.quote-of-the-day h2 {
   font-family: 'Zilla Slab', serif;
 }
 
