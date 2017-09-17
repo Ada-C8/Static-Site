@@ -12,6 +12,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-weight: bold;
 }
 
 nav ul li:hover {
@@ -26,6 +27,7 @@ nav ul li.active {
 a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 /******** HEADER ********/
