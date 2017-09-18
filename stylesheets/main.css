@@ -5,7 +5,6 @@ General Stuff
 
 body {
   background-color: white;
-  /*white;*/
   /*#bb5019*/
   color: black;
   /*#fe9a6d;*/
@@ -106,7 +105,7 @@ About Page
 }
 
 .box {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   padding: 10px;
   position: relative;
   width: 38%;
@@ -185,12 +184,10 @@ Blog Page
 }
 
 .blog-posts {
-  /*border: 2px red solid;*/
   padding-left: 20px;
 }
 
 .blog-posts h3 {
-  /*border: 1px blue solid;*/
   border-radius: 15px;
   text-align: center;
 }
@@ -209,22 +206,37 @@ Blog Page
   width: 30%;
 }
 
+.blog-posts a{
+  border: 1px solid red;
+  background-color: #30BCED;
+  border-radius: 1rem;
+  color: #FFFAFF;
+  /*font-family: sans-serif;*/
+  padding: .5rem 1rem;
+  position: relative;
+  text-decoration: none;
+}
+
+/*#posts a {
+
+}*/
+
 /******************
 Footer
 ******************/
 
 footer {
-  border: 1px red solid;
+  background-color: #dae7e2;
   clear: both;
   margin-top: 0;
   opacity: .5;
 }
 
 footer p {
-  border: 1px green solid;
   color: red;
   font-size: .5em;
   margin-top: 0;
+  text-align: center;
 }
 
 
