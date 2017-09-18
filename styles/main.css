@@ -151,6 +151,7 @@ body {
     border-width: 10px;
     box-shadow: #AAA 0px 5px 10px;
     max-width: 525px;
+    max-height: 700px;
 }
 
 
@@ -158,6 +159,9 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.main_box h2:hover::after {
+    content: url('../assets/geeyeh.png');
+}
 .main_box a {
     font-style: italic;
     text-decoration: none;
@@ -172,8 +176,11 @@ body {
     text-shadow: #9b9b9b 10px -20px 50px;
 }
 
-.main_info {
-    
+
+.main_box article img {
+    max-width: 500px;
+    box-shadow: #AAA 0px 5px 20px;
+    margin-bottom: 20px;
 }
 
 .main_box h4 {
@@ -186,6 +193,11 @@ body {
     font-weight: 700;
 }
 
+.main_box article {
+    margin-left: 15px;
+    overflow-y: scroll;
+    max-height: 500px;
+}
 .photo_box {
     max-width: 900px;
 }
@@ -305,7 +317,8 @@ top: 55%;
     left: -800px;
     right: 1000px;
     bottom: -900px;
-    background-image: url(../assets/on_computer.jpg);
+    background-image: url(../assets/cat_on_computer_copy.jpg);
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -333,7 +346,8 @@ top: 55%;
     left: -1000px;
     right: -1000px;
     bottom: -1000px;
-    background-image: url(../assets/on_computer.jpg);
+    background-image: url(../assets/cat_on_computer_copy.jpg);
+    background-size: 10%;
     background-position: center;
     background-repeat: no-repeat;
 }
