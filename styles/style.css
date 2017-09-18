@@ -4,7 +4,7 @@ html {
   padding: 0;
 }
 
-nav li {
+nav ul li {
   display: inline;
   color: red;
   padding-right: 30px;
