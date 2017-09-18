@@ -46,9 +46,6 @@ body {
   /*background-image: "images/banana.jpg"*/
 }
 
-/*.bananas {
-  z-index: -5;
-}*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*HEADER */
 
@@ -106,6 +103,7 @@ header a:hover {
   display:flex;
   flex-wrap: nowrap;
   padding-left: 190px;
+  /*background-image: url(https://mdn.mozillademos.org/files/12005/starsolid.gif)*/
 }
 
 .arrow {
@@ -135,8 +133,8 @@ header a:hover {
 }*/
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*FOOTER*/
-footer-links.fa {
+/*FOOTER- TO EVENTUALLY INCLUDE LINKS AND ICONS TO LINKEDIN AND GITHUB*/
+/*footer-links.fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -151,9 +149,17 @@ footer-links.fa {
 .fa-twitter {
     background: #55ACEE;
     color: white;
-}
+}*/
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*ELEMENTS USED THROUGHOUT*/
+/*HOBBY BLOG*/
+.projectdescription a {
+  text-decoration: none;
+  color: black;
+}
+
+.projectdescription a:hover {
+  color: orange;
+}
 
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -188,6 +194,10 @@ footer-links.fa {
   font-size: 2em;
   font-weight:600;
   /*border: 10px dotted purple;*/
+}
+
+.projectname:hover {
+  color: orange;
 }
 
 .projectimage {
@@ -237,7 +247,7 @@ footer-links.fa {
 
 .about-me-text {
   /*order: 1;*/
-  /*width:100px;*/
+  width:600px;
   /*align-self:center;*/
   /*border: 10px dotted purple;*/
   padding-left: 50px;
