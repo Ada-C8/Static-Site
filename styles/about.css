@@ -1,0 +1,124 @@
+/*generic*/
+
+li {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: rgb(235, 11, 199);
+}
+
+/*header*/
+
+#highlight {
+  color: rgb(235, 11, 199);
+}
+
+#header-style {
+  background-color: black;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+}
+
+header h3 {
+  width: 30%;
+  float: left;
+  padding: 1% 0 0 0;
+  color: white;
+}
+
+/*main*/
+
+.main-background-image {
+  background-image: url("../images/pale_blue_dot.jpg");
+  padding: 0 0 7% 0;
+}
+
+/* articles */
+
+main p:first-of-type {
+  padding: 15% 0 0 2%;
+  color: white;
+}
+
+main .main-content {
+  position: relative;
+  left: 50px;
+}
+
+article {
+  background: rgba(204, 204, 204, 0.1);
+  width: 350px;
+  height: 350px;
+  border: 1px solid rgba(251, 251, 251, 0.6);
+  border-radius: 50%;
+  padding: 7%;
+  margin: 5% 2% 2% 1%;
+}
+
+article p {
+  text-align: center;
+  padding: 0;
+  color: white;
+  overflow-wrap: break-word;
+  padding: 8% 0 0 0;
+}
+
+span {
+  padding: 3%;
+}
+
+#names {
+  padding: 0;
+}
+
+#hobbies {
+  padding: 8% 0 0 0;
+}
+
+img {
+  height: 20px;
+  weight: 20px;
+  padding: 0 0 0 2%;
+}
+
+#last-line-about {
+  padding: 8% 0 0 17%;
+}
+
+/*footer*/
+
+footer {
+  background-color: black;
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: white;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer img {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+footer img:hover {
+  border: 2px solid white;
+}
