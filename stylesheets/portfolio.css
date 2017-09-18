@@ -6,7 +6,6 @@
 /*********** MAIN ***********/
 main.portfolio {
   background-color: #009FB7;
-
 }
 
 main.portfolio article {
@@ -23,38 +22,12 @@ article img {
   width: 100%
 }
 
-article.meowspace {
+article.meowspace, article.proj-port {
   float: left;
   clear: left;
 }
 
-article.riley {
+article.riley, article.pizza {
   float: right;
   clear: right;
-}
-
-article.proj-port {
-  float: left;
-}
-
-article.pizza {
-float: right;
-}
-
-
-
-div.description {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  position: absolute;
-  top: 0;
-
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-article.meowspace img:hover div.description {
-  opacity: 1;
 }
