@@ -21,6 +21,11 @@ body {
   /*width: 100%;*/
 }
 
+hr {
+  width: 70%;
+  border: 1px solid #ecc81f;
+}
+
 a:hover {
   /*color: #696969;*/
   /*color: rgba(0,0,0,0.6);*/
@@ -77,6 +82,17 @@ header nav li {
   padding: 6px;
 }
 
+/*ALL PAGES*/
+.main-text h2, p {
+  padding: 0px 40px;
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 /*HOME PAGE*/
 .home-banner img {
   position: relative;
@@ -101,15 +117,16 @@ header nav li {
   width: 100%;
 }
 
-.home h2, p {
-  padding: 0px 30px 20px 30px;
-  text-align: center;
+/*ABOUT*/
+/*^no specicications for now*/
+
+/*PORTFOLIO*/
+
+.portfolio main {
+  padding-top: 500px;
 }
 
-.home h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
+/*BLOG*/
 
 /*FOOTER*/
 
@@ -141,8 +158,6 @@ footer a {
   color: #746F72;
   text-decoration: none;
 }
-
-
 
 /*main {
   padding-top: 23px;
