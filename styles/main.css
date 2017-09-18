@@ -27,10 +27,10 @@ a:hover {
   color: #FF7E75;
 }
 
-/*p {
+p {
   font-family: 'Lora', serif;
   text-align: justify;
-}*/
+}
 
 /*HEADER*/
 header {
@@ -89,11 +89,11 @@ header nav li {
 
 .home-banner h1{
   position: absolute;
-  font-family: 'Open Sans', sans-serif;
   /*color: #BFBDBE;*/
   color: #807C7E;
-  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
+  font-size: 4em;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   animation: fade 2s;
@@ -101,11 +101,15 @@ header nav li {
   width: 100%;
 }
 
-.home p {
+.home h2, p {
   padding: 0px 30px 20px 30px;
-  font-size: 1.1em;
+  text-align: center;
 }
 
+.home h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
 
 /*FOOTER*/
 
@@ -138,11 +142,6 @@ footer a {
   text-decoration: none;
 }
 
-/*header h1, h2, h3 {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}*/
 
 
 /*main {
