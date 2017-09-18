@@ -1,0 +1,339 @@
+/*---------------INDEX START-----------------*/
+/*---------------body start-----------------*/
+.homepage {
+  background: url(../images/blurr2.jpg) no-repeat center center;
+  overflow: hidden;
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homepage div {
+  /*border: 0.1px solid white;*/
+  margin-top: 20%;
+  margin-bottom: 50%;
+}
+
+
+.homepage h1 {
+  /*border: 0.1px solid green;*/
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin: 5px 0 5px 0;
+}
+
+.homepage p {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  /*border: 0.1px solid green;*/
+  font-size: 20px;
+  color: white;
+  margin: 5px 0 5px 0;
+}
+
+.homepage nav{
+  /*border: 0.1px solid green;*/
+}
+
+.homepage ul {
+  list-style-type: none;
+  text-align: center;
+  max width: 40%;
+}
+
+.homepage ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline;
+  padding: 10px 20px 10px 20px;
+  margin-right: 3%;
+  border: 0.5px solid white;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+.homepage ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*---------------body END-----------------*/
+/*------------- INDEX END-----------------*/
+
+
+/*---------------ABOUT START-----------------*/
+/*--- header start---*/
+.body_class {
+  margin:0;
+}
+
+.about_header {
+  background-color: #00ffff;
+  background: url(../images/blurr2.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 135px;
+}
+
+.left_h1 {
+  width: 45%;
+  float: left;
+  margin-top: 0.5%;
+
+}
+
+.right_nav {
+  width: 45%;
+  float: left;
+  margin-top: 6.5%;
+  margin-left: 10%;
+}
+
+/*add hover affect*/
+.about_header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0 0% 0 5%;
+  padding-right: 0;
+  font-size: 120px;
+  color: white;
+}
+
+.about_header nav{
+  /*border: 0.1px solid yellow;*/
+}
+
+.about_header ul {
+  list-style-type: none;
+  text-align: right;
+  max width: 40%;
+}
+
+.about_header ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline;
+  border: 0.5px solid white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 3%;
+  font-size: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+.about_header ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+/*--- header end---*/
+/*--- body start ---*/
+
+.about_section {
+  display: inline-block;
+  /*border: 0.1px solid green;*/
+}
+
+
+.left_photo {
+  float: left;
+  max-width: 55%;
+  margin: 5% 0% 7% 7%;
+}
+
+.left_photo img {
+  height: auto;
+  width: auto;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.right_text {
+  float: right;
+  max-width: 40%;
+  margin: 5% 7% 7% 0%;
+
+}
+
+.right_text h2 {
+  /*border: 0.1px solid green;*/
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.right_text p {
+  /*border: 0.1px solid green;*/
+  font-family: 'Julius Sans One', sans-serif;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 20px;
+  display:block;
+
+}
+
+/*--- body end---*/
+/*---------------ABOUT END-----------------*/
+
+
+/*---------------CONTACT START-----------------*/
+.contact_header {
+  background-color: #00ffff;
+  background: url(../images/blurr2.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 135px;
+}
+
+.left_contact_h1 {
+  width: 45%;
+  float: left;
+  margin-top: 0.5%;
+
+}
+
+.right_contact_nav {
+  width: 45%;
+  float: left;
+  margin-top: 6.5%;
+  margin-left: 10%;
+}
+
+/*add hover affect*/
+.contact_header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0 0% 0 5%;
+  padding-right: 0;
+  font-size: 120px;
+  color: white;
+}
+
+.contact_header ul {
+  list-style-type: none;
+  text-align: right;
+  max width: 40%;
+}
+
+.contact_header ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline;
+  border: 0.5px solid white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 3%;
+  font-size: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+.contact_header ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+.contact_info {
+  margin-top: 7%;
+}
+
+.contact_info div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.contact_info p {
+  text-align: center;
+}
+
+.contact_info div nav ul {
+  list-style-type: none;
+  text-align: center;
+
+}
+
+.contact_info div nav ul li {
+  display: inline;
+  font-size: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/*---------------CONTACT END-----------------*/
+/*---------------PORTFOLIO START-----------------*/
+
+.portfolio_header {
+  background-color: #00ffff;
+  background: url(../images/blurr2.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 135px;
+}
+
+.left_portfolio_h1 {
+  width: 45%;
+  float: left;
+  margin-top: 0.5%;
+
+}
+
+.right_portfolio_nav {
+  width: 45%;
+  float: left;
+  margin-top: 6.5%;
+  margin-left: 10%;
+}
+
+/*add hover affect*/
+.portfolio_header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0 0% 0 5%;
+  padding-right: 0;
+  font-size: 120px;
+  color: white;
+}
+
+.portfolio_header ul {
+  list-style-type: none;
+  text-align: right;
+  max width: 40%;
+}
+
+.portfolio_header ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  display: inline;
+  border: 0.5px solid white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 3%;
+  font-size: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+.portfolio_header ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+/*---body---*/
+.portfolio_section {
+
+}
+
+.portfolio_section article {
+  display: inline-block;
+  margin: .5%;
+  min-width: 250px;
+  border:1px solid black;
+  border-radius: 15px 50px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+/*---------------PORTFOLIO END-----------------*/
