@@ -1,6 +1,6 @@
 main {
-  border-left: #25A0A0 10px double;
-  border-right: #25A0A0 10px double;
+  /*border-left: #25A0A0 10px double;
+  border-right: #25A0A0 10px double;*/
   padding: 3vw;
 }
 
@@ -15,7 +15,14 @@ main {
 
 main h1 {
   font-size: 5vw;
-  border-bottom: solid #3E517A 3px;
+  /*border-bottom: solid #3E517A 3px;*/
+  border-bottom: #25A0A0 3px solid;
+  margin-bottom: 0;
+}
+
+.poetry {
+    border-left: #25A0A0 10px double;
+    border-right: #25A0A0 10px double;
 }
 
 .poetry :nth-child(n) h2 {
@@ -28,6 +35,7 @@ main h1 {
 .poetry article:nth-child(n){
   padding: 5vw;
   padding-top: 3vw;
+  padding-bottom: 0;
   color: #3E517A;
   margin-left: 5vw;
   margin-right: 5vw;
