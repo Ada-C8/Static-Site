@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono|Oswald:300" rel="stylesheet">
     <link href='stylesheets/reset.css' rel='stylesheet' />
-    <link href='stylesheets/main.css' rel='stylesheet' />
+    <link href='stylesheets/styles.css' rel='stylesheet' />
   </head>
   <body>
     <header>
@@ -29,13 +30,29 @@
       </nav>
     </header>
 
-    <main>
-      <h1>Projects</h1>      
+    <main class='all-projects'>
+      <article class='proj-description'>
+        <!-- <div class='proj-container'> -->
+          <h2><a href='https://github.com/IsabelDePapel/hotel' target='_blank'>Hotel</a></h2>
+          <img src='images/hotel_snippet.png' alt='code snippet from Hotel project' />
+        <!-- </div> -->
+
+        <p>
+          Business logic for a basic hotel booking system that allows the user to reserve rooms and blocks of rooms. Business logic only; no user interface.
+        </p>
+      </article>
+      <hr />
+      <article>
+        <h2><a href='https://github.com/IsabelDePapel/grocery-store' target='_blank'>Grocery Store</a></h2>
+        <p>
+          Simulated grocery store system that implements basic business logic to track customers, orders, and online orders.
+        </p>
+      </article>
 
     </main>
 
-    <footer>
+    <!-- <footer>
 
-    </footer>
+    </footer> -->
   </body>
 </html>

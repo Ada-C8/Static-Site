@@ -2,6 +2,7 @@
 main a {
   text-decoration: none;
   border-bottom: 1px #808080 dotted;
+  color: black;
 }
 
 /* HEADER STYLING */
@@ -40,15 +41,11 @@ header a {
 }
 
 .header-name {
-  /*font-size: 2.5rem;*/
   color: #EB5E28;
   font-family: 'Nova Mono', monospace;
   font-size: 2em;
   text-transform: uppercase;
-  /*word-wrap: break-word;*/
-  /*width: 5rem;*/
   padding-left: 3rem;
-
 }
 
 .name-container {
@@ -59,7 +56,7 @@ header a {
   transform: translateY(-50%);
 }
 
-/* push footer down to the bottom */
+/* push footer to bottom */
 html, body {
     height: 100%;
 }
@@ -67,8 +64,56 @@ html, body {
 main {
   background-color: #FDFFFC;
   height: 100%;
+  /*padding: 0 8%;*/
 }
 
+/* set margins for site */
+.intro, .about-text, .all-projects, .blog {
+  padding: 0 8%;
+}
+
+/* MAIN SECTION OF HOME PAGE */
+.intro {
+  position: relative;
+  top: 16rem;
+  text-align: center;
+}
+
+main h1 {
+  color: #EB5E28;
+  font-family: 'Nova Mono', monospace;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.intro-text {
+  color: #666666;
+  font-size: 1.75rem;
+  font-family: 'Oswald', 'Helvetica', sans-serif;
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+
+/* FOOTER STYLING */
+footer {
+  height: 2.5rem;
+  background-color: #183059;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -2.5rem;
+}
+
+.footer-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Oswald', helvetica, sans-serif;
+  font-size: 1rem;
+  color: #FDFFFC;
+}
+
+/* ABOUT ME PAGE STYLING */
 .background-image {
   background-image: url('../images/lego_triceratops.jpg');
   background-repeat: no-repeat;
@@ -79,6 +124,7 @@ main {
   height: 25rem;
 }
 
+/* layer partially transparent backgorund over image */
 .opacity {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.7);
@@ -86,21 +132,7 @@ main {
   height: 25rem;
 }
 
-
-.intro {
-  position: relative;
-  top: 16rem;
-  text-align: center;
-}
-
-.intro-text {
-  color: darkgray;
-  font-size: 1.75rem;
-  font-family: 'Oswald', 'Helvetica', sans-serif;
-  line-height: 1.25;
-  margin-top: 2rem;
-}
-
+/* style and position heading fonts */
 .about {
   text-align: center;
 }
@@ -113,30 +145,19 @@ main {
   color: #EB5E28;
   font-family: 'Nova Mono', monospace;
   text-transform: uppercase;
-  /*text-align: center;*/
   font-size: 2.5rem;
-  /*position: relative;*/
   top: 25%;
 }
 
-
 .about h2 {
   font-size: 2rem;
-  /*text-align: center;*/
-  /*position: relative;*/
   top: 32%;
   font-family: 'Arial', helvetica, sans-serif;
   font-weight: bold;
   color: #444;
 }
 
-.about-text {
-  text-align: center;
-  margin: 0 8%;
-}
-
 .about p {
-  /*position: relative;*/
   top: 6rem;
   font-family: 'Oswald', helvetica, sans-serif;
   font-size: 1.75rem;
@@ -145,8 +166,57 @@ main {
   margin-bottom: 1rem;
 }
 
-.about-text a {
+/* STYLING FOR BLOG */
+.blog {
+  position: relative;
+  top: 4rem;
+  text-align: center;
+  /*padding: 0 8%;*/
+}
+
+.blog h1 {
+  font-family: 'Oswald', helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 3rem;
   color: black;
-  /*text-decoration: none;
-  border-bottom: 1px #808080 dotted;*/
+}
+
+.post {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.post h2, p {
+  padding-bottom: 1rem;
+  font-family: 'Arial', helvetica, sans-serif;
+}
+
+.post h2 {
+  font-size:1.5rem;
+}
+
+/* STYLING FOR PORTFOLIO PAGE */
+
+.all-projects {
+  position: relative;
+  top: 4rem;
+  /*width: 100%;*/
+}
+
+/* align title & img to left; description to right */
+.proj-description {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.all-projects h2 {
+  font-family: 'Oswald', helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: .5rem 0 1rem 0;
+}
+
+.all-projects img {
+  width: 16rem;
+  height: auto;
 }
