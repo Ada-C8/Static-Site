@@ -10,13 +10,20 @@
   border-color: orange;
 }*/
 
-.title h2, .title p {
-  color: orange;
+.title h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title p {
+  color: gray;
   text-align: center;
 }
 
 article h3, article h4 {
   text-align: center;
+  color: #ff6633;
 }
 
 article p {
@@ -41,4 +48,8 @@ article {
   background-color: lightgray;
   border-radius: 2%;
   /*position: relative;*/
+}
+
+footer {
+  color: white;
 }
