@@ -82,7 +82,8 @@ header nav ul li, button{
 
 /* Footer */
 footer{
-  background-color: pink;
+  text-align: center;
+  border-top: 2px #ccc solid;
   padding: 20px;
 }
 footer h4, footer p {
@@ -240,10 +241,27 @@ main{
     margin: 10px;
     height: 500px;
   }
+  
+  section.posts{
+    padding-right: 0;
+  }
 }
 
 
 /* End Portfolio CSS */
+
+/* Code Journal */
+.posts{
+  padding: 30px 0;
+  padding-right: 20%;
+}
+
+.posts .post{
+  padding-bottom: 30px;
+  border-bottom: 2px #8ba0c1 solid;
+  margin-bottom: 30px;
+}
+/* End Code Journal */
 
 /* Non-index.html CSS*/
 aside.not-index-terminal{
@@ -283,10 +301,5 @@ main > section{
     margin-left: 50px;
     margin-right: 50px;
 
-}
-
-object{
-  margin-left: 50px;
-  height: 500px;
 }
 /* End Non-index.html CSS*/
