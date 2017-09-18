@@ -2,9 +2,6 @@
 /******************/
 /*    HEADER     */
 /*****************/
-header{
-  background-color: beige;
-}
 header {
   height: 70px;
   position: fixed;
@@ -15,7 +12,6 @@ header {
   padding-bottom: 20px;
   font-family: "Vollkorn" serif;
   font-size: 21px;
-
 }
 
 header a {
@@ -68,14 +64,14 @@ header a:hover {
   /*background-color: papayawhip;*/
   margin: auto;
   color: dimgray;
-  font-family: "Vollkorn", serif;
   font-size: 1.2em;
-  line-height: 1.5;
+  line-height: 1.8;
   width: 60%;
   /*border-style: groove;*/
   /*border-radius: 10px;*/
   height: 200px;
-  padding: 30px;
+  padding: 40px;
+
 }
 .welcome h2{
   padding-bottom: 10px;
@@ -85,13 +81,6 @@ header a:hover {
   font-weight: 300;
   color: orangered;
 }
-/*.welcome h3{
-  font-family: "Vollkorn", serif;
-  font-size: 38px;
-  line-height: 60px;
-  font-weight: 300;
-  color: olive;
-}*/
 main li{
   display: inline;
   width: 30%;
@@ -123,7 +112,7 @@ main #traveler::after{
 
 .wrapper {
   padding-left: -50px;
-  margin-top: 145px;
+  margin-top: 45px;
   padding-bottom: 30px;
   z-index: 100;
   height: 120px;
@@ -222,21 +211,19 @@ main #traveler::after{
 	color: white;
 }
 
-
-
 /***********/
 /* Footer */
 /***********/
 
 footer p{
-  display: inline-block;
   padding-left: 20px;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: GAINSBORO;
-  width: 98.5%;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  display: inline-block;
+  background-color: GAINSBORO;
+  width: 98.5%;
   font-size: 12px;
 }
