@@ -36,7 +36,7 @@ ul {
 
 ul li {
   display: inline-block;
-  padding: 3px 0.3em 3px 0.7em;
+  padding: 3px 0.2em 3px 0.6em;
 }
 
 img {
@@ -99,6 +99,7 @@ footer h4 {
 main {
   margin: 0 auto;
   max-width: 500px;
+  min-height: 63vh;
   padding: 75px 15px;
 }
 
@@ -235,4 +236,62 @@ main h2 {
 
 .profile-pic img {
   border-radius: 50%;
+}
+
+.about h3 {
+  display: inline-block;
+}
+
+#wave {
+  margin-left: 5px;
+  animation: hello 1.5s infinite ease-in-out;
+  transform-origin: bottom center;
+}
+
+@keyframes hello {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+/* ----------- Small Screens ----------- */
+
+@media screen and (max-width: 540px) {
+  .intro {
+    font-size: 1.5em;
+  }
+
+  footer h4, footer nav{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer nav ul{
+    margin: 4px 0 20px;
+  }
+
+  ::before, ::after {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header, footer {
+    padding: 0 0 0 5px;
+  }
+
+  .intro h1:nth-child(2)::before {
+    top: 15px;
+  }
+
+  .intro h1:nth-child(2)::after {
+    top: 15px;
+  }
 }
