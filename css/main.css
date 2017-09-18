@@ -11,6 +11,7 @@
 dark blue-grey: #666A86
 dark sky blue: #95B8D1
 japanese indigo: #2E3B48
+darker japanese indigo: #181F26
 dutch white: #E8DDB5
 nadeshiko pink: #EDAFB8
 */
@@ -19,9 +20,19 @@ nadeshiko pink: #EDAFB8
 /*layout*/
 /********/
 
+body {
+  background-attachment: fixed;
+  background-color: grey;
+  background-image: url(../images/mountain03.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 section {
   clear: both;
   height: 800px;
+  margin: 0 0 20rem 0;
   min-width: 1027px;
   text-align: center;
   width: 100%;
@@ -85,12 +96,7 @@ p a {
 /***********/
 
 .hero {
-  background-attachment: fixed;
-  background-color: grey;
-  background-image: url(../images/mountain03.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
 }
 
 nav ul {
@@ -128,6 +134,7 @@ hr {
   display: inline-block;
   position: relative;
   right: 18%;
+  text-shadow: 4px 2px 0 #181F26;
   top: 15%;
   transform: rotate(-8deg);
 }
@@ -177,8 +184,8 @@ hr {
 
 .blog h1 {
   color: #2E3B48;
-  top: 0;
   text-shadow: 3px 2px 0 #95B8D1;
+  top: 0;
 }
 
 .blog .container {
@@ -243,8 +250,23 @@ hr {
 /*portfolio*/
 /***********/
 
+/*
+dark blue-grey: #666A86
+dark sky blue: #95B8D1
+japanese indigo: #2E3B48
+dutch white: #E8DDB5
+nadeshiko pink: #EDAFB8
+*/
+
+
 .portfolio {
   background-color: #666A86;
+}
+
+.portfolio h1 {
+  color: #E8DDB5;
+  text-shadow: 3px 2px 0 #2E3B48;
+  top: 0;
 }
 
 /*********/
