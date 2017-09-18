@@ -50,7 +50,6 @@ header h3 {
 /* articles */
 
 main p:first-of-type {
-  margin: 0;
   padding: 15% 0 5% 1%;
   color: white;
 }
