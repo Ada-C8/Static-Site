@@ -177,3 +177,7 @@ main h2 {
 .profile-pic {
   text-align: center;
 }
+
+.profile-pic img {
+  border-radius: 50%;
+}
