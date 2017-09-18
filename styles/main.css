@@ -6,7 +6,6 @@ header {
   height: 60px;
 }
 
-
 .name {
   display: inline-block;
   position: absolute;
@@ -80,7 +79,6 @@ a {
   margin: auto;
   margin-top: 2%;
   margin-bottom: 5%;
-  /*background-color: black;*/
 }
 
 .menu_selection h2 {
@@ -139,15 +137,16 @@ a {
 .camino_stories img {
   height: 600px;
   width: auto;
-  margin-right: 10px;
 }
 
 .camino_stories article:nth-of-type(odd) img {
   float: left;
+  margin-right: 10px;
 }
 
 .camino_stories article:nth-of-type(even) img {
   float: right;
+  margin-left: 10px;
 }
 
 .camino_stories h3 {
