@@ -1,0 +1,46 @@
+/*candidates for css page style*/
+
+/*below doesnt work*/
+/*#about-blurb article:hover {
+  transform: rotateY(45deg) translateZ(0);
+}*/
+
+/*footer {*/
+  /*position: absolute;*/
+  /*right: 0;
+  bottom: 0;
+  left: 0;*/
+  /*padding: 1rem;*/
+  /*background-color: #efefef;*/
+  /*text-align: center;*/
+/*}*/
+
+
+/*fonts*/
+
+/*font-family: 'Work Sans', sans-serif;*/
+/*font-family: 'Open', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Play', sans-serif;*/
+/*href="https://fonts.googleapis.com/css?family=Open|Play|Raleway|Roboto|Inconsolata|Work+Sans|Lusitana" rel="stylesheet">*/
+
+
+/*colors*/
+
+/*mustard*/
+/*background-color: #ffc000;*/
+/*peachy color*/
+/*background-color: #f6c497;*/
+/*darker tan*/
+/*background-color: #f9e0ae;*/
+/*lighter tan*/
+/*background-color: #ffe7bf;*/
+/*background: linear-gradient(180deg,rgba(0,0,0,.45),transparent 90%);*/
+
+/*shapes*/
+
+/*https://css-tricks.com/examples/ShapesOfCSS/*/
+/*https://1stwebdesigner.com/css-shapes/*/
+/*https://css-tricks.com/working-with-shapes-in-web-design/*/
+/*https://www.html5rocks.com/en/tutorials/shapes/getting-started/*/
