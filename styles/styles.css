@@ -241,7 +241,7 @@ main{
     margin: 10px;
     height: 500px;
   }
-  
+
   section.posts{
     padding-right: 0;
   }
@@ -262,6 +262,71 @@ main{
   margin-bottom: 30px;
 }
 /* End Code Journal */
+
+/* About CSS */
+/*.profile-pic{
+  height: 250px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}*/
+.about.top-text{
+  font-size: 14pt;
+}
+
+@media (max-width: 592px) {
+  .flip-image{
+    height: 100%;
+    width: 100%;
+  }
+
+  .about.top-text{
+    padding-right: 20px;
+  }
+}
+	/* flip the pane when hovered */
+	.flip-image:hover .flipper, .flip-image.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-image, .front, .back {
+	width: 300px;
+	height: 300px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+/* flip speed goes here */
+.flip-image .flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/*Flip Animation*/
+/* hide back of pane during swap */
+.flip-image .front, .flip-image .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.flip-image .front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.flip-image .back {
+	transform: rotateY(180deg);
+}
+/* End of Flip Animation CSS */
+/* End About CSS */
 
 /* Non-index.html CSS*/
 aside.not-index-terminal{
