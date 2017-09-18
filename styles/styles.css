@@ -24,7 +24,7 @@ header h2 {
   float: left;
 }
 
-header a, button a{
+header a, a.button{
   text-decoration: none;
   color: white;
   font-size: 14pt;
@@ -40,7 +40,7 @@ header nav ul li{
   display: inline-block;
 }
 
-header nav ul li, button{
+header nav ul li, a.button{
   background-color: #6ABAD0;
   border-radius: 5px;
   padding: 10px;
