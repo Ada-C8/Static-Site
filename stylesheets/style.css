@@ -1,0 +1,114 @@
+/*********** FONTS **********/
+font-family: 'Dosis', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Berkshire Swash', cursive;
+
+.dosis-font {
+  font-family: 'Dosis', sans-serif;
+}
+
+.comfortaa-font {
+  font-family: 'Comfortaa', cursive;
+}
+
+.berkshire-font {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+/*********** DRY ************/
+.pos-abs {
+  position: absolute;
+}
+
+.full-width {
+ width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex-display {
+  position: relative;
+  display: flex; /* flex display */
+  align-items: center; /* up and down */
+  justify-content: center; /* left and right */
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********** BODY ***********/
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+}
+
+/********** HEADER **********/
+header {
+  height: 20%;
+}
+
+header h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+/*********** MAIN ***********/
+main {
+  height: 68%;
+  overflow: scroll;
+  padding-top: 2%;
+}
+
+/*********** FOOTER *********/
+footer {
+  background-color: #F4F4F8;
+  height: 10%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: .75em;
+  padding-top: 1em;
+  margin: 0;
+}
+
+footer a {
+  color: grey;
+}
+
+/*********** CLEARFIX *******/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }

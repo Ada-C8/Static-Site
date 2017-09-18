@@ -1,0 +1,53 @@
+/********** HEADER **********/
+header {
+  background-color: #FED766;
+}
+
+/*********** MAIN ***********/
+main.code-journal {
+  color: #FE4A49;
+  padding: 0;
+  width: 96%;
+  margin-left: 2%;
+}
+
+main.code-journal h3 {
+  font-size: 30px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+main.code-journal p {
+  font-size: 18px;
+}
+
+main.code-journal article {
+  float: left;
+}
+
+article.jan img, article.april img {
+  width: 300px;
+  float: left;
+}
+
+article.may img {
+  height: 300px;
+  float: left;
+  border-radius: 1em;
+}
+
+article.sept ul {
+  list-style: none;
+}
+
+article.sept img {
+  width: 10%;
+  float: left;
+}
+
+img.tulip {
+  border-top-right-radius: 1em;
+}
+
+img.heart {
+  border-bottom-left-radius: 1em;
+}
