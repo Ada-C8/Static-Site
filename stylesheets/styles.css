@@ -268,8 +268,7 @@ section.basics div.text-side table td:nth-of-type(3){
   text-align: left;
   width: 60%;
 }
-section.basics div.text-side table td i { color: #999; }
-
+section.basics div.text-side table td i { color: #edb1c1; }
 section.skills {
   width: 100%;
   display: flex;
@@ -281,7 +280,7 @@ div.skills-left, div.skills-right {
   margin: auto 5%;
 }
 p.skill-name { margin-left: 14%; }
-p.skill-name i { margin-right: 2%; }
+p.skill-name i { margin-right: 2%; color: #999; }
 div.bar {
   height: 45px;
   width: 300px;
@@ -317,15 +316,78 @@ div.termin-per { width: 120px; }
 div.git-per { width: 120px; }
 div.python-per { width: 150px; }
 
-
 /*--------------- MAIN PORTFOLIO.HTML ---------------*/
-/*main {
+.main-portfolio {
   width: 100%;
   padding: 5% 4% 8%;
+}
+.portfolio-items {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
-}*/
+}
+.portfolio-items li {
+  width: 30%;
+  height: 200px;
+  margin: 1%;
+  text-align: center;
+  border: 3px solid #333;
+  background: #edb1c1;
+  filter: grayscale(100%);
+}
+li#solar-system {
+  background: url('../images/solar-system.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+li#grocery-store {
+  background: url('../images/grocery-store.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+li#calculator {
+  background: url('../images/calculator.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+li#scrabble {
+  background: url('../images/scrabble.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+li#hotel {
+  background: url('../images/hotel.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.portfolio-items li a { visibility: hidden; }
+.portfolio-items li:hover {
+  border: 6px double #fefefe;
+  filter:grayscale(0%);
+}
+.portfolio-items li:hover a {
+  width: 100%;
+  height: 100%;
+  background: rgba(237, 177, 193, 0.8);
+  display: block;
+  padding: 2%;
+  visibility: visible;
+}
+.portfolio-items li a .p-title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1.2em;
+  display: block;
+  margin: 4% 0 2%;
+}
+.portfolio-items li a .p-desc {
+  font-size: 0.7em;
+  display: block;
+  margin-bottom: 1%;
+}
+.portfolio-items li a .p-link { font-size: 0.7em; }
+
 
 /*--------------- MAIN H-BLOG.HTML ---------------*/
 /*main {
