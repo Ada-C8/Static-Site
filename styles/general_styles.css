@@ -87,10 +87,8 @@ header p {
   font-family: 'Arima Madurai', cursive;
   font-size: 1.2vw;
   min-width: 300px;
-  /*color: #9C873C;*/
   color: #FDF7E1;
   font-style: italic;
-  /*display: block;*/
   background: #1F271B;
   width: 100%;
 }
@@ -106,13 +104,7 @@ header nav {
   text-decoration: none;
 }
 
-/*#background {
-  background-image: url("../pics/background.jpeg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 100%;
-}*/
+
 
 /*FOOTER*/
 

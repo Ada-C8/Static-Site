@@ -26,27 +26,27 @@ main h1 {
 
 
 .poetry article:nth-child(n){
-  display: inline-block;
-  /*margin: 2vw;*/
   padding: 5vw;
   padding-top: 3vw;
   color: #3E517A;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
-.poetry article:nth-child(2n){
+/*.poetry article:nth-child(2n){
   position: relative;
-  left: 30vw;
+  left: 15vw;
   max-width: 60%;
 
-}
+}*/
 
 .poetry article:nth-child(n) p {
   padding: 2vw;
   padding-bottom: 3vw;
 }
 
-
+/*
 .poetry article:nth-child(2n+1){
   display: inline-block;
-  max-width: 60%;
+  max-width: 60%;*/
 }
