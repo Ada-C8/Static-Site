@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url(font-mfizz.css);
 
 /*--------------- SHARED STYLES ---------------*/
@@ -32,16 +33,16 @@ a {
 }
 a:hover { cursor: pointer; }
 @font-face {
-  font-family:'Nanum';
-  font-weight:400;
+  font-family: 'Nanum';
+  font-weight: 400;
   src: url('../fonts/NanumGothic.eot');
   src: url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
   url('../fonts/NanumGothic.woff') format('woff'),
   url('../fonts/NanumGothic.ttf') format('truetype');
 }
 @font-face {
-  font-family:'NanumBold';
-  font-weight:600;
+  font-family: 'NanumBold';
+  font-weight: 600;
   src: url('../fonts/NanumGothicBold.eot');
   src: url('../fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
   url('../fonts/NanumGothicBold.woff') format('woff'),
@@ -107,9 +108,7 @@ header nav ul li.inactive a i {
   visibility: hidden;
 }
 header nav ul li.inactive a:hover { color: #88c6ea; /* light blue */ }
-header nav ul li.inactive a:hover i {
-  visibility: visible;
-}
+header nav ul li.inactive a:hover i { visibility: visible; }
 header nav ul li.active a {
   cursor: default;
   color: #aaa;
@@ -415,7 +414,10 @@ article.blog-post p {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-article.blog-post p span.ko, article.blog-post p span.ko-bold { font-size: 0.8em; }
+article.blog-post p span.ko,
+article.blog-post p span.ko-bold {
+  font-size: 0.8em;
+}
 article.blog-post a.post-link {
   display: block;
   margin: 3% 0;
