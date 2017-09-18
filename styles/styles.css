@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+}
+a:link {
+  color: #102C3A;
+}
+a:visited {
+  color: #835E64;
+}
+a:hover {
+  color: #2B6179;
+}
+header {
+    height: 90px;
+    background: -webkit-linear-gradient(#E8428A, 	#F18987, #DAE0D4, #66B0BB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E8428A, 	#F18987, #DAE0D4, #66B0BB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E8428A, 	#F18987, #DAE0D4, #66B0BB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E8428A, 	#F18987, #DAE0D4, #66B0BB); /* Standard syntax (must be last) */
+}
+
+header {
+  float: left;
+  padding: 25px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-family: 'Monoton', cursive;
+  z-index: 5;
+}
+
+header li{
+  float: right;
+}
+
+header h2 a[href="index.html"] {
+  text-decoration: none;
+
+  font-size: 2em;
+  display: inline-block;
+  float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav ul li a[href="about.html"] {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-size: 2em
+}
+nav ul li a[href="portfolio.html"] {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-size: 2em
+}
+nav ul li a[href="code-journal.html"] {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-size: 2em
+}
+body {
+    background: pink; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5BDFEB, #132937); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5BDFEB, #132937); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5BDFEB, #132937); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5BDFEB, #132937); /* Standard syntax (must be last) */
+}
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+.circle img {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    border:0px solid #fff;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+main section h2 {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3em;
+}
+
+main section h1 {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4em;
+}
+
+main section p {
+  display: inline-block;
+  position: relative;
+  left: 520px;
+  bottom: 15px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+
+footer {
+  display: inline-block;
+  float: left;
+  width: 1000px;
+  /*margin-top: 100px;*/
+  position: relative;
+  top: 150px;
+}
+
+#disclaimer {
+  font-family: 'Monofett', cursive;
+  display: inline-block;
+  float: left;
+  width: 400px;
+}
