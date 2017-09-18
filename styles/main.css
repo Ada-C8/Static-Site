@@ -31,7 +31,7 @@ a {
 
 .top_nav_bar a {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   color: black;
 }
 
@@ -97,6 +97,10 @@ a {
   text-align: center;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.menu_selection article:hover {
+  box-shadow: 10px 10px 5px #888888;
 }
 
 .menu_selection h3 {
