@@ -1,0 +1,80 @@
+/*main*/
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Overlock');
+
+main {
+  z-index: 0;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 0;
+  position: relative;
+  overflow: hidden;
+  border: #19647E 10px double;
+}
+
+main h1, main p, main h2{
+  font-family: 'Overlock', cursive;
+}
+
+
+.intro {
+  position: relative;
+  display: block;
+  padding-top: 2vw;
+  width: 70%;
+  max-width: 500px;
+  max-height: 700px;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 4vw;
+  border-bottom: #EE964B double 10px;
+  border-top: #EE964B double 10px;
+  padding: 2vw;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+
+.intro h1 a {
+  color: #9C873C;
+}
+
+.intro h1 a:hover {
+  color: #19647E;;
+}
+
+#profile_img img{
+  max-height: 20vw;
+  border-radius: 50%;
+  border: solid 1px #9C873C;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+}
+
+.intro article {
+  display: inline-block;
+  text-align: center;
+  padding: 5vw;
+  padding-top: 0;
+  border: solid 4px #9C873C;
+  max-width: 400px;
+}
+
+
+
+
+/*main*/
+
+
+/*colors:
+dark green: #1F271B
+dark blue: #19647E
+light sea green: #28AFB0
+blond: #FDF7E1
+peach bluff: #F8D8BD
+
+*/

@@ -1,0 +1,61 @@
+main {
+  /*border-left: #25A0A0 10px double;
+  border-right: #25A0A0 10px double;*/
+  margin: 10vw;
+  padding: 3vw;
+}
+
+
+.background {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+main h1 {
+  font-size: 5vw;
+  margin-bottom: 0;
+}
+
+.poetry {
+    border-left: #25A0A0 10px double;
+    border-right: #25A0A0 10px double;
+    border-bottom: #25A0A0 10px solid;
+    border-top: #25A0A0 10px solid
+}
+
+.poetry :nth-child(n) h2 {
+  text-align: center;
+  border-top:  #9C873C 10px double;
+  border-bottom:  #9C873C 10px double;
+}
+
+
+.poetry article:nth-child(n){
+  padding: 5vw;
+  padding-top: 3vw;
+  padding-bottom: 0;
+  color: #3E517A;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/*.poetry article:nth-child(2n){
+  position: relative;
+  left: 15vw;
+  max-width: 60%;
+
+}*/
+
+.poetry article:nth-child(n) p {
+  padding: 2vw;
+  padding-bottom: 3vw;
+}
+
+/*
+.poetry article:nth-child(2n+1){
+  display: inline-block;
+  max-width: 60%;*/
+}

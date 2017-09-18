@@ -1,0 +1,70 @@
+main h1 {
+  position: relative;
+  top: 10vw;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.intro_work {
+  position: relative;
+  top: 10vw;
+  border-top: #EE964B double 10px;
+  border-bottom: #EE964B double 10px;
+  padding: 5vw;
+}
+
+#port_pic {
+  display: inline-block;
+  width: 30%;
+  z-index: 1;
+  border-radius: 50%;
+  padding: 1vw;
+  background: #19647E;
+}
+
+
+.intro_work p{
+  display: inline-block;
+  position: absolute;
+  top: 10vw;
+  right: 6vw;
+  background-color: none;
+  width: 50%;
+  /*padding: 5vw;*/
+  text-align: center;
+  margin-left: 2vw;
+}
+
+.intro_work a, .my_work a {
+  color: black;
+  text-decoration: underline;
+}
+
+.my_work {
+  position: relative;
+  margin-top: 10vw;
+  padding: 0;
+}
+
+.my_work img {
+  position: relative;
+  top: 5vw;
+  width: 40%;
+}
+
+.my_work p {
+  position: relative;
+  top: 5vw;
+  width: 50%;
+}
+
+.my_work li {
+  display: inline-block;
+  width: 50%;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.my_work li:hover {
+  width: 150%;
+}
