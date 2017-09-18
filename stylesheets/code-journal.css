@@ -1,3 +1,21 @@
+/********** HEADER **********/
+header {
+  background-color: #FED766;
+}
+
+/*********** MAIN ***********/
+main {
+  color: #FE4A49;
+}
+
+main h3 {
+  font-size: 30px;
+}
+
+main p {
+  font-size: 18px;
+}
+
 main.code-journal article {
   float: left;
 }
@@ -13,7 +31,12 @@ article.may img {
   border-radius: 1em;
 }
 
+article.sept ul {
+  list-style: none;
+}
+
 article.sept img {
   width: 10%;
   border-radius: 10em;
+  float: left;
 }
