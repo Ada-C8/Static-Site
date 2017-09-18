@@ -20,34 +20,35 @@
     </nav>
   </header>
 
-  <article class="post">
-    <h3> Working With Google Time Zone Api </h3>
+  <main>
+    <article class="post">
+      <h3> Working With Google Time Zone Api </h3>
 
-    <p>I am working on a World Clock app and the first step was to get access to Google’s Time Zone API.</p>
+      <p>I am working on a World Clock app and the first step was to get access to Google’s Time Zone API.</p>
 
-    <p>The Google docs state “The Google Maps Time Zone API provides a simple interface to request the time zone for a location on the earth, as well as that location’s time offset from UTC.”</p>
+      <p>The Google docs state “The Google Maps Time Zone API provides a simple interface to request the time zone for a location on the earth, as well as that location’s time offset from UTC.”</p>
 
-    <p>To access the API I used a plain javascript helper function to make an API call:</p>
+      <p>To access the API I used a plain javascript helper function to make an API call:</p>
 
-    <code>
-      function getCORS(url, success) {
-        var xhr = new XMLHttpRequest();
-        if (!('withCredentials' in xhr)) xhr = new     XDomainRequest(); // fix IE8/9
-        xhr.open('GET', url);
-        xhr.onload = success;
-        xhr.send();
-        return xhr;
-      }
-    </code>
-  </p>
+      <code>
+        function getCORS(url, success) {
+          var xhr = new XMLHttpRequest();
+          if (!('withCredentials' in xhr)) xhr = new     XDomainRequest(); // fix IE8/9
+          xhr.open('GET', url);
+          xhr.onload = success;
+          xhr.send();
+          return xhr;
+        }
+      </code>
+    </p>
 
-  <p>When I call the function I used a custom url that I built by concatenating the base url, the latitude and longitude coordinates, and the api key.</p>
+    <p>When I call the function I used a custom url that I built by concatenating the base url, the latitude and longitude coordinates, and the api key.</p>
 
-</article>
-
-
+  </article>
+</main>
+  
 <footer class="site-footer">
-  <div class="wrapper">
+  <div class="footer-wrapper">
     <div class="copyright">
       <p>This is a blog and portfolio by Tanisha Hampden. Built with love and Atom.</p>
 

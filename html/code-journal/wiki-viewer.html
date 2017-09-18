@@ -20,22 +20,24 @@
       </nav>
     </header>
 
-    <article class="post">
-      <h3> Building A Wikipedia Viewer </h3>
-      <p>This is not at all a tutorial but a reflection of the things that I learned and the problems I faced while building a Wikipedia viewer.</p>
-      <h4>Event Handlers</h4>
-      <p>Somehow I got into the habit of adding onclick events to html files. This works fine but my mentor mentioned that it’s better practice to keep all of your Javascript self-contained to make debugging easier.</p>
-      <p>While rewriting the functions that required an addEventListener object I ran into the error below:
-      </p>
-      <code>error: Cannot read property 'addEventListener' of null</code>
-      <p>I found that the function returned null because it executed before the DOM was fully loaded. I fixed this problem by adding window.onload. MDN notes that “The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.”</p>
-      <h4>Scope</h4>
-      <p>I was reminded a few times of the importance of understanding scope and how it can affect your code structure. I had to move functions around a bit to ensure that all of my variables were able to be accessed properly.</p>
-      <p>In some cases, I would get an error that a variable is undefined. To fix this I’d either make the variable global or I would move the function to allow it access to that variable.</p>
-    </article>
+    <main>
+      <article class="post">
+        <h3> Building A Wikipedia Viewer </h3>
+        <p>This is not at all a tutorial but a reflection of the things that I learned and the problems I faced while building a Wikipedia viewer.</p>
+        <h4>Event Handlers</h4>
+        <p>Somehow I got into the habit of adding onclick events to html files. This works fine but my mentor mentioned that it’s better practice to keep all of your Javascript self-contained to make debugging easier.</p>
+        <p>While rewriting the functions that required an addEventListener object I ran into the error below:
+        </p>
+        <code>error: Cannot read property 'addEventListener' of null</code>
+        <p>I found that the function returned null because it executed before the DOM was fully loaded. I fixed this problem by adding window.onload. MDN notes that “The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.”</p>
+        <h4>Scope</h4>
+        <p>I was reminded a few times of the importance of understanding scope and how it can affect your code structure. I had to move functions around a bit to ensure that all of my variables were able to be accessed properly.</p>
+        <p>In some cases, I would get an error that a variable is undefined. To fix this I’d either make the variable global or I would move the function to allow it access to that variable.</p>
+      </article>
+    </main>
 
     <footer class="site-footer">
-      <div class="wrapper">
+      <div class="footer-wrapper">
         <div class="copyright">
           <p>This is a blog and portfolio by Tanisha Hampden. Built with love and Atom.</p>
 
