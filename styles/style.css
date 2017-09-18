@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html, body {
+  height: 100%;
+  width: 100%
+}
+
+header {
+  background-color: #ffb3ff;
+  margin-top: 0;
+  width: 100%;
+  padding: 2%;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h2 {
+  display: inline;
+  padding: 0.5em;
+  font-family: pacifico;
+  color: #e600e6;
+  font-size: 2em;
+}
+
+header nav {
+  float: right;
+  clear: right;
+}
+
+header nav a {
+  padding: 3em 3em 3em 0;
+}
+
+header nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+header nav a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+body section{
+    background: url("/Users/mariana/ada/projects/week6/Static-Site/pictures/portada.jpg");
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 98px;
+    opacity: 0.8;
+}
+
+h1 {
+  padding: 1em;
+  font-family: pacifico;
+  color: #e600e6;
+  font-size: 8em;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  padding: 2% 2% 0% 2%;
+}
+
+
+footer {
+  background-color: #ffb3ff;
+  margin: 0%;
+  padding: 8%;
+
+}
+
+footer h4 {
+  max-width: 20%;
+  display: inline;
+  color: #e600e6;
+  float:left;
+  clear: left;
+}
+
+footer nav {
+  float: right;
+  clear: right;
+}
+
+footer nav a {
+  padding: 0 2em 2em 0;
+}
+
+footer nav li {
+  display: inline;
+  list-style-type: none;
+}
