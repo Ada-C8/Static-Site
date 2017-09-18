@@ -390,10 +390,44 @@ li#hotel {
 
 
 /*--------------- MAIN H-BLOG.HTML ---------------*/
-/*main {
+.main-blog {
   width: 100%;
   padding: 5% 4% 8%;
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-}*/
+}
+section.blog-posts {
+  -webkit-column-width: 12em;
+  -webkit-column-gap: 1em;
+}
+article.blog-post {
+  display: inline-block;
+  margin:  0.25rem;
+  padding:  1.5rem;
+  width:  100%;
+  background:  #efefef;
+}
+article.blog-post img {
+  display: block;
+  margin: 2% auto 4%;
+  max-width: 270px;
+  border: 2px solid #fefefe;
+}
+article.blog-post h2 {
+  font-size: 1.2em;
+  margin: 2% 0;
+}
+article.blog-post p {
+  font-size: 0.8em;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+article.blog-post p span.ko, article.blog-post p span.ko-bold { font-size: 0.8em; }
+article.blog-post a.post-link {
+  display: block;
+  margin: 3% 0;
+  color: #d18398;
+  font-size: 0.8em;
+}
