@@ -1,95 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.centered { text-align: center; }
 
 /******** MAIN ********/
 
-main {
-  font-family: 'Varela Round', sans-serif;
-  text-align: center;
-}
-
 main header {
-  text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 main a:visited {
   color: black;
 }
 
-.articles-wrapper {
+#articles-wrapper {
   max-width: 80%;
   margin: 0 auto;
   padding-top: 1em;
 }
 
-.articles-wrapper article {
-  min-height: 200px;
-  width: 20%;
+#articles-wrapper article {
   display: inline-block;
-  background-color: blue;
+  height: 275px;
+  width: 20%;
   padding: 1em;
   background-color: white;
   text-align: justify;
   transition: all 0.3s ease-in-out;
   border-radius: 2em;
+  border: 2px solid black;
+  overflow: scroll;
 }
 
-.articles-wrapper header {
+#articles-wrapper header {
   border-bottom: 1px solid black;
 }
 
-.articles-wrapper article:hover {
+#articles-wrapper article:hover {
   box-shadow:
     0 0 30px rgba(0,0,0,1);
 }
 
-.articles-wrapper p {
+#articles-wrapper p {
   font-weight: lighter;
   padding: 5px;
 }
-
-/******** FOOTER ********/
-
-/*footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0.5rem;
-  text-align: center;
-  font-size: 8px;
-  color: white;
-}
-
-footer header {
-  margin: 0;
-  font-family: 'Varela Round', sans-serif;
-}
-
-footer nav {
-  text-align: center;
-}
-
-footer ul {
-  padding: 0;
-}
-
-footer img {
-  width: 2% ;
-}*/
-/******** CLEARFIX ********/
-/*.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}*/
-/*.clearfix { display: inline-block; }*/
-/* start commented backslash hack \*/
-/** html .clearfix { height: 1%; }
-.clearfix { display: block; }*/
-/* close commented backslash hack */

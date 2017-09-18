@@ -2,8 +2,9 @@
 /******** MAIN SECTION DIFFERS FOR ALL PAGES ********/
 
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i');
+
 
 html, body {
   height: 100%;
@@ -48,21 +49,26 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  color: grey;
+  color: black;
 }
 
 #top-header li:hover {
-  border-bottom: 1px black double;
+  border-bottom: 1px black solid;
 }
 
 #top-header li a:visited {
-  color: black;
+  color: grey;
 }
 
 #top-header li a {
   text-decoration: none;
   font-family: 'Varela Round', sans-serif;
   color: black;
+}
+
+/******** MAIN ********/
+main {
+  font-family: 'Varela Round', sans-serif;
 }
 
 /******** FOOTER ********/
