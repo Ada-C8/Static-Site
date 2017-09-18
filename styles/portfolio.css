@@ -6,3 +6,13 @@ main p {
   color: #ff6633;
   font-size: 20px;
 }
+
+main ul li {
+  font-size: 18px;
+  color: #ff6633;
+}
+
+
+main ul li a {
+  color: white;
+}

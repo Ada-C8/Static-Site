@@ -1,22 +1,8 @@
-/*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
 
-/*
-header nav {
-  text align: center;
-}
-
-
-
-
-header nav, footer {
-  color: orange;
-}*/
-
-/*
-*{
+html {
   margin: 0;
   padding: 0;
-}*/
+}
 
 nav li {
   display: inline;
@@ -27,10 +13,6 @@ nav li {
 html, body{
   height 100%;
 }
-
-/*a:hover {
-  color: yellow;
-}*/
 
 a:visited {
   color: gray;
@@ -54,15 +36,28 @@ body {
   text-align: center;
 }
 
-h1{
+.button {
+  padding: 20px 48px;
   color: white;
-  font-family: 'Pacifico', cursive;
+  font: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
 }
 
+h1{
+  color: white;
+  font: 900 60px 'Cookie', cursive;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+  margin-bottom: 24px;
+}
+
+/* Footer */
 footer {
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   width: 100%;
+  z-index: 100;
   text-align: center;
 }
