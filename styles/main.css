@@ -48,6 +48,7 @@ nav ul {
 nav li {
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: -10px;
   display: inline-block;
 }
 
@@ -66,17 +67,14 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 175px;
-  max-width: 700px;
+  max-width: 800px;
 }
 
-main h3 {
-  text-align: center;
-}
 
 .site-footer {
-  font-size: .90em;
+  font-size: .80em;
   margin: auto;
-  height: 165px;
+  height: 100px;
   width: 100%;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
@@ -89,18 +87,18 @@ footer a {
   color: black;
  }
 
-
  footer a:hover {
   text-decoration: none;
   color: #8912FF;
  }
 
- footer .wrapper {
-  width:900px;
+ footer .footer-wrapper {
+  width: 900px;
   margin: auto;
   margin-top: 40px;
  }
 
 .contact {
   float: right;
+  margin-top: -80px;
 }

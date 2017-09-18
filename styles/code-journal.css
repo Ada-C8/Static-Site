@@ -1,0 +1,23 @@
+a[href*="post"] {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  height: 300px;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  vertical-align: top;
+  margin: auto;
+  padding: 10px;
+}
