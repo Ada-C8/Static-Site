@@ -1,0 +1,315 @@
+/*background image for all pages*/
+#body {
+  background-image: url(https://www.msistone.com/image.axd?picture=GR@Black-Galaxy-Granite.jpg);
+}
+
+/*links on all pages */
+a:visited {
+  color: #00FF00;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*heading and hover for index only*/
+#top-heading {
+  font-size: 3em;
+  padding-bottom: .25em;
+  font-family: 'Press Start 2P';
+}
+
+#top-heading:hover {
+  animation: neon6 1.5s ease-in-out infinite alternate;
+}
+
+
+/*heading and hover animation for side pages */
+.top-bar {
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fd0589;
+  padding-top: 1em;
+  text-align: center;
+  display: block;
+  font-family: 'Press Start 2P';
+}
+
+.top-bar >.top-heading {
+  font-size: 3em;
+  padding-bottom: .25em;
+}
+
+.top-bar>.top-heading:hover {
+  animation: neon6 1.5s ease-in-out infinite alternate;
+}
+
+.current-projects > .top-bar {
+  color: #228DFF;
+}
+
+.current-projects > .top-bar>.top-heading:hover {
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.portfolio > .top-bar {
+  color: #B6FF00;
+}
+
+.portfolio > .top-bar>.top-heading:hover {
+  animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+.about > .top-bar {
+  color: #FF9900;
+}
+
+.about > .top-bar>.top-heading:hover {
+  animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+/*content boxes on each non-index page*/
+div .content-box {
+  background-color: transparent;
+  width: 800px;
+  height: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: Cutive Mono, monospace;
+  color: #00FF00;
+  font-size: 1.25em;
+}
+
+/*typewriter style for current projects link*/
+.git-hub-link {
+  font-size: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  margin: 10px 0;
+  animation: typing 4s steps(60, end);
+}
+
+@keyframes typing {
+  from {width: 0;}
+}
+
+@keyframes typing-2 {
+  0% {width: 0;}
+  50% {width: 0;}
+  100% {width: 100;}
+}
+
+@keyframes blink {
+  to {opacity: .0;}
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+/*about page gremlin animation*/
+
+.gremlin-1, .gremlin-2, .gremlin-3 {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  z-index: 10;
+  background-color: transparent;
+  animation-name: goRight;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.gremlin-1 {
+  top: 60%;
+  animation-duration: 8s;
+  left: 160px;
+}
+
+.gremlin-2 {
+  top: 70%;
+  animation-duration: 4s;
+  left: 20px;
+}
+
+.gremlin-3 {
+  top: 80%;
+  animation-duration: 12s;
+}
+
+@keyframes goRight {
+  from {
+    transform: translate(0,0);
+  }
+  to {
+    transform: translate(600px,0);
+  }
+}
+
+/*sizing for place holder gif on current projects page*/
+.place-holder {
+  height: 300px;
+  width: 300px;
+}
+
+/*front page cube*/
+.cube-container >.top-bar >span {
+  font-size: 1em;
+}
+
+.cube-container {
+  perspective: 800px;
+  perspective-origin: 50% 120px;
+  text-align: center;
+  height: -webkit-fill-available;
+  width: 100%;
+}
+
+.cube {
+  position: relative;
+  width: 400px;
+  transform-style: preserve-3d;
+  animation: spin 45s infinite linear;
+  display: inline-block;
+  margin-top: 6em;
+}
+
+.cube-face {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  color: white;
+}
+
+.cube-face .links {
+  line-height: 200px;
+  color: #40f23a;
+  text-decoration: none;
+  font-family: 'Press Start 2P';
+}
+
+.cube-face .links:hover {
+  color: yellow;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
+.back {
+  transform: translateZ(-150px) rotateY(180deg);
+  background-image: url(https://s3.envato.com/files/158623038/Space%20Galaxy.png);
+  background-size: cover;
+}
+
+.right {
+  transform: rotateY(-270deg) translateX(150px);
+  transform-origin: top right;
+  background-image: url(https://spaceplace.nasa.gov/galaxy/en/galaxies.en.jpg);
+  background-size: contain;
+}
+
+.left {
+  transform: rotateY(270deg) translateX(-150px);
+  transform-origin: center left;
+  background-image: url(https://media.wired.com/photos/592687b47034dc5f91bebc0e/master/w_3600,c_limit/SPoW_Jan6_01.jpg);
+  background-size: contain;
+}
+
+.top {
+  transform: rotateX(-90deg) translateY(-150px);
+  transform-origin: top center;
+  background-image: url(https://i.ytimg.com/vi/ygevBQWt_LE/maxresdefault.jpg);
+  background-size: contain;
+}
+
+.bottom {
+  transform: rotateX(90deg) translateY(150px);
+  transform-origin: bottom center;
+  background-image: url(https://media.wired.com/photos/59973dddc6ac94286333f7cb/master/w_1200,c_limit/SPoW_Aug17_06.jpg);
+  background-size: contain;
+}
+
+.front {
+  transform: translateZ(150px);
+  background-image: url(https://www.nasa.gov/sites/default/files/14-230_0.jpg);
+  background-size: cover;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
+}
+
+/*footer for all pages */
+footer {
+  font-family: 'Press Start 2P';
+  font-size: .75em;
+  width:100%;
+  height:44px;
+  padding-top:20px;
+  background:transparent;
+  position:fixed;
+  bottom:0;
+  left:0;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+.right-side-footer {
+  float: right;
+}
+
+.left-side-footer {
+  float: left;
+}
+
+/*neon for heading and links glow effect*/
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+  }
+}
+
+@keyframes neon4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+  }
+}
+
+@keyframes neon5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
