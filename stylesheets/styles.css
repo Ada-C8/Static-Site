@@ -56,6 +56,8 @@
   border-radius: 25px;
   font-size: 15px;
   color: white;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .homepage ul li:hover {
@@ -94,17 +96,16 @@
   width: 45%;
   float: left;
   margin-top: 0.5%;
-
 }
 
 .right_nav {
   width: 45%;
   float: left;
-  margin-top: 6.5%;
+  margin-top: 5.9%;
   margin-left: 10%;
 }
 
-/*add hover affect*/
+
 .about_header h1 {
   font-family: 'Julius Sans One', sans-serif;
   margin: 0 0% 0 5%;
@@ -132,6 +133,8 @@
   font-size: 15px;
   border-radius: 25px;
   color: white;
+  display: inline-block;
+  /*margin-bottom: 5px;*/
 }
 
 .about_header ul li a {
@@ -219,7 +222,7 @@
 .right_contact_nav {
   width: 45%;
   float: left;
-  margin-top: 6.5%;
+  margin-top:5.9%;
   margin-left: 10%;
 }
 
@@ -247,6 +250,7 @@
   font-size: 15px;
   border-radius: 25px;
   color: white;
+  display: inline-block;
 }
 
 .contact_header ul li:hover {
@@ -279,6 +283,7 @@
 
 .contact_info p {
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .contact_info div nav ul {
@@ -327,7 +332,7 @@
 .right_portfolio_nav {
   width: 45%;
   float: left;
-  margin-top: 6.5%;
+  margin-top: 5.9%;
   margin-left: 10%;
 }
 
@@ -348,9 +353,7 @@
 
 .portfolio_header ul li {
   font-family: 'Julius Sans One', sans-serif;
-  display: inline;
-  /*display: inline-block;*/
-
+  display: inline-block;
   border: 0.5px solid white;
   padding: 10px 20px 10px 20px;
   margin-right: 3%;
@@ -390,25 +393,28 @@
 }
 
 .portfolio_section h2 {
-  /*border: 0.5px solid green;*/
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
+  font-size: 35px;
   padding: 0px 0px 0px 0px;
 }
 
 .portfolio_section h3 {
-  /*border: 0.5px solid green;*/
   text-align: center;
   padding: 0px 0px 0px 0px;
   border-bottom: 1px solid black;
+
 }
 
 .portfolio_section p:first-of-type {
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
-  /*margin: 70px 5px 5px 5px;*/
+  font-size: 16px;
+
 }
 
 .portfolio_section p:last-child {
-
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   margin: 70px 5px 5px 5px;
 }
@@ -416,6 +422,7 @@
 
 section article p:last-child a {
   color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
   border:1px solid black;
   border-radius: 15px;
   padding: 6px 33px 6px 33px;
@@ -449,21 +456,16 @@ margin:0;
 .right_blog_nav {
   width: 45%;
   float: left;
-  margin-top: 7.3%;
+  margin-top: 6.5%;
   margin-left: 10%;
 }
 
-/*add hover affect*/
 .blog_header h1 {
   font-family: 'Julius Sans One', sans-serif;
   margin: 0 0% 0 5%;
   padding-right: 0;
   font-size: 120px;
   color: white;
-}
-
-.blog_header nav{
-  /*border: 0.1px solid yellow;*/
 }
 
 .blog_header ul {
@@ -481,6 +483,7 @@ margin:0;
   font-size: 15px;
   border-radius: 25px;
   color: white;
+  display: inline-block;
 }
 
 .blog_header ul li a {
@@ -502,6 +505,7 @@ margin:0;
 .blog h1 {
     text-align: center;
     font-size: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
 
