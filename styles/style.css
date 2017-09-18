@@ -12,7 +12,7 @@ h1 {
   color: white;
 }
 
-nav, h2 {
+nav, h2, h3 {
   font-family: 'Cambay', sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav ul {
   float: right;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0;
   clear: both;
@@ -178,6 +178,11 @@ h1.sub-page {
   margin-left: 1em;
 }
 
+h2.sub-page {
+  color: white;
+  margin-left: 2em;
+}
+
 article.project {
   background-color: white;
   border-radius: 5px;
@@ -205,4 +210,32 @@ article.project p {
   text-align: left;
   padding: 1em 2em;
   margin: 0 auto;
+}
+
+article.blog-post {
+  border: solid  #05e9ff 10px;
+  border-radius: 1em;
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 5px;
+  color: white;
+}
+
+article.blog-post h2 {
+  margin: 5px 1em;
+}
+
+article.blog-post h3 {
+  border-bottom: solid  #ffe600 6px;
+  margin-top: 0;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+article.blog-post p {
+  color: white;
+  font-family: 'Miriam Libre', sans-serif;
+  padding: 4px;
+  max-width: 55em;
+  margin: 5px auto;
 }
