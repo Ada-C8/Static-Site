@@ -1,0 +1,210 @@
+.wrapper {
+  margin:2%
+}
+
+main{
+  background-image: url("../images/blueprint.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  height: 200px;
+}
+
+#solar-system {
+  display: inline-block;
+  width: 64%;
+  float: left;
+}
+
+#solar-system article{
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  vertical-align: top;
+}
+
+#solar-system img{
+  display: inline-block;
+  width: 100%;
+  margin: 2%;
+}
+
+#solar-system figure {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+}
+
+#word-guess {
+  display: inline-block;
+  width: 31%;
+  float: right;
+}
+
+#word-guess article{
+  display: inline-block;
+  width: 90%;
+  margin: 4%;
+}
+
+#word-guess img{
+  display: inline-block;
+  width: 100%;
+}
+
+.short-spacer{
+  display: inline-block;
+  width: 64%;
+  height: 30px;
+  float: left;
+}
+
+.spacer{
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#grocery-store {
+  display: inline-block;
+  width: 64%;
+  float: left;
+}
+
+#grocery-store article {
+  display: inline-block;
+  width: 90%;
+  margin: 4%;
+}
+
+#grocery-store img {
+  width: 100%;
+}
+
+
+#random-menus {
+  display: inline-block;
+  width: 47.5%;
+  float: left;
+  margin:  10 3%;
+}
+
+#random-menus article{
+  display: inline-block;
+  width: 90%;
+  margin: 4%;
+  vertical-align: top;
+}
+
+#random-menus img{
+  display: inline-block;
+  width: 100%;
+}
+
+#baby-dragon  {
+  display: inline-block;
+  width: 47.5%;
+  float: right;
+}
+
+#baby-dragon article{
+  display: inline-block;
+  width: 90%;
+  margin: 4%;
+}
+
+#baby-dragon  img{
+  display: inline-block;
+  width: 100%;
+}
+
+#meowspace  {
+  display: inline-block;
+  width: 64%;
+  float: right;
+}
+
+#meowspace article{
+  width: 90%;
+  margin: 4%;
+}
+
+#meowspace  img{
+  width: 100%;
+}
+
+
+#hotel {
+  display: inline-block;
+  width: 31%;
+  float: left;
+}
+
+#hotel article{
+  display: inline-block;
+  width: 90%;
+  margin: 4%;
+}
+
+#hotel img{
+  display: inline-block;
+  width: 100%;
+}
+
+figcaption {
+  position: inline;
+  text-align: center;
+}
+
+h3 {
+  position: inline;
+  float:left;
+}
+p {}
+
+  footer{
+    border: solid;
+    text-align: center;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin: 10%;
+  }
+
+  img:hover {
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  em {
+    font-size: 1.5em;
+  }
+
+  .border {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid;
+    border-color: lightblue;
+    border-left-width: thin;
+    border-top-width: thin;
+    border-right-width: thick;
+    border-bottom-width: thick;
+  }
+
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
