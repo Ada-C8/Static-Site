@@ -5,10 +5,10 @@ body {
   box-sizing: content-box;
 }
 body:after {
-    background: #654F6F;
-    background: #B6A6CA;
+    background: #654F6F ;/* KEEPING AS AN OPTION */
+    background: #B6A6CA; /* KEEPING AS AN OPTION */
+    background: #CDE7B0; /* KEEPING AS AN OPTION */
     background: #BCD979;
-    /*background: #CDE7B0;*/
     position:fixed;
     top:0;
     bottom:7vh;
@@ -29,7 +29,6 @@ header {
   z-index: 8;
 }
 ul {
-  /*position: fixed;*/
   width: 100%;
   padding: 0px;
 }
@@ -50,8 +49,7 @@ ul li a:hover {
   border-bottom: 2px white solid;
 }
 
-
-
+/* COMPUTER */
 
 .imac {
   position: relative;
@@ -61,7 +59,6 @@ ul li a:hover {
     margin: 0px;
     height: 380px;
     width: 350px;
-    /*background-color: white;*/
     box-sizing: border-box;
     padding-left: 30px;
 }
@@ -88,18 +85,7 @@ ul li a:hover {
   background: #c6c6c6;
   opacity: 0.3;
 }
-/*.screen:after {
-  position: absolute;
-  display: block;
-  content: "";
-  bottom: -30px;
-  left: -10px;
-  height: 10px;
-  width: 103.2%;
-  background: #e0e2e2;
-  border: 5px solid #e0e2e2;
-  border-radius: 0 0 5px 5px;
-}*/
+
 .screen:after {
   position: absolute;
   display: block;
@@ -153,7 +139,6 @@ ul li a:hover {
   border: none;
   font-size: 1.1rem;
   font-weight: bold;
-
 }
 
 .triangle-l , .triangle-r {

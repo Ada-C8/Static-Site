@@ -1,6 +1,5 @@
 body {
   background-color: /*#DB5461 #AEE8D5*/#FFBFA0;
-  /*font-family: arial;*/
   font-family: 'Nunito', sans-serif;
   text-align: center;
   box-sizing: content-box;
@@ -46,15 +45,16 @@ ul li a:hover {
   color: grey;
 
 }
+
+/* FLIP ANIMATION FROM ISAAC CODEPEN */
+
 	/* flip the pane when hovered */
 .contact:hover .flipper, .contact.hover .flipper {
 	transform: rotateY(180deg);
 }
 
-
 .recto p:first-of-type {
   font-size: 1.3rem;
-  /*text-transform: uppercase;*/
   font-size: 1.8rem;
   font-family: 'Lobster', cursive;
     margin-top: 62px;
@@ -65,20 +65,18 @@ ul li a:hover {
   font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Anonymous Pro', monospace;
   font-family: 'Nixie One', cursive;
   margin-top: 0.2em;
   margin-bottom: 0em;
 }
 
 .verso p a, .verso p  {
-  /*font-size: 1rem;
-  text-transform: uppercase;*/
   margin-top: 0.5rem;
   margin-bottom: 0em;
   text-decoration: none;
   color: grey;
 }
+
 .verso-content {
   margin-top: 54px;
 }
@@ -112,7 +110,6 @@ ul li a:hover {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
-  /*background-color: beige;*/
   background-color: #F5ECCD;
   border-radius: 15px;
 }
@@ -120,15 +117,12 @@ ul li a:hover {
 /* back, initially hidden pane */
 .verso {
 	transform: rotateY(180deg);
-  /*background-color: beige;*/
   background-color: #F5ECCD;
 
   border-radius: 15px;
 }
 
-.arrow {
-  /*position absolute;*/
-  /*margin: auto;*/
+.arrow { /* FOR FUTURE CONTENT */
   position: relative;
   margin: auto;
   top: 130px;
@@ -142,6 +136,7 @@ ul li a:hover {
   animation: upanddown 1.5s infinite;
 
 }
+
 @keyframes upanddown {
     0%   {top: 330px;}
     50%  {top: 335px}
@@ -149,6 +144,7 @@ ul li a:hover {
 }
 
 /* FOOTER */
+
 footer {
 }
 [src="images/phone.png"] {
@@ -156,9 +152,4 @@ footer {
   position: absolute;
   right: 2vw;
   bottom: 3vh;
-
-  /*margin: auto;*/
-  /*bottom: -65vh;*/
-  /*top: 62vh;*/
-  /*left: 38vw;*/
 }
