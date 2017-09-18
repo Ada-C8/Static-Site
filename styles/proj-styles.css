@@ -111,7 +111,7 @@ body {
     border:0px solid #fff;
     max-width: 500px;
     max-height: 500px;
-    width: 400px;
+    width: 380px;
     height: auto;
 }
 
@@ -135,6 +135,23 @@ main section h1 {
   font-size: 4em;
 }
 
+#vp {
+  display: inline-block;
+  position: relative;
+  right: 150px;
+  bottom: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+#art {
+  display: inline-block;
+  position: relative;
+  right: 360px;
+  bottom: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
 main section p {
   display: inline-block;
   position: relative;
@@ -151,7 +168,7 @@ footer {
   float: left;
   width: 1000px;
   position: relative;
-  top: 150px;
+  top: 170px;
 }
 
 #disclaimer {
