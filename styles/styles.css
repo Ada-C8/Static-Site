@@ -1,9 +1,11 @@
 header {
-  border: solid purple;
+  top: 0px;
   text-align: center;
+  font-size: 1.5em;
   position: fixed;
   width: 100%;
-  margin-top: 3% !important;
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgrey;
 }
 
 nav li {
@@ -32,6 +34,16 @@ a {
   text-align: center;
 }
 
-footer {
-  border: solid red;
+#footer {
+  text-align: center;
+}
+
+#footer a img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#footer a {
+  display: inline-block;
+  margin: .5%;
 }
