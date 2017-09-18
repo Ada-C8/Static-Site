@@ -1,0 +1,104 @@
+.inline-block {
+  display: inline-block;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: #fff;
+}
+
+p {
+  line-height: 1.75em;
+}
+
+a {
+  color: #8912FF;
+}
+
+a:hover {
+  color: #1F2124;
+}
+
+header {
+  height: 125px;
+  width: 100%;
+  background-color: #8912FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: left;
+}
+
+.home-link {
+  color: #fff;
+  margin-top: 85px;
+  margin-left: 30px;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.home-link:hover {
+ color: #566270;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -10px;
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav li a:hover {
+ color: #566270;
+}
+
+main {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+  max-width: 800px;
+}
+
+
+.site-footer {
+  font-size: .80em;
+  margin: auto;
+  height: 100px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  color: black;
+ }
+
+ footer a:hover {
+  text-decoration: none;
+  color: #8912FF;
+ }
+
+ footer .footer-wrapper {
+  width: 900px;
+  margin: auto;
+  margin-top: 40px;
+ }
+
+.contact {
+  float: right;
+  margin-top: -80px;
+}

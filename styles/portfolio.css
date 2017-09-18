@@ -1,0 +1,9 @@
+li.projects {
+  font-size: 1.3em;
+  line-height: 2em;
+  list-style: none;
+}
+
+li.projects a {
+  text-decoration: none;
+}
