@@ -1,0 +1,27 @@
+
+h2.portfolio {
+  text-align: left;
+  padding: .2% 0;
+  border-bottom: solid;
+}
+
+.portfolio-link a {
+  color: #3a7f92;
+  font-weight: bold;
+  /*font-size: 1.5em*/
+}
+
+.portfolio-link a:hover {
+  /*background-color: black;*/
+  background-color: white;
+  text-decoration: none;
+  padding-bottom: 1%;
+  border: outset;
+  border: solid;
+  border-color: lightblue;
+}
+
+article.portfolio {
+  background: lightgrey;
+  padding: 2%;
+}
