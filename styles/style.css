@@ -28,6 +28,18 @@ html, body{
   height 100%;
 }
 
+/*a:hover {
+  color: yellow;
+}*/
+
+a:visited {
+  color: gray;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
 body {
   background: url(../images/turntable.jpg) no-repeat center center;
   background-size: cover;
@@ -47,8 +59,6 @@ h1{
   font-family: 'Pacifico', cursive;
   text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
 }
-
-
 
 footer {
   position: fixed;
