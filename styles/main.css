@@ -1,9 +1,11 @@
 /* Font */
 
-@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 * {
-    font-family: 'Princess Sofia', cursive;
+    font-family: 'Amatic SC', cursive;
 }
+
+/* Background*/
 
 body {
     background-image: url(../images/cat.jpg) no-repeat fixed center;
@@ -11,4 +13,33 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+/* Styling for content */
+h1 {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px grey;
+    
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    font-size: 20px;
+    color: white;
+    
+}
+
+/* Navbar */
+
+
+/* Social Media Icons*/
+
+
+/* Footer */
 
