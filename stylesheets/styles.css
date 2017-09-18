@@ -129,12 +129,12 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
-footer section.footer-text p { font-size: 0.5em; }
-footer section.footer-text p a {
+footer div.footer-text p { font-size: 0.5em; }
+footer div.footer-text p a {
   font-style: italic;
   color: #fefefe;
 }
-footer section.footer-text p i { color: #edb1c1; }
+footer div.footer-text p i { color: #edb1c1; }
 footer ul.footer-sns {
   display: flex;
   justify-content: center;
@@ -221,50 +221,50 @@ footer ul.footer-sns li a:hover { color: #edb1c1; }
   justify-content: center;
   align-items: center;
 }
-.main-about h2 { margin-bottom: 2%; }
-.main-about section { margin-bottom: 10%; }
-section.basics {
+.main-about h2 { margin-bottom: 3%; }
+div.basics, div.skills { margin-bottom: 10%; }
+div.basics {
   width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
   text-align: center;
 }
-section.basics div.img-side { width: 35%; }
-section.basics div.img-side img {
+div.basics div.img-side { width: 35%; }
+div.basics div.img-side img {
   max-height: 300px;
   filter: grayscale(100%);
   border: 5px double #333;
   vertical-align: middle;
 }
-section.basics div.text-side { width: 65%; }
-section.basics div.text-side table {
+div.basics div.text-side { width: 65%; }
+div.basics div.text-side table {
   height: 100%;
   width: 100%;
 }
-section.basics div.text-side table tr:hover td {
+div.basics div.text-side table tr:hover td {
   background: #f0f0f0;
   border-top: 2px solid #777;
   border-bottom: 2px solid #777;
 }
-section.basics div.text-side table td {
+div.basics div.text-side table td {
   padding: 0 2% 0 5%;
   vertical-align: middle;
 }
-section.basics div.text-side table td:first-of-type {
+div.basics div.text-side table td:first-of-type {
   text-align: center;
   width: 10%;
 }
-section.basics div.text-side table td:nth-of-type(2){
+div.basics div.text-side table td:nth-of-type(2){
   text-align: left;
   width: 30%;
 }
-section.basics div.text-side table td:nth-of-type(3){
+div.basics div.text-side table td:nth-of-type(3){
   text-align: left;
   width: 60%;
 }
-section.basics div.text-side table td i { color: #edb1c1; }
-section.skills {
+div.basics div.text-side table td i { color: #edb1c1; }
+div.skills {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -383,11 +383,12 @@ li#hotel {
 .portfolio-items li a .p-link { font-size: 0.7em; }
 
 
-/*--------------- MAIN H-BLOG.HTML ---------------*/
+/*--------------- MAIN BLOG.HTML ---------------*/
 section.blog-posts {
   -webkit-column-width: 12em;
   -webkit-column-gap: 1em;
 }
+section.blog-posts h2 { margin: 0 0 2% 5%; }
 article.blog-post {
   display: inline-block;
   margin:  0.25rem;
@@ -401,7 +402,7 @@ article.blog-post img {
   max-width: 270px;
   border: 2px solid #fefefe;
 }
-article.blog-post h2 {
+article.blog-post h3 {
   font-size: 1.2em;
   margin: 2% 0;
 }
