@@ -9,14 +9,14 @@ a:hover {
 
 h1 {
   font-family: 'Righteous', serif;
+  color: white;
 }
 
-nav {
+nav, h2 {
   font-family: 'Cambay', sans-serif;
 }
 
 nav ul {
-  border: solid black 1px;
   display: inline-block;
   padding: 2em;
   list-style: none;
@@ -79,15 +79,13 @@ header#home-header h1 {
 }
 
 section.name {
-  border: 1px black solid;
   display:inline-block;
   float: left;
-  min-width: 40%;
+  min-width: 50%;
   max-width: 70%;
 }
 
 header#home-header ul{
-  border: 1px solid black;
   position: absolute;
   right: 0;
 }
@@ -135,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2a36', end
 }
 
 body {
-  background-color: #454545;
+  background-color: #2f2f2f;
 }
 
 header.sub-page {
@@ -155,7 +153,7 @@ header.sub-page nav {
 
 header.sub-page h1 {
   margin: 0;
-  padding: 4px;
+  padding: 5px;
   min-width: 10%;
   max-width: 30%;
 }
@@ -173,4 +171,38 @@ header.sub-page li {
   width: 5em;
   text-align: center;
   padding: 2px 1em;
+}
+
+h1.sub-page {
+  padding: 3px;
+  margin-left: 1em;
+}
+
+article.project {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 48em;
+  min-width: 15em;
+  padding: 2px;
+  margin: 10px auto;
+}
+
+article.project section {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+article.project img {
+  max-width: 45em;
+  min-width: 15em;
+  padding: 3px;
+  border-radius: 3px;
+  border: black solid 5px;
+}
+
+article.project p {
+  text-align: left;
+  padding: 1em 2em;
+  margin: 0 auto;
 }
