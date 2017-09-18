@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+.title {
+  background-color: #ffccff;
+}
+
+#posts {
+  text-align: center;
+}
+
+
+main {
+  width: 100%;
+  height: 90vw;
+  background-color: #e6fff2;
+  position: relative;
+  font-family: 'Source Code Pro';
+}
+
+body {
+  background-color: #e6fff2;
+
+}
+
+article {
+  text-align: center;
+  display: inline-block;
+  width: 28vw;
+  height: 30vw;
+  margin: 2vw 1vw;
+  overflow: hidden;
+  border: solid rgba(0,0,0,0.25);
+  font-size: .7em;
+}
+
+
+article h4 {
+  border-bottom: solid rgba(0,0,0,0.25);
+}
+
+article:hover {
+  box-shadow:
+    0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+  /*color: #ffccff;*/
+}
+
+footer {
+  background-color: #ffccff;
+}
+
+nav li a:hover {
+  border-bottom: solid #e6fff2;
+}

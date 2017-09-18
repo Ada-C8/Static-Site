@@ -1,0 +1,290 @@
+/*COLORS*/
+/*minty green: #99ffcc
+lighter minty green: #e6fff2*/
+
+/*blue: #0099ff
+lighter blue: #99d6ff */
+
+/*pink: #ff99ff
+lighter pink: #ffccff */
+
+/*ochre: #ffcc66
+lighter ochre: #ffe6b3 */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+header {
+  background-color: olive;
+  position: fixed;
+  width: 100%;
+  color: white;
+}
+
+header a {
+  color: white
+}
+
+a:hover {
+  color: yellow;
+}
+
+footer  {
+  width: 100%;
+  position: fixed; bottom: 0; left:0; right: 0; height: 100px;
+
+}
+
+
+main {
+  width: 100%;
+  height: 900px;
+  background-color: #ffccff ;
+  z-index: 1;
+  position: relative;
+
+}
+
+#fix {
+  position: fixed;
+  width: 100%;
+  /*height: 80vw;*/
+
+}
+
+#under {
+  width: 100%;
+  height: 900px;
+  background-color: #e6fff2 ;
+  /*z-index: 1;*/
+  position: relative;
+}
+
+
+#underthat {
+  width: 100%;
+  height: 900px;
+  background-color: #99d6ff ;
+  /*z-index: 1;*/
+  position: relative;
+}
+#onemore {
+  width: 100%;
+  height: 1100px;
+  background-color: #ff8566;
+  /*z-index: 1;*/
+  position: relative;
+}
+
+#Diane  {
+  position: absolute;
+  margin: 870px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Diane p {
+  width: 100%;
+  margin: 0 2vw;
+  /*width: 30vw;*/
+}
+
+#Student  {
+  position: absolute;
+  margin: 1770px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Student p{
+  margin: 0 1.9vw;
+  width: 100%;
+}
+
+#Maverick {
+  position: absolute;
+  margin: 2670px 0 0 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Maverick p{
+  width: 100%;
+  margin: 0 2vw;
+
+}
+
+#outer {
+  width: 60vw;
+  height: 60vw;
+  background-color: #ffcc66;
+  z-index: 2;
+  margin: 5vw 20vw;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+#outer p {
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+
+
+#outer:hover {
+  background-color: #ffe6b3;
+}
+
+#middle {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background-color: #99ffcc;
+  z-index: 3;
+  margin: 10vw 25vw;
+  border-radius: 50%;
+}
+
+
+#middle p {
+  /*visibility: hidden;*/
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+#middle:hover{
+  background-color: #e6fff2;
+  visibility: visible;
+
+}
+
+#inner {
+  /*width: 40%;*/
+  width: 40vw;
+  /*height: auto;*/
+  position: absolute;
+  border-radius: 100%;
+  margin: 15vw 30vw;
+  background-color: #0099ff;
+  z-index: 4;
+  height: 40vw;
+
+}
+
+#inner:hover{
+  background-color: #99d6ff;
+}
+
+#inner p {
+  /*visibility: hidden;*/
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+#entry {
+  width: 30vw;
+  border-radius: 50%;
+  margin: 20vw 35vw;
+  height: 30vw;
+  background-image: url('https://static1.squarespace.com/static/54bc2955e4b0b0eaa10e5a2b/596548c66b8f5b22bb91940f/596548d1bebafb8157b843e3/1499810003170/20017874_323397128073895_6091661010718267763_o.jpg?format=1500w');
+  background-position: center;
+  background-size: 220%;
+  z-index: 6;
+  position: absolute;
+}
+
+#entry:hover {
+  opacity: .5;
+}
+
+#entry p {
+  /*visibility: hidden;*/
+  position: absolute;
+  margin: 1em;
+  font-size: .6em;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+
+main {
+  font-family: 'Source Code Pro';
+  /*font-size: .5em;*/
+}
+
+main p {
+  /*display: inline-block;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*font-size: 4em;*/
+  /*background-color: #ffcc66;*/
+  margin: 0;
+  /*position: fixed;*/
+  position: absolute;
+}
+
+
+
+footer {
+  background-color: #ffccff;
+  height: 8vw;
+  font-family: 'Source Code Pro'
+}
+
+footer nav {
+  display: inline-block;
+  text-align: right;
+  width: 30%
+}
+
+footer h3 {
+  margin-left: 3vw;
+  display: inline-block;
+  width: 60%;
+}
+
+nav li {
+  display: inline-block;
+  width: 40%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  border-bottom: solid #e6fff2;
+  color: black;
+}

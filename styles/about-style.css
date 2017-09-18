@@ -1,0 +1,82 @@
+
+.title {
+  background-color: #99d6ff;
+}
+
+main {
+  /*height: 160vw;*/
+  background-color: #ffccff ;
+}
+
+body {
+  background-color: #ffccff ;
+
+}
+
+#photo {
+  /*display: inline-block;*/
+  width: 45%;
+  margin-top: 40px;
+  margin-left: 25px;
+  position: fixed;
+  z-index: 10;
+}
+
+#alley {
+  width: 45%;
+  margin-top: 40px;
+  margin-left: 25px;
+  position: fixed;
+  z-index: 1;
+}
+
+#info {
+  /*display: inline-block;*/
+  width: 40%;
+  margin-top: 40px;
+  vertical-align: top;
+  text-align: center;
+  float: right;
+}
+
+#earlylife {
+  width: 40%;
+  margin-top: 10vw;
+  vertical-align: top;
+  text-align: center;
+  float: right;
+  clear: right;
+}
+
+#deathandlegacy {
+  width: 40%;
+  margin-top: 10vw;
+  vertical-align: top;
+  text-align: center;
+  float: right;
+  clear: right;
+  margin-bottom: 10vw;
+}
+
+img {
+  /*border-radius: 100%;*/
+  width: 100%;
+  border-style: solid;
+  border-color: #e6fff2;
+
+}
+
+#photo img:hover {
+  opacity: .35;
+}
+
+footer {
+  background-color: #99d6ff;
+  position: fixed; bottom: 0; left:0; right: 0;
+  clear: right;
+}
+
+
+nav li a:hover {
+  border-bottom: solid #ffccff;
+}

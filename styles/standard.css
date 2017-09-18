@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.title {
+  background-color: #ffccff;
+  text-align: center;
+}
+
+
+main {
+  width: 100%;
+  background-color: #99d6ff ;
+  position: relative;
+  font-family: 'Source Code Pro';
+}
+
+h2 {
+  margin: 0;
+}
+
+/*------------FOOTER-------------*/
+
+footer {
+  height: 5vw;
+  font-family: 'Source Code Pro';
+  z-index: 1;
+  width: 100%;
+  position: fixed; bottom: 0; left:0; right: 0;
+}
+
+footer nav {
+  display: inline-block;
+  text-align: right;
+  width: 70%
+}
+
+footer h3 {
+  margin-left: 3vw;
+  display: inline-block;
+  width: 25%;
+}
+
+nav li {
+  display: inline-block;
+  width: 22%;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  border-bottom: solid #99d6ff;
+}

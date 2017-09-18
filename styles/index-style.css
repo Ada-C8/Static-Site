@@ -1,0 +1,310 @@
+/*COLORS*/
+/*minty green: #99ffcc
+lighter minty green: #e6fff2*/
+
+/*blue: #0099ff
+lighter blue: #99d6ff */
+
+/*pink: #ff99ff
+lighter pink: #ffccff */
+
+/*ochre: #ffcc66
+lighter ochre: #ffe6b3 */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/*------------MAIN-------------*/
+
+
+main {
+  width: 100%;
+  height: 900px;
+  background-color: #ffccff ;
+  z-index: 1;
+  position: relative;
+}
+
+main {
+  font-family: 'Source Code Pro';
+}
+
+main p {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+}
+
+/*------------CIRCLES-------------*/
+
+
+#fix {
+  position: fixed;
+  width: 100%;
+
+}
+
+#under {
+  width: 100%;
+  height: 900px;
+  background-color: #e6fff2 ;
+  /*z-index: 1;*/
+  position: relative;
+}
+
+
+#underthat {
+  width: 100%;
+  height: 900px;
+  background-color: #99d6ff ;
+  /*z-index: 1;*/
+  position: relative;
+}
+#onemore {
+  width: 100%;
+  height: 1100px;
+  background-color: #ff8566;
+  position: relative;
+}
+
+#outer {
+  width: 60vw;
+  height: 60vw;
+  background-color: #ffcc66;
+  z-index: 2;
+  margin: 5vw 20vw;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+#outer p {
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+
+
+#outer:hover {
+  background-color: #ffe6b3;
+}
+
+#middle {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background-color: #99ffcc;
+  z-index: 3;
+  margin: 10vw 25vw;
+  border-radius: 50%;
+}
+
+
+#middle p {
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+#middle:hover{
+  background-color: #e6fff2;
+  visibility: visible;
+
+}
+
+#inner {
+  width: 40vw;
+  position: absolute;
+  border-radius: 100%;
+  margin: 15vw 30vw;
+  background-color: #0099ff;
+  z-index: 4;
+  height: 40vw;
+
+}
+
+#inner:hover{
+  background-color: #99d6ff;
+}
+
+#inner p {
+  position: absolute;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  font-size: .6em;
+}
+
+#entry {
+  width: 30vw;
+  border-radius: 50%;
+  margin: 20vw 35vw;
+  height: 30vw;
+  background-image: url('https://static1.squarespace.com/static/54bc2955e4b0b0eaa10e5a2b/596548c66b8f5b22bb91940f/596548d1bebafb8157b843e3/1499810003170/20017874_323397128073895_6091661010718267763_o.jpg?format=1500w');
+  background-position: center;
+  background-size: 220%;
+  z-index: 6;
+  position: absolute;
+}
+
+#entry:hover {
+  opacity: .5;
+}
+
+#entry p {
+  position: absolute;
+  margin: 1em;
+  font-size: .6em;
+  z-index: 101;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+/*------------SCROLL-------------*/
+
+#Diane  {
+  position: absolute;
+  margin: 870px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Diane p {
+  width: 100%;
+  margin: 0 2vw;
+}
+
+#Student  {
+  position: absolute;
+  margin: 1770px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Student p{
+  margin: 0 1.9vw;
+  width: 100%;
+}
+
+#Maverick {
+  position: absolute;
+  margin: 2670px 0 0 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Maverick p{
+  width: 100%;
+  margin: 0 2vw;
+
+}
+
+
+/*------------FADE IN-------------*/
+
+
+.fade-in span {
+  display: inline-block;
+  width: 100%;
+  z-index: 200000;
+  position: relative;
+}
+
+
+.fade-in p {
+  font-size: 2.5em;
+  color: white;
+  font-style: bold;
+  z-index: 20000;
+  height: 4em;
+  width: 20%;
+  margin-top: 15vw;
+  z-index: 1000
+}
+
+@keyframes fadeIn
+to {
+   opacity: 1; }
+
+.fade-in {
+animation: fadeIn 1.0s ease forwards;
+
+}
+
+@keyframes fadeIn{
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+  .fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+  }
