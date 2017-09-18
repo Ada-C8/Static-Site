@@ -58,9 +58,18 @@
   color: white;
 }
 
+.homepage ul li:hover {
+  background-color: #f4dddd;
+}
+
+
 .homepage ul li a {
   text-decoration: none;
   color: white;
+}
+
+.homepage ul li:hover a {
+  color: #472e76;
 }
 /*---------------body END-----------------*/
 /*------------- INDEX END-----------------*/
@@ -131,6 +140,15 @@
   color: white;
 }
 
+.about_header ul li:hover {
+  background-color: #f4dddd;
+}
+
+.about_header ul li:hover a {
+  color: #472e76;
+}
+
+
 /*--- header end---*/
 /*--- body start ---*/
 
@@ -143,7 +161,7 @@
 .left_photo {
   float: left;
   max-width: 55%;
-  margin: 5% 0% 7% 7%;
+  margin: 5% 0% 7% 15%;
 }
 
 .left_photo img {
@@ -155,25 +173,24 @@
 
 .right_text {
   float: right;
-  max-width: 40%;
-  margin: 5% 7% 7% 0%;
+  max-width: 30%;
+  margin: 5% 15% 7% 0%;
 
 }
 
 .right_text h2 {
-  /*border: 0.1px solid green;*/
-  font-family: 'Julius Sans One', sans-serif;
-  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
   font-size: 40px;
 
 }
 
 .right_text p {
-  /*border: 0.1px solid green;*/
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+
   vertical-align: middle;
   display: table-cell;
-  font-size: 20px;
+  font-size: 25px;
   display:block;
 
 }
@@ -232,10 +249,20 @@
   color: white;
 }
 
+.contact_header ul li:hover {
+  background-color: #f4dddd;
+  color: #472e76;
+}
+
 .contact_header ul li a {
   text-decoration: none;
-  color: black;
+  /*color: black;*/
   color: white;
+}
+
+
+.contact_header ul li:hover a {
+  color: #472e76;
 }
 
 
@@ -269,6 +296,13 @@
 
 .contact_info div nav ul li a i{
   color: black;
+}
+
+.contact_info div nav ul li a i:hover {
+  color: #03095e;
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+
 }
 
 /*---------------CONTACT END-----------------*/
@@ -325,10 +359,18 @@
   color: white;
 }
 
+.portfolio_header ul li:hover {
+  background-color: #f4dddd;
+}
+
 .portfolio_header ul li a {
   text-decoration: none;
   color: black;
   color: white;
+}
+
+.portfolio_header ul li:hover a {
+  color: #472e76;
 }
 
 /*---body---*/
@@ -385,7 +427,7 @@ section article p:last-child a {
 /*---------------BLOG START-----------------*/
 
 /*.body_class {
-  margin:0;
+margin:0;
 }*/
 
 .blog_header {
@@ -447,10 +489,21 @@ section article p:last-child a {
   color: white;
 }
 
-.blog h1 {
-  text-align: center;
-  font-size: 80px;
+
+.blog_header ul li:hover {
+  background-color: #f4dddd;
 }
 
 
-/*---------------BLOG END-----------------*/
+.blog_header ul li:hover a {
+  color: #472e76;
+}
+
+.blog h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+
+
+  /*---------------BLOG END-----------------*/
