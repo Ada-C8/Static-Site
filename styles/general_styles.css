@@ -10,11 +10,13 @@ h1 {
   color: #9C873C;
 }
 
+main p {
+  color: #9C873C
+}
+
 body {
   position: relative;
   background: #EBF7F7;
-  /*border-left: #25A0A0 10px double;
-  border-right: #25A0A0 10px double;*/
   margin: 10vw;
   padding: 0;
   box-sizing: content-box;

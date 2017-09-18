@@ -1,6 +1,7 @@
 main {
   /*border-left: #25A0A0 10px double;
   border-right: #25A0A0 10px double;*/
+  margin: 10vw;
   padding: 3vw;
 }
 
@@ -15,14 +16,14 @@ main {
 
 main h1 {
   font-size: 5vw;
-  /*border-bottom: solid #3E517A 3px;*/
-  border-bottom: #25A0A0 3px solid;
   margin-bottom: 0;
 }
 
 .poetry {
     border-left: #25A0A0 10px double;
     border-right: #25A0A0 10px double;
+    border-bottom: #25A0A0 10px solid;
+    border-top: #25A0A0 10px solid
 }
 
 .poetry :nth-child(n) h2 {
