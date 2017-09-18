@@ -1,7 +1,6 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One');
 @import url(font-mfizz.css);
-
-/** { border: 1px solid red !important;}*/
 
 /*--------------- SHARED STYLES ---------------*/
 html { box-sizing: border-box; }
@@ -32,22 +31,21 @@ a {
   text-decoration: none;
 }
 a:hover { cursor: pointer; }
-
 @font-face {
-    font-family:'Nanum';
-    font-weight:400;
-    src: url('../fonts/NanumGothic.eot');
-    src: url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/NanumGothic.woff') format('woff'),
-		 url('../fonts/NanumGothic.ttf') format('truetype');
+  font-family:'Nanum';
+  font-weight:400;
+  src: url('../fonts/NanumGothic.eot');
+  src: url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/NanumGothic.woff') format('woff'),
+  url('../fonts/NanumGothic.ttf') format('truetype');
 }
 @font-face {
-    font-family:'NanumBold';
-    font-weight:600;
-    src: url('../fonts/NanumGothicBold.eot');
-    src: url('../fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/NanumGothicBold.woff') format('woff'),
-		 url('../fonts/NanumGothicBold.ttf') format('truetype');
+  font-family:'NanumBold';
+  font-weight:600;
+  src: url('../fonts/NanumGothicBold.eot');
+  src: url('../fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/NanumGothicBold.woff') format('woff'),
+  url('../fonts/NanumGothicBold.ttf') format('truetype');
 }
 .ko {
   font-family: 'Nanum', sans-serif;
@@ -56,7 +54,7 @@ a:hover { cursor: pointer; }
   font-family: 'NanumBold', sans-serif;
 }
 
-/*--------------- CONTENT START ---------------*/
+/*--------------- MAIN STYLE ---------------*/
 div.container {
   width: 80%;
   margin: 5% auto;
@@ -73,6 +71,10 @@ header, main {
 body.patterned {
   background-image: url('../images/jojo-pattern.png');
   background-repeat: repeat-x repeat-y;
+}
+main {
+  width: 100%;
+  padding: 5% 4% 8%;
 }
 
 /*--------------- HEADER ---------------*/
@@ -145,14 +147,10 @@ footer ul.footer-sns li a {
   color: #fcfcfc;
   font-size: 0.9em;
 }
-footer ul.footer-sns li a:hover {
-  color: #edb1c1;
-}
+footer ul.footer-sns li a:hover { color: #edb1c1; }
 
 /*--------------- MAIN INDEX.HTML ---------------*/
 .main-index {
-  width: 100%;
-  padding: 5% 4% 8%;
   display: flex;
   justify-content: center;
   align-content: flex-start;
@@ -219,8 +217,6 @@ footer ul.footer-sns li a:hover {
 
 /*--------------- MAIN ABOUT.HTML ---------------*/
 .main-about {
-  width: 100%;
-  padding: 5% 4% 8%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -280,7 +276,10 @@ div.skills-left, div.skills-right {
   margin: auto 5%;
 }
 p.skill-name { margin-left: 14%; }
-p.skill-name i { margin-right: 2%; color: #999; }
+p.skill-name i {
+  margin-right: 2%;
+  color: #999;
+}
 div.bar {
   height: 45px;
   width: 300px;
@@ -317,10 +316,6 @@ div.git-per { width: 120px; }
 div.python-per { width: 150px; }
 
 /*--------------- MAIN PORTFOLIO.HTML ---------------*/
-.main-portfolio {
-  width: 100%;
-  padding: 5% 4% 8%;
-}
 .portfolio-items {
   width: 100%;
   display: flex;
@@ -348,7 +343,7 @@ li#grocery-store {
   background-position: center center;
 }
 li#calculator {
-  background: url('../images/calculator.jpeg');
+  background: url('../images/calculator.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -390,10 +385,6 @@ li#hotel {
 
 
 /*--------------- MAIN H-BLOG.HTML ---------------*/
-.main-blog {
-  width: 100%;
-  padding: 5% 4% 8%;
-}
 section.blog-posts {
   -webkit-column-width: 12em;
   -webkit-column-gap: 1em;
