@@ -6,15 +6,21 @@
 /*********** MAIN ***********/
 main.portfolio {
   background-color: #009FB7;
+
 }
 
-main article {
-  display: inline-block;
+main.portfolio article {
+  display: inline-blck;
+  background-color: #F4F4F8;
+  width: 47%;
+  border: 5px solid white;
+  border-top-left-radius: 1.5em;
+  margin: 0 10px 50px 10px;
 }
 
 article img {
-  border-radius: 1em;
-  width: 45%;
+  border-top-left-radius: 1em;
+  width: 100%
 }
 
 article.meowspace {
@@ -33,4 +39,22 @@ article.proj-port {
 
 article.pizza {
 float: right;
+}
+
+
+
+div.description {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  top: 0;
+
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+article.meowspace img:hover div.description {
+  opacity: 1;
 }
