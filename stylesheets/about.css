@@ -1,0 +1,89 @@
+h1 {
+  background-color: #2EC0F9;
+  padding: 2%;
+}
+
+main img {
+  width: 50%;
+  height: 50%;
+  background-color: #331832;
+  padding: 5%;
+  border-radius: 2em;
+
+}
+
+p {
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+}
+
+.text{
+  background-color: #5DD39E;
+  width: 70%;
+  margin-left: 13%;
+  padding: 2%;
+  border-radius: 1em;
+  box-shadow: 6px 10px 9px #888899;
+
+}
+
+.text h2 {
+  color: #EAEAEA;
+  background-color: #090C9B;
+  padding: 1%;
+  width: 15%;
+  margin-left: 43%;
+  box-shadow: 4px 5px 9px gray;
+  border-radius: .25em;
+
+
+}
+  .lists {
+    display: inline-block;
+  }
+
+  .lists h3 {
+    background-color: #2EC0F9;
+    color: #331832 ;
+    padding: .5em;
+    border-radius: 2em;
+  }
+
+  .lists h3:hover {
+    background-color: #331832 ;
+    color: #2EC0F9;
+  }
+
+  .likes {
+    float:left;
+    width: 15em;
+    padding-right: 5em;
+  }
+
+  .likes ul {
+    display: inline-block;
+  }
+
+  .likes li {
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+  }
+
+  .dislikes {
+    float:right;
+    width: 15em;
+    padding-left: 5em;
+
+  }
+
+  .dislikes ul {
+    display: inline-block;
+  }
+
+  .dislikes li {
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+  }

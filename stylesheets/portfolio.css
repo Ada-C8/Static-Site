@@ -1,0 +1,28 @@
+.main h2 {
+  color: #EAEAEA;
+  background-color: #090C9B;
+  padding: 1%;
+  width: 15%;
+  margin-left: 43%;
+  box-shadow: 4px 5px 9px gray;
+  border-radius: .25em;
+}
+
+.main a {
+  color:white;
+  text-decoration: none;
+}
+
+main h2:hover {
+  color:#090C9B;
+  background-color: #F49F0A;
+}
+
+
+.main p {
+  width: 70%;
+  height: 100px;
+  margin-left:15%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
