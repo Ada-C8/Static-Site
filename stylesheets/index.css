@@ -1,5 +1,4 @@
 /************ DRY ***********/
-
 .div-height {
   height: 33.5%;
 }
@@ -23,6 +22,7 @@ p {
   font-size: 40px;
   padding-top: 1.75em;
   margin: 0;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .p1 {
@@ -35,13 +35,16 @@ p {
   background-color: #009FB7;
 }
 
+/*********** FOOTER *********/
 footer {
   background-color: #F4F4F8;
   height: 10%;
 }
+footer > p {
+  font-family: 'Comfortaa', cursive;
+}
 
 /********** HOVER **********/
-
 .flex-display {
   position: relative;
   display: flex; /* flex display */
