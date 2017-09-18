@@ -104,6 +104,10 @@ p a {
   margin: auto;
 }
 
+.header-top {
+  top: 0;
+}
+
 /***********/
 /*hero page*/
 /***********/
@@ -198,7 +202,6 @@ hr {
 .blog h1 {
   color: #2E3B48;
   text-shadow: 3px 2px 0 #95B8D1;
-  top: 0;
 }
 
 .blog .container {
@@ -248,28 +251,13 @@ hr {
 /*portfolio*/
 /***********/
 
-/*
-dark blue-grey: #666A86
-dark sky blue: #95B8D1
-japanese indigo: #2E3B48
-dutch white: #E8DDB5
-nadeshiko pink: #EDAFB8
-*/
-
-
 .portfolio {
   background-color: #666A86;
 }
-/*
-.portfolio .container {
-  display: inline-block;
-  vertical-align: middle;
-}*/
 
 .portfolio h1 {
   color: #E8DDB5;
   text-shadow: 3px 2px 0 #2E3B48;
-  top: 0;
 }
 
 .portfolio h4 {
@@ -344,6 +332,49 @@ nadeshiko pink: #EDAFB8
 /*contact*/
 /*********/
 
+/*
+dark blue-grey: #666A86
+dark sky blue: #95B8D1
+japanese indigo: #2E3B48
+dutch white: #E8DDB5
+nadeshiko pink: #EDAFB8
+*/
+
 .contact {
   background-color: #95B8D1;
+  margin-bottom: 0;
+}
+
+.contact h1 {
+  color: #2E3B48;
+  text-shadow: 3px 2px 0 #E8DDB5;
+}
+
+.contact p {
+  color: #666A86;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact li {
+  display: inline-block;
+  margin: 3%;
+  vertical-align: top;
+  width: 25%;
+}
+
+.contact .holder {
+  margin-top: 4rem;
+}
+
+i {
+  color: #2E3B48;
+  text-shadow: 3px 2px 0 #E8DDB5;
+  width: 25%;
+}
+
+i:hover {
+  color: #EDAFB8;
+  text-shadow: 3px 2px 0 #666A86;
 }
