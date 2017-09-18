@@ -69,37 +69,17 @@ a:hover {
 
 header {
   width: 100%;
-  /*border-bottom: solid gray 1px;*/
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   position: fixed;
-  /*text-align: center;*/
   background: white;
   top: 0px;
   z-index: 500;
-  /*overflow: visible;*/
 }
 
 
 header nav {
   float: right;
   margin-top: 10px;
-}
-
-footer {
-  width: 100%;
-  margin: auto;
-  bottom: 0;
-}
-
-footer h4, p {
-  display: inline;
-}
-
-.footer-text {
-  padding-left: 10px;
-  width: 60%;
-  display: inline-block;
-  font-size: .9em;
 }
 
 #rept {
@@ -181,23 +161,17 @@ nav.container {
 /*reference: https://codepen.io/Deadlymuffin/pen/hGiqo*/
 .social-menu {
   display: inline-block;
+  float: right;
 }
 .social-menu ul {
     padding:0;
     list-style: none;
-    float: right;
 }
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
-}
-.social-icon {
-    color: #fff;
-}
+
 ul.social-icons {
-    margin-top: 10px;
+  display: inline-block;
 }
+
 .social-icons li {
     vertical-align: top;
     display: inline;
@@ -210,9 +184,6 @@ ul.social-icons {
 
 .fa-github {
     padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: transparent;
@@ -223,27 +194,41 @@ ul.social-icons {
 
 .fa-twitter {
     padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: transparent;
 }
+
 .fa-twitter:hover {
   color: #00aced;
 }
+
 .fa-linkedin {
     padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: transparent;
 }
+
 .fa-linkedin:hover {
   color: #0073a4;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+}
+
+footer h4, footer p {
+  display: inline-block;
+}
+
+.footer-text {
+  padding-left: 10px;
+  width: 40%;
+  display: inline-block;
+  font-size: .9em;
 }
 
 /*playing with shapes */
@@ -294,23 +279,6 @@ ul.social-icons {
 
 .home main {
   width: 70%;
-}
-
-footer li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-footer ul {
-  display: inline-block;
-  margin: 0;
-  float: right;
-  text-align: right;
-}
-
-footer .footer-text, footer nav {
-  display:inline-block;
-  vertical-align:middle;
 }
 
 header h1 {
