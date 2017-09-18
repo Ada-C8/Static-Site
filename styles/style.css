@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+*{
+  /*border: 1px solid blue;*/
+}
+html, body{
+  height: 100%;
+}
+body{
+  min-width: 588px;
+}
+#container{
+  min-height: 100%;
+  margin-bottom: -40px;
+  position:relative;
+}
+footer{
+  height:50px;
+  position:relative;
+}
+
+.clearfooter {
+height: 40px;
+clear: both;
+}
+a{
+  border: 3px double rgba(255, 255, 255, 0);
+}
+a:hover{
+  border:3px double white;
+  border-radius: 100px;
+}
+
+header nav {
+  margin-right: 20px;
+  display: inline-block;
+  float:right;
+}
+
+header nav ul li{
+  /*margin-right: 20px;*/
+  display: inline-block;
+  /*float:right;*/
+}
+header nav ul li a, footer ul li a{
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+header nav ul li a, header p{
+  text-shadow: 2px 2px 7px #111111;
+
+}
+
+header p{
+  display: inline-block;
+  float: left;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
+  font-size: 24px;
+  vertical-align: top;
+}
+header{
+  position: relative;
+  width: 100%;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, lightseagreen, mistyrose); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, lightseagreen, mistyrose); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, lightseagreen, mistyrose); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, lightseagreen, mistyrose);
+  background-color: lightseagreen;
+  height: 50px;
+}
+
+
+main{
+  margin: 50px auto 50px auto;
+}
+
+main #letter{
+  font-family: 'IM Fell Great Primer', serif;
+  margin: 10px;
+  font-size: 24px;
+  margin: 10px;
+}
+
+main #signature{
+  font-family: pacifico, cursive;
+  font-size: 36px;
+  text-align: center;
+}
+
+#main-photo{
+  width: 20%;
+  border-radius: 200px;
+  float: left;
+  margin:10px;
+}
+/*main article{
+  height: 330px;
+}*/
+footer{
+  background-color: black;
+}
+footer ul li a{
+  text-shadow: 2px 2px 7px lightseagreen;
+}
+footer nav{
+  position: absolute;
+}
+footer ul li{
+  display:inline-block;
+  align-content: space-between;
+  clear:both;
+  font-family: 'IM Fell Great Primer', serif;
+  color: white;
+  margin-right: 20px;
+  /*position:fixed;*/
+}
