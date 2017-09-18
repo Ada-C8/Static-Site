@@ -4,15 +4,19 @@ header {
 }
 
 /*********** MAIN ***********/
-main {
+main.code-journal {
   color: #FE4A49;
+  padding: 0;
+  width: 96%;
+  margin-left: 2%;
 }
 
-main h3 {
+main.code-journal h3 {
   font-size: 30px;
+  font-family: 'Berkshire Swash', cursive;
 }
 
-main p {
+main.code-journal p {
   font-size: 18px;
 }
 
@@ -37,6 +41,13 @@ article.sept ul {
 
 article.sept img {
   width: 10%;
-  border-radius: 10em;
   float: left;
+}
+
+img.tulip {
+  border-top-right-radius: 1em;
+}
+
+img.heart {
+  border-bottom-left-radius: 1em;
 }
