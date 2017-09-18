@@ -144,6 +144,11 @@ header nav li {
 
 /*BLOG*/
 
+.blog img {
+  padding-top: 50px;
+  width: 100%;
+}
+
 /*FOOTER*/
 
 footer {
@@ -173,140 +178,6 @@ footer p {
 footer a {
   color: #746F72;
   text-decoration: none;
-}
-
-/*main {
-  padding-top: 23px;
-}
-
-.banner {
-  padding: 0;
-  height: 275px;
-}
-
-.banner h1, .banner h2 {
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  color: #F3C74C;
-  text-shadow: 2px 2px 1px black;
-  line-height: 275px;
-}
-
-.banner:first-child {
-  background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ),url(../assets/cats-sausage.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.banner:last-child {
-  background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ),url(../assets/cat-lick.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.postsSection {
-  text-align: center;
-  background: #F3C74C;
-}
-
-.posts {
-  max-width: 800px;
-}
-
-.posts article {
-  border-left: 1px solid #1d1d1d;
-  border-right: 1px solid #1d1d1d;
-  margin: 25px 15px;
-  padding: 0 15px;
-  width: 200px;
-  display: inline-block;
-  transition: linear 0.2s;
-}
-
-.posts article:hover {
-  background: rgba(0,0,0,0.03);
-}
-
-.posts h3 {
-  font-size: 1.1em;
-  font-weight: 400;
-  font-style: italic;
-  height: 35px;
-}
-
-.snippet {
-  height: 140px;
-}
-
-.posts article p:last-child {
-  text-align: center;
-}
-
-.learnbutton {
-  width: 50%;
-  margin: 0 auto 15px;
-  padding: 3px;
-  border-bottom: 2px solid #1d1d1d;
-  font-style: italic;
-}
-
-.learnbutton:after {
-  content: "→";
-}
-
-.join {
-  width: 80%;
-  text-align: center;
-}
-
-.join article {
-  width: 45%;
-  margin: 25px 2% 0;
-  max-width: 300px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.join img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-footer {
-  background: #F3CFBD;
-}
-
-footer article{
-  width: 80%;
-  margin: 0 auto;
-}
-
-footer p, footer nav{
-  width: 49%;
-  display: inline-flex;
-}
-
-footer h4 {
-  position: absolute;
-  font-size: 0.9em;
-}
-
-#disclaimer {
-  font-size: 0.7em;
-  text-indent: 44px;
-  line-height: 1.6em;
-}*/
-
-
-/*MEDIA SCREEN ADJUSTMENTS*/
-@media screen and (max-width: 532px) {
-.banner h2 {
-  font-size: 1.2em;
-}
-
-.join article {
-  width: 100%;
-}
 }
 
 @keyframes fade {
