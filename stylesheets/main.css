@@ -357,6 +357,10 @@ nadeshiko pink: #EDAFB8
   margin-top: 1rem;
 }
 
+.contact a {
+  color: #666A86;
+}
+
 .contact li {
   display: inline-block;
   margin: 3%;
