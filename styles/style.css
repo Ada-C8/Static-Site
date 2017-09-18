@@ -1,0 +1,239 @@
+/*********************/
+/* General body css*/
+/*********************/
+@import url('https://fonts.googleapis.com/css?family=Amatica SC');
+
+body {
+  color: gray;
+  margin: 0;
+  font-family: 'Amatica SC'
+}
+
+a {
+  text-decoration: none;
+  padding: 1% 2%;
+}
+
+a:hover {
+  background-color: #EDEBED;
+  border-radius: 0.2rem;
+}
+
+ h2 {
+  font-size: 300%;
+}
+
+/*********************/
+/* HEADER            */
+/*********************/
+
+header nav a {
+  text-decoration: none;
+  color: gray;
+  margin: 0;
+  width: 100%;
+  font-size: 90%;
+}
+
+header nav {
+  width: 100%;
+  display: inline-flex;
+}
+
+header ul {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header li {
+  padding: 0.5% 8%;
+  list-style: none;
+  width: 20%;
+}
+
+/*********************/
+/* footer         */
+/*********************/
+footer {
+  background-color: #EDEBED;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*********************/
+/* paralax         */
+/*********************/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.module.content {
+  padding: 40px 0;
+  height: 800px;
+  text-align: center;
+
+}
+section.module.parallax {
+  height: 800px;
+  color: #EDEBED;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../images/the_point_2000.jpg');
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/the_point_2000.jpg");
+  height: 800px;
+  display: flex;
+  font-family: 'Amatica SC';
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+section.module.parallax-1 h1 {
+  font-size: 800%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 50% auto;
+  display: inline-flex;
+}
+
+/************ /
+/* HOME */
+/************/
+
+#home h1 {
+    margin: 30% auto;
+}
+
+#home p {
+    font-size: 150%;
+    color: #EDEBED;
+}
+
+/************ /
+/* Portfolio */
+/************/
+
+#portfolio h1 {
+    margin: 45% auto;
+}
+
+#portfolio p {
+    font-size: 150%;
+    color: #EDEBED;
+}
+
+
+/************ /
+/* projects */
+/************/
+
+.project-articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects article {
+  width: 30%;
+  margin-top: 5%;
+  background-color: #F2F5F9;
+  height: 175px;
+}
+
+.projects article h3 {
+  background-color: #C4D1DF;
+  padding: 1% 0;
+  font-size: 150%;
+}
+
+.projects article a {
+  background-color: #C4D1DF;
+  padding: 1% 2%;
+  border-radius: 0.2rem;
+  color: gray;
+}
+
+.projects article a:hover {
+  background-color: #E3DAE8;
+}
+
+
+/************ /
+/* code-journal */
+/************/
+
+#code-journal h1 {
+    margin: 35% auto;
+}
+
+#code-journal p {
+    font-size: 150%;
+    color: #EDEBED;
+}
+
+
+/************ /
+/* about */
+/************/
+
+.info-about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#about h1 {
+    margin-top: 83%;
+    margin-bottom: 70%;
+}
+
+#about p {
+    font-size: 150%;
+    color: #EDEBED;
+}
+
+.info-about-me > article {
+  height: 600px;
+}
+
+.pic-of-me {
+  background-color: #F2F5F9;
+  z-index: 10;
+  height: 403px;
+  width: 400px;
+  padding: 2%;
+  border: 2rem solid #C4D1DF;
+}
+
+
+/************ /
+/* journal post pages */
+/************/
+
+#journal-post {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #F2F5F9;
+  margin: 5%;
+}
+
+#journal-post h1 {
+  background-color: #C4D1DF;
+  padding: 1% 5%;
+  font-size: 300%;
+}
+#journal-post p {
+  padding: 0 5%;
+}
