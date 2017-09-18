@@ -26,9 +26,7 @@ hr {
   border: 1px solid #ecc81f;
 }
 
-a:hover {
-  /*color: #696969;*/
-  /*color: rgba(0,0,0,0.6);*/
+a:hover, .portfolio-links a:hover {
   color: #FF7E75;
 }
 
@@ -134,7 +132,6 @@ header nav li {
 /*^no specicications for now*/
 
 /*PORTFOLIO*/
-
 .portfolio img {
   padding-top: 50px;
   height: 350px;
@@ -142,12 +139,57 @@ header nav li {
   max-width: 600px;
 }
 
-/*BLOG*/
-
-.blog img {
-  padding-top: 50px;
-  width: 100%;
+section.portfolio-links {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.portfolio-links ul li {
+  display: inline-block;
+}
+
+.portfolio-links li {
+  list-style: none;
+}
+
+.portfolio-links a {
+  text-decoration: none;
+  color: gray;
+}
+
+header nav {
+  float: right;
+  text-align: right;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/*BLOG*/
+.blog h1 {
+  font-family: 'Over the Rainbow', cursive;
+  font-size: 7em;
+  padding-top: 60px;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.color-box {
+  height: 250px;
+  width: 100%;
+  background-color: #FF7E75;
+  margin-top: -10px;
+}
+
+.weekly-posts {
+  padding-top: 20px;
+}
+
 
 /*FOOTER*/
 
