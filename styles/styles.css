@@ -36,6 +36,15 @@ body {
   text-align: center;
 }
 
+.portfolio .title {
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+.blog .title {
+  margin-top: 3em;
+}
+
 .title-text {
   color: #52AD9C;
   font-size: 5rem;
@@ -70,7 +79,7 @@ ul {
   text-decoration: none;
 }
 
-.about a:hover {
+.about a:hover, .portfolio a:hover, .blog a:hover {
   color: #d3dbc7;
 }
 
@@ -121,6 +130,144 @@ ul {
   font-weight: bold;
   text-decoration: underline;
 }
+
+/*PORTFOLIO STYLING*/
+
+.entries {
+  left: -5px;
+  margin: auto;
+  max-width: 800px;
+  position: relative;
+  width: calc(100% - 80px);
+}
+
+.entry {
+  clear: both;
+  float: left;
+  line-height: 1.4em;
+  margin-bottom: 3em;
+  padding: 20px;
+  text-align: right;
+  width: calc(50% - 80px);
+}
+
+.entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+
+.project-name {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.project-name:before {
+  background-color: #3B8275;
+  border: 4px solid #EFEFEF;
+  border-radius: 100%;
+  content: '';
+  height: 8px;
+  position: absolute;
+  right: -73px;
+  top: 50%;
+  width: 8px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.project-name.big:before {
+  height: 24px;
+  -webkit-transform: translate(8px, -50%);
+          transform: translate(8px, -50%);
+  width: 24px;
+}
+
+.entry:nth-child(2n) {
+  float: right;
+  text-align: left;
+}
+
+.entry:nth-child(2n) .project-name:before {
+  left: -63px;
+}
+
+.entry:nth-child(2n) .project-name.big:before {
+  -webkit-transform: translate(-8px, -50%);
+          transform: translate(-8px, -50%);
+}
+
+/*BLOG STYLING*/
+
+.all-posts {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.all-posts > h3 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.articles {
+ display: inline-table;
+}
+
+article {
+  background-color: #EFF8E2;
+  border-color: #3B8275;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.1em;
+  color: #3B8275;
+  display: inline-grid;
+  font-family: 'Crete Round', serif;
+  height: 18rem;
+  margin: 1em;
+  min-width: 15em;
+  overflow: hidden;
+  width: 20%;
+}
+
+article .post-title {
+  height: 4rem;
+  max-height: 4rem;
+}
+
+article .post {
+  font-size: 1rem;
+  height: 10rem;
+  margin-top: 0.5em;
+  max-height: 10rem;
+  text-align: justify;
+}
+
+article .listen {
+  align-items: center;
+  height: 2rem;
+  justify-content: space-around;
+  margin: auto;
+  max-height: 2rem;
+}
+
+.blog article a {
+  border-color: #3B8275;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.1em;
+  color: #3B8275;
+  padding: 0.3em 0.5em;
+}
+
+article p {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0;
+}
+
+
+/*KEYFRAMES*/
 
 @keyframes FadeIn {
   from {background-color: #eff8e2;}
