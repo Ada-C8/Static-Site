@@ -1,7 +1,7 @@
 /************ DRY ***********/
 
 .div-height {
-  height: 33%;
+  height: 33.5%;
 }
 
 a {
@@ -14,15 +14,15 @@ body {
   background-color: white;
 }
 
-main {
+main.index {
   height: 90%;
+  padding: 0;
 }
 
 p {
   font-size: 40px;
   padding-top: 1.75em;
   margin: 0;
-  height: 3em;
 }
 
 .p1 {
@@ -37,6 +37,7 @@ p {
 
 footer {
   background-color: #F4F4F8;
+  height: 10%;
 }
 
 /********** HOVER **********/
