@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
+/*************/
+/*  JOURNAL HEADER */
+/************/
+
+main h2 {
+  text-align: center;
+  font-family: 'Montserrat';
+  letter-spacing: 5px;
+  font-size: 30px;
+  line-height: 1.8em;
+  padding: 2%;
+  margin: 0;
+}
+
+/*************/
+/*  ENTRIES */
+/************/
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  font-family: "EB Garamond";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: #949494;
+}
+
+.entry {
+  font-family: "EB Garamond";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .02em;
+  line-height: 1.6em;
+}
+
+/*********************/
+/*  ENTRY SEPARATOR */
+/********************/
+hr.entry-separator {
+  width: 100%;
+  border-top: 1px solid #8c8b8b;
+}
