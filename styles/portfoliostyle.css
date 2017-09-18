@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+
+body, html {
+  height: 100%
+}
+body {
+    background-image: url('../assets/onesandzeros.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.intro {
+  font-family: 'CodyStar';
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  line-height: 0.5;
+  padding-bottom: 120px;
+}
+.intro p {
+  font-family: monospace;
+  clear: both;
+  margin-bottom: 10px;
+
+}
+
+.code-links a{
+  text-align: center;
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #909090;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+.code-links a i{
+	font-size: 20px;
+  line-height: 50px;s
+	color: #909090;
+  font-size: 2em;
+}
+
+section a {
+  font-family: 'Codystar';
+  text-decoration: none;
+  color: #6da3f9;
+}
+section a:hover{
+  color: white;
+}
+section p{
+  color: transparent;
+}
+section:nth-of-type(1){
+display: block;
+padding: 10px;
+right: 10px;
+line-height: 2;
+float: right;
+margin: 2%;
+margin-top: 5%;
+}
+
+section:nth-of-type(2){
+display: block;
+padding: 10px;
+line-height: 2;
+float: left;
+margin: 3%;
+
+}
+
+section:nth-of-type(3){
+  display: block;
+  padding: 10px;
+  line-height: 2;
+  float: right;
+  margin: 5%;
+  margin-right: 8%;
+  margin-top: 10%
+}
+
+section:nth-of-type(4){
+  display: block;
+  padding: 10px;
+  line-height: 2;
+  float: left;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-top: 10%
+}
+
+section:nth-of-type(5){
+  display: block;
+  padding: 10px;
+  line-height: 2;
+  float: right;
+  margin: 2%;
+  margin-top: 15%;
+
+}
+
+section:nth-of-type(6){
+  display: block;
+  padding: 10px;
+  line-height: 2;
+  float: left;
+  margin-left: 60%;
+}

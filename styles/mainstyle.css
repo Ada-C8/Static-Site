@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Codystar";
+  color: white;
+  text-decoration: none;
+  }
+
+.button:hover {
+  color : #C877D9;
+}
+
+.container{
+  position:relative
+}
+
+.display-middle{
+  position:absolute;
+  top:30%;
+  left:70%;
+}
+
+.topleft{
+  position:absolute;
+  left:0;
+  top:0
+}
+
+.bottomleft{
+  position:absolute;
+  left:5%;
+  bottom:40%;
+  display: inline-block;
+  border: none;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 400px;
+  cursor: pointer;
+  margin: 5px;
+  color: white;
+  font-family: 'Cutive Mono', monospace;
+}
+
+
+h1 {
+font-family: "Codystar";
+font-size: 4em;
+color: white;
+}
+
+.photocred {
+    position:absolute;
+    right:5%;
+    bottom:10%;
+    display: inline-block;
+    text-align: right;
+    font-size: 1em;
+    padding: 5px;
+    width: 200px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+.photographer{
+    text-decoration: none;
+    color: transparent;
+}
+
+.photographer:hover {
+  color: white;
+  font-family: 'Codystar';
+}
