@@ -1,4 +1,4 @@
-/*Index.html Styling*/
+/*index.html styling*/
 
 body {
   font-family: "Maven Pro", sans-serif;
@@ -58,10 +58,8 @@ a {
 footer {
   position: fixed;
   bottom: 0;
-}
-
-footer p {
-  float: left;
+  left: 0;
+  margin-left: 5vw;
 }
 
 @media screen and (max-width: 950px) {
@@ -69,27 +67,32 @@ footer p {
     width: 100%;
     margin: 0;
   }
+
   body {
     padding-top: 50px;
   }
-  p{
-    max-height: 200px;
-    float: none;
-    overflow: scroll;
-    text-align: left;
+
+  p {
     margin: 0 5vw;
   }
+
   img {
     float: none;
     margin-left: 25vw;
   }
 
-
+  #intro {
+    max-height: 145px;
+    margin-bottom: 45px;
+  }
 }
-/*About.html Styling*/
+
+/*about.html styling*/
+
 .Resume {
   padding-top: 100px;
-
+  width: 85%;
+  margin-right: 0;
 }
 
 .resume-container {
@@ -97,7 +100,7 @@ footer p {
   overflow: scroll;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-family: "Slabo 27px", serif;
   margin: 1.5vw 15vw;
 }
@@ -107,7 +110,8 @@ h1 {
 }
 
 .Resume p {
-  margin: 0 18vw;
+  margin-left:18vw;
+  margin-right: 0;
   display: inline-block;
   float: none;
   max-width: none;
@@ -127,7 +131,26 @@ h1 {
   font-style: italic;
 }
 
-/*Styling for Portfolio*/
+.Resume .italics + p {
+  margin: 0;
+}
+
+.list {
+  margin: 0 18vw;
+}
+
+@media screen and (max-width: 950px) {
+  .Resume .italics + p {
+    margin: 2vw 18vw;
+  }
+  .Resume .bold + p {
+    margin: 2vw 18vw;
+  }
+  #workplace {
+    margin: 0 18vw;
+  }
+}
+/*ortfolio.html styling*/
 
 .portfolio {
   width: 100%;
@@ -157,6 +180,7 @@ article {
 
 #scrabble {
   background-image: url("../images/scrabble_logo_small.jpg");
+  background-position: center;
   background-size: cover;
   opacity: 1;
   -moz-transition: opacity 1s; /* Firefox */
@@ -255,7 +279,7 @@ article p {
   }
 }
 
-/*Journal Styling*/
+/*code-journal.html styling*/
 
 #journal {
   text-align: center;
@@ -281,6 +305,8 @@ article.blog {
   padding-top: 50px;
   max-width: none;
   margin: 0;
+  overflow: scroll;
+  max-height: 370px;
 }
 
 .entry-date {
