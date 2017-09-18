@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.centered { text-align: center; }
+
+/******** MAIN ********/
+
+main header {
+  font-weight: bolder;
+}
+
+main a:visited {
+  color: black;
+}
+
+#articles-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+#articles-wrapper article {
+  display: inline-block;
+  height: 275px;
+  width: 20%;
+  padding: 1em;
+  background-color: white;
+  text-align: justify;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2em;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+#articles-wrapper header {
+  border-bottom: 1px solid black;
+}
+
+#articles-wrapper article:hover {
+  box-shadow:
+    0 0 30px rgba(0,0,0,1);
+}
+
+#articles-wrapper p {
+  font-weight: lighter;
+  padding: 5px;
+}

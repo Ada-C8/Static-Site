@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/******** MAIN ********/
+
+main {
+  position: relative;
+  height: 70%;
+}
+
+main h1 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 5em;
+  text-align: center;
+}

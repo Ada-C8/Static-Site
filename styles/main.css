@@ -1,0 +1,118 @@
+/******** TEMPLATE FOR ALL PAGES ********/
+/******** MAIN SECTION DIFFERS FOR ALL PAGES ********/
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("../images/wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+
+/******** HEADER ********/
+
+#top-header {
+  padding: 2% 5%;
+  background-color:rgba(245, 245, 245, 0.5);
+}
+
+#top-header h1 {
+  float: left;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+}
+
+#top-header nav {
+  overflow: hidden;
+}
+
+#top-header nav ul {
+  float: right;
+  display: block;
+}
+
+#top-header nav li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+#top-header li:hover {
+  border-bottom: 1px black solid;
+}
+
+#top-header li a:visited {
+  color: grey;
+}
+
+#top-header li a {
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+}
+
+/******** MAIN ********/
+main {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/******** FOOTER ********/
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+}
+
+footer header {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer img {
+  width: 2% ;
+}
+
+/******** CLEARFIX ********/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
