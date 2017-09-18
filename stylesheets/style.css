@@ -36,6 +36,10 @@ font-family: 'Berkshire Swash', cursive;
   justify-content: center; /* left and right */
 }
 
+a {
+  text-decoration: none;
+}
+
 /*********** BODY ***********/
 
 html {
@@ -47,13 +51,27 @@ body {
   height: 100%;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /********** HEADER **********/
 header {
   height: 20%;
   background-color: #009FB7;
-  position: relative;
   display: flex; /* flex display */
+  justify-content: space-between; /* left and right */
   align-items: center; /* up and down */
+}
+
+header h1 {
+  font-size: 5em;
+}
+
+nav li {
+  float: right;
+  display: inline-block;
 }
 
 /*********** MAIN ***********/
@@ -61,26 +79,49 @@ main {
   height: 70%;
 }
 
+div.profile-wrapper {
+  text-align: center;
+}
+
 div.profile-wrapper img {
   border-radius: 100em;
-  height: 400px;
+  height: 300px;
 }
 
 img.contact {
-  height: 75px;
+  height: 60px;
+}
+
+ul.contact li {
+  display: inline-block;
 }
 
 /*********** FOOTER *********/
 footer {
-  height: 10%;
+  height: 9%;
+  background-color: #F4F4F8;
 }
 
 footer p {
   font-size: 1em;
   padding: 0;
-  background-color: #F4F4F8;
 }
 
 footer a {
   color: grey;
 }
+
+/*********** CLEARFIX *******/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
