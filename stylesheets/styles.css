@@ -80,13 +80,12 @@ header h1 {
   padding: 11px 10px;
   border: 2px solid #1d1d1d;
   border-radius: 50%;
-  transition: background 0.5s ease;
-  background: transparent;
+  transition: transform 0.5s ease;
 }
 
 header h1:hover {
   color: #1d1d1d;
-  background: #f4d4cd;
+  transform: rotate(90deg);
 }
 
 footer h4 {
@@ -116,6 +115,62 @@ main h2 {
   letter-spacing: 0.8em;
   transform: rotate(90deg);
   transform-origin: left top;
+}
+
+/* ----------- Index ----------- */
+
+.intro {
+  font-size: 2em;
+}
+
+.color {
+  color: #D12128;
+}
+
+::before, ::after {
+  position: absolute;
+  padding-top: 5px;
+  font-size: 30px;
+  text-transform: lowercase;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+::before {
+  left: 0;
+}
+
+::after {
+  right: 0;
+}
+
+:hover::before, :hover::after {
+  opacity: 1;
+}
+
+.intro h1, .intro h3 {
+  position: relative;
+  display: inline-block;
+  padding: 0 120px 0 100px;
+  margin: 5px 0;
+}
+
+.intro h1::before {
+ content: "<h1>";
+}
+
+.intro h1::after {
+  content: "</h1>";
+}
+
+.intro h3::before {
+  content: "<h3>";
+  top: 15px;
+}
+
+.intro h3::after {
+  content: "</h3>";
+  top: 15px;
 }
 
 /* ----------- Portfolio ----------- */
