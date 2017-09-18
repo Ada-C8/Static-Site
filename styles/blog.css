@@ -15,7 +15,7 @@ header {
   float: right;
   clear: right;
   font-size: 50px;
-  background-color: rgb(250, 255, 219);
+  background-color: rgba(229, 255, 222, 0.65);
 }
 .nav:hover {
   color: rgb(19, 137, 179);
@@ -28,36 +28,39 @@ a {
 }
 #sidebar {
   color: black;
-  font-family: 'Amatic SC';
-  font-size: 40px;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 30px;
   padding-bottom: 3px;
   border-bottom: thick dotted rgb(70, 60, 97);
 }
 aside a:hover {
-  color: rgb(135, 61, 181);
+  color: rgb(163, 104, 199);
 }
 aside ul {
   padding-left: 2px;
 }
 aside {
-  background-color: rgb(229, 255, 222);
+  background-color: rgba(229, 255, 222, 0.65);
   width: 150px;
   position: fixed;
-  margin-left: -10px;
+  margin-left: 5px;
   font-family: 'Nunito Sans', sans-serif;
   color: rgb(16, 67, 156);
 }
 h2 {
   font-family: 'Londrina Shadow', cursive;
   font-size: 60px;
-  width: 600px;
-  color: black;
+  /*width: 600px;*/
+  color: rgb(65, 22, 99);
   text-align: center;
   text-shadow: 2px 2px white;
-  background-image: url("../images_style_sheets/fronds3.jpg");
-  border-radius: 2em;
+  /*background-image: url("../images_style_sheets/hotdog.png");*/
+  /*border-radius: 2em;*/
   margin-bottom: 20px;
   margin-top: 20px;
+  border-bottom: solid;
+  border-top: solid;
+  border-bottom-color: rgb(63, 184, 244);
 }
 div {
   font-size: .7em;
@@ -70,8 +73,12 @@ p {
   font-family: 'Nunito Sans', sans-serif;
 }
 article {
-  padding-left: 30%;
-  width: 700px;
+  padding-left: 25%;
+  padding-bottom: 100px;
+  /*border-bottom-width: 800px: */
+  width: 800px;
+  height: 700px; /* or any value */
+  overflow-y: auto;
 }
 img {
   height: 280px;
@@ -87,7 +94,9 @@ img:nth-last-of-type(odd) {
 img:nth-last-of-type(even) {
   float: right;
 }
-footer p{
-  margin-left: 10px;
-  color: rgb(35, 99, 93);
+#network img {
+  float: right;
+}
+#ada img {
+  float: left;
 }

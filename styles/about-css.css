@@ -41,7 +41,8 @@ content:"🥑🥑";
 }
 .parent {
   font-family: 'Amatic SC';
-  color: rgb(102, 51, 167);
+  color: white;
+  /*color: rgb(102, 51, 167);*/
   font-size: 2em;
   width: 600px;
 }
