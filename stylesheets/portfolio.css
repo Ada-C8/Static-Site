@@ -1,0 +1,36 @@
+/********** HEADER **********/
+.portfolio {
+  background-color: #FE4A49;
+}
+
+/*********** MAIN ***********/
+main.portfolio {
+  background-color: #009FB7;
+}
+
+main article {
+  display: inline-block;
+}
+
+article img {
+  border-radius: 1em;
+  width: 45%;
+}
+
+article.meowspace {
+  float: left;
+  clear: left;
+}
+
+article.riley {
+  float: right;
+  clear: right;
+}
+
+article.proj-port {
+  float: left;
+}
+
+article.pizza {
+float: right;
+}
