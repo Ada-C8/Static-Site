@@ -1,0 +1,348 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  background-color: white;
+  font-family: 'Lusitana', serif;
+}
+
+.home main {
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+.portfolio article:hover {
+  box-shadow: 3px 3px 5px #ffc000;
+}
+
+.project h3 {
+  border-bottom: #ffc000 solid 3px;
+  font-size: 2em;
+}
+
+.code-journal main {
+  /*background-color: #0e3c7f;*/
+  display: block;
+  overflow: scroll;
+}
+
+.code-journal article {
+  margin: 20px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.code-journal article:hover {
+  box-shadow: 3px 3px 5px #0e3c7f;
+}
+
+.blog-post h3 {
+  font-size: 2em;
+  margin: 0 0px 40px 0px;
+  border-bottom: #0e3c7f solid 2px;
+}
+
+header a[href^= "index"], header nav {
+  display:inline-block;
+  vertical-align:middle;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  position: relative;
+}
+
+#main-title:hover {
+  color: #db2518;
+  transform: rotateY(360deg);
+  transition: transform 7s ease;
+  position: relative;
+}
+
+a:hover {
+  color: #db2518;
+}
+
+header {
+  width: 100%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background: white;
+  top: 0px;
+  z-index: 500;
+}
+
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+#rept {
+  width: 100%;
+  height: 250px;
+  background-image: url("../images/rept.JPG");
+}
+
+#horse {
+  width: 100%;
+  height: 250px;
+  background-image: url("../images/horse.JPG")
+}
+
+
+.project-img-container {
+  position: relative;
+  width: 300px;
+  height: 250px;
+
+  /*default image*/
+  background-image: url("../images/birb.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: linear-gradient(180deg,rgba(0,0,0,.15),transparent 90%);
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.circle {
+  shape-outside: circle(10px);
+}
+
+main {
+  max-height: 60%;
+  overflow: scroll;
+  border: black solid .5px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  padding: 30px;
+  width: 80%;
+  margin: 10px auto 120px;
+  position: relative;
+  top: 30px;
+  bottom: 120px;
+  border-radius: 15px;
+}
+
+main article {
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+/*main article:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}*/
+
+nav.container {
+  padding: 0px;
+}
+
+
+/*social media link styling below*/
+/*reference: https://codepen.io/Deadlymuffin/pen/hGiqo*/
+.social-menu {
+  display: inline-block;
+  float: right;
+}
+.social-menu ul {
+    padding:0;
+    list-style: none;
+}
+
+ul.social-icons {
+  display: inline-block;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: gray;
+    text-decoration: none;
+}
+
+.fa-github {
+    padding:10px 14px;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+.fa-github:hover {
+  color: darkslategrey;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.fa-twitter:hover {
+  color: #00aced;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.fa-linkedin:hover {
+  color: #0073a4;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+}
+
+footer h4, footer p {
+  display: inline-block;
+}
+
+.footer-text {
+  padding-left: 10px;
+  width: 40%;
+  display: inline-block;
+  font-size: .9em;
+}
+
+/*playing with shapes */
+#egg {
+    width: 180px;
+    height: 200px;
+    background: #ffc000;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    text-align: center;
+    z-index: 10;
+}
+
+#tv {
+  position: relative;
+  width: 80%;
+  margin: 20px 0;
+  background: #db2518;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+
+
+#about-blurb {
+  width: 30%;
+  background-color: #0a6037;
+  padding: 20px;
+  margin-right: 20px;
+  order: -1;
+  color: white;
+  font-size: 2em;
+}
+
+.featured {
+  font-size: 2em;
+}
+
+#shape {
+  background-color: #0e3c7f;
+  width: 400px;
+  margin: 30px;
+  color: white;
+  text-align: center;
+}
+
+.home main {
+  width: 70%;
+}
+
+header h1 {
+  padding-left: 30px;
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+}
+
+#about-blurb a {
+  font-size: .5em;
+  background: white;
+  border-radius: 5px;
+  padding:10px;
+  margin-top: 35px;
+  display: block;
+  width: 30%;
+}
+
+.home article:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.content-title {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+}
+
+.about article {
+  padding: 10px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.about main {
+  flex-direction: column;
+}
+
+.id-pic {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-image: url("../images/fashion_pup.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+header a[href ^= "./portfolio"]:hover {
+  color: #ffc000;
+}
+
+header a[href ^= "./code-journal"]:hover {
+  color: #0e3c7f;
+}
+
+header a[href ^= "./about"]:hover {
+  color: #0a6037;
+}
+
+#about-blurb a:hover {
+  color: orange;
+}
