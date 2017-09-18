@@ -46,6 +46,7 @@ h1 {
   opacity: 0.9;
   position: relative;
   text-shadow: 0 0 10px #2e3b48;
+  /*text-shadow: 0 0 10px #EDAFB8;*/
   top: 35%;
 }
 
@@ -331,14 +332,6 @@ hr {
 /*********/
 /*contact*/
 /*********/
-
-/*
-dark blue-grey: #666A86
-dark sky blue: #95B8D1
-japanese indigo: #2E3B48
-dutch white: #E8DDB5
-nadeshiko pink: #EDAFB8
-*/
 
 .contact {
   background-color: #95B8D1;
