@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
+
+h1, article p{
+  font-family: "IM Fell Great Primer", serif;
+}
+
+h1{
+  text-align: center;
+}
+main{
+  background-color: mistyrose;
+  background-image:url("../images/roxanne_4.png");
+  background-size: 33%;
+  background-blend-mode: soft-light;
+  height: 300px;
+}
+
+article{
+  margin: 50px;
+}

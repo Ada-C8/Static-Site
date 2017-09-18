@@ -19,18 +19,18 @@ h2{
   width: 25%;
   margin: 20px;
   border-radius: 20px;
-    background-blend-mode: screen;
-    /*filter: opacity(.2)*/
+  background-blend-mode: overlay;
+  /*filter: opacity(.2)*/
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .language h3{
-      padding-top: 50px;
-      font-family: helvetica, serif;
-      font-size: 36px;
-      color: white;
-      text-shadow: 2px 2px 7px black;
-      vertical-align: middle;
+  padding-top: 50px;
+  font-family: helvetica, serif;
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 7px black;
+  vertical-align: middle;
 
 }
 #section-one{
