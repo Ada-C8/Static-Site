@@ -34,6 +34,7 @@ p, a {
   color: white;
   font-size: 1em;
   text-decoration: none;
+  text-shadow: 2px 3px black;
 }
 
 a[href*="journal"]{
@@ -76,6 +77,7 @@ ul li a .fa {
   transition: .5s;
   color: #262626;
   z-index: 3;
+  text-shadow: none;
 }
 ul li a:hover .fa {
   color: #fff;
