@@ -9,7 +9,6 @@
 
 main {
   width: 100%;
-  /*height: 90vw;*/
   background-color: #99d6ff ;
   position: relative;
   font-family: 'Source Code Pro';
@@ -18,6 +17,8 @@ main {
 h2 {
   margin: 0;
 }
+
+/*------------FOOTER-------------*/
 
 footer {
   height: 5vw;

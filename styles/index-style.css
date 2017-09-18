@@ -13,7 +13,7 @@ lighter ochre: #ffe6b3 */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-
+/*------------MAIN-------------*/
 
 
 main {
@@ -22,13 +22,24 @@ main {
   background-color: #ffccff ;
   z-index: 1;
   position: relative;
-
 }
+
+main {
+  font-family: 'Source Code Pro';
+}
+
+main p {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+}
+
+/*------------CIRCLES-------------*/
+
 
 #fix {
   position: fixed;
   width: 100%;
-  /*height: 80vw;*/
 
 }
 
@@ -52,52 +63,7 @@ main {
   width: 100%;
   height: 1100px;
   background-color: #ff8566;
-  /*z-index: 1;*/
   position: relative;
-}
-
-#Diane  {
-  position: absolute;
-  margin: 870px 0;
-  height: 10vw;
-  width: 100%;
-  z-index: 100;
-  font-size: 3em;
-}
-
-#Diane p {
-  width: 100%;
-  margin: 0 2vw;
-  /*width: 30vw;*/
-}
-
-#Student  {
-  position: absolute;
-  margin: 1770px 0;
-  height: 10vw;
-  width: 100%;
-  z-index: 100;
-  font-size: 3em;
-}
-
-#Student p{
-  margin: 0 1.9vw;
-  width: 100%;
-}
-
-#Maverick {
-  position: absolute;
-  margin: 2670px 0 0 0;
-  height: 10vw;
-  width: 100%;
-  z-index: 100;
-  font-size: 3em;
-}
-
-#Maverick p{
-  width: 100%;
-  margin: 0 2vw;
-
 }
 
 #outer {
@@ -141,7 +107,6 @@ main {
 
 
 #middle p {
-  /*visibility: hidden;*/
   position: absolute;
   z-index: 101;
   height: 100px;
@@ -160,9 +125,7 @@ main {
 }
 
 #inner {
-  /*width: 40%;*/
   width: 40vw;
-  /*height: auto;*/
   position: absolute;
   border-radius: 100%;
   margin: 15vw 30vw;
@@ -177,7 +140,6 @@ main {
 }
 
 #inner p {
-  /*visibility: hidden;*/
   position: absolute;
   z-index: 101;
   height: 100px;
@@ -206,7 +168,6 @@ main {
 }
 
 #entry p {
-  /*visibility: hidden;*/
   position: absolute;
   margin: 1em;
   font-size: .6em;
@@ -218,32 +179,54 @@ main {
   text-decoration: none;
 }
 
+/*------------SCROLL-------------*/
 
-main {
-  font-family: 'Source Code Pro';
-  /*font-size: .5em;*/
-}
-
-main p {
-  /*display: inline-block;*/
-  /*margin: 0 auto;*/
-  text-align: center;
-  /*font-size: 4em;*/
-  /*background-color: #ffcc66;*/
-  margin: 0;
-  /*position: fixed;*/
+#Diane  {
   position: absolute;
+  margin: 870px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Diane p {
+  width: 100%;
+  margin: 0 2vw;
+}
+
+#Student  {
+  position: absolute;
+  margin: 1770px 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Student p{
+  margin: 0 1.9vw;
+  width: 100%;
+}
+
+#Maverick {
+  position: absolute;
+  margin: 2670px 0 0 0;
+  height: 10vw;
+  width: 100%;
+  z-index: 100;
+  font-size: 3em;
+}
+
+#Maverick p{
+  width: 100%;
+  margin: 0 2vw;
+
 }
 
 
-/**/
-/**/
-/**/
+/*------------FADE IN-------------*/
 
-/*.fade-in header {
-  height: 100vw;
-  width: 100%;
-}*/
 
 .fade-in span {
   display: inline-block;
@@ -325,7 +308,3 @@ animation: fadeIn 1.0s ease forwards;
     -o-animation: fadeIn ease 8s;
     -ms-animation: fadeIn ease 8s;
   }
-
-/**/
-/**/
-/**/

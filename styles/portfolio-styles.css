@@ -1,17 +1,16 @@
-footer  {
-  width: 100%;
-  position: fixed; bottom: 0; left:0; right: 0; height: 100px;
-}
+
+/*------------MAIN-------------*/
 
 
 main {
   width: 100%;
   height: 90vw;
   background-color: #e6fff2;
-  /*z-index: 1;*/
   position: relative;
   font-family: 'Source Code Pro';
 }
+
+/*------------ARTICLES-------------*/
 
 article {
   text-align: center;
@@ -32,6 +31,8 @@ article:hover {
   border-color: #99d6ff;
 }
 
+
+/*------------FOOTER-------------*/
 footer {
   background-color: #ffccff;
   height: 8vw;
