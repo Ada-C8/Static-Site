@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html, body {
+  height: 100%;
+  width: 100%
+}
+
+header {
+  background-color: #ffb3ff;
+  margin-top: 0;
+  width: 100%;
+  padding: 2%;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #e600e6;
+}
+
+header h2 {
+  display: inline;
+  padding: 0.5em;
+  font-family: pacifico;
+  color: #e600e6;
+  font-size: 2em;
+}
+
+header nav {
+  float: right;
+  clear: right;
+}
+
+header nav a {
+  padding: 3em 3em 3em 0;
+}
+
+header nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+header nav a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  padding: 2%;
+}
+
+h3 {
+  font-family: pacifico;
+}
+
+
+
+footer {
+  background-color: #ffb3ff;
+  padding: 10%;
+}
+
+footer h4 {
+  max-width: 20%;
+  display: inline;
+  color: #e600e6;
+  float:left;
+  clear: left;
+
+}
+
+footer nav {
+  float: right;
+  /*position: absolute;*/
+}
+
+
+footer nav a {
+  padding: 0 2em 2em 0;
+}
+
+footer nav li {
+  display: inline;
+  list-style-type: none;
+}
