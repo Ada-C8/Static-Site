@@ -1,5 +1,4 @@
 /*********** FONTS **********/
-
 font-family: 'Dosis', sans-serif;
 font-family: 'Comfortaa', cursive;
 font-family: 'Berkshire Swash', cursive;
@@ -40,13 +39,6 @@ a {
   text-decoration: none;
 }
 
-.about {
-  background-color: #009FB7;
-}
-main.about {
-  background-color: #FED766;
-}
-
 .portfolio {
   background-color: #FE4A49;
 }
@@ -75,7 +67,6 @@ p {
 }
 
 /********** HEADER **********/
-
 header {
   height: 20%;
 }
@@ -96,45 +87,6 @@ main {
   height: 68%;
   overflow: scroll;
   padding-top: 2%;
-}
-
-div.about-wrapper {
-  display: flex; /* flex display */
-  justify-content: space-between; /* left and right */
-  width: 100%
-}
-
-div.contact-wrapper {
-  text-align: center;
-  float: left;
-  width: 33%;
-}
-
-div.contact-wrapper img {
-  border-radius: 100em;
-  height: 150px;
-  background-color: white;
-}
-
-div.contact-wrapper li {
-  justify-content: space-between; /* left and right */
-  display: inline-block;
-}
-
-article.about-me {
-  width: 33%;
-}
-
-div.profile-img {
-  width: 33%;
-}
-div.profile-img img {
-  height: 450px;
-  border-radius: 2em;
-}
-
-span.sara-eff {
-  font-family: 'Berkshire Swash', cursive;
 }
 
 /*********** FOOTER *********/
