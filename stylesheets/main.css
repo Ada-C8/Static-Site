@@ -1,0 +1,209 @@
+
+/******************
+General Stuff
+******************/
+
+body {
+  background-color: #e5e1d7;
+  color: black;
+  font-family: Verdana;
+}
+
+.left {
+  clear: left;
+  float: left;
+}
+
+.right {
+  clear: right;
+  float: right;
+}
+
+a:link {
+  color: #527b70;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d67950;
+}
+
+a:visited {
+  color: black;
+}
+
+/******************
+Header
+******************/
+
+header nav {
+  background-color: #dae7e2;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 0px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+header nav li {
+  display: inline;
+  padding-right: 10px;
+}
+
+header img {
+  left: 240px;
+  position: relative;
+  width: 7%;
+}
+
+/******************
+Main Content
+******************/
+/******************
+Index Page
+******************/
+
+.opening-info {
+  background: url('../images/official_punch.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  height: 760px;
+  margin: 0;
+}
+
+.opening-titles {
+  font-family: Georgia;
+  margin: 0px;
+  padding-top: 30px;
+  position: relative;
+  left: 1015px;
+  top: 100px;
+  text-align: center;
+  width: 30%;
+}
+
+/******************
+About Page
+******************/
+
+.about_images h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.about_images img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.box {
+  padding: 10px;
+  position: relative;
+  height: 100%;
+  width: 38%;
+}
+
+.about_images .left {
+  left: 100px;
+}
+
+.about_images .right {
+  right: 100px;
+}
+
+.about_images .top {
+  top: 10px;
+  margin: 0;
+}
+
+.about_images .bottom {
+  top: 40px;
+}
+
+/******************
+Blog Page
+******************/
+
+.blog-content {
+  background: url('../images/about/seattle_card.png');
+  background-color: transparent;
+  background-repeat: repeat;
+  /*border: .5px solid green;*/
+  clear: both;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+.blog-content h3 {
+  background-color: #e8d39d;
+  margin: 30px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.blog-posts {
+  padding-left: 20px;
+}
+
+.blog-posts p {
+  font-size: .8em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blog-posts h4 {
+  border-radius: 15px;
+  text-align: center;
+}
+
+.blog-posts article {
+  background-color: #e8d39d;
+  border-radius: 15px;
+  border: 2px solid #8a5737;
+  display: inline-block;
+  height: 400px;
+  margin: 10px 10px;
+  opacity: .9;
+  padding: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 30%;
+}
+
+.blog-posts a{
+  border: 1px solid #8a5737;
+  background-color: #e6e1d5;
+  border-radius: 1rem;
+  color: ##8a5737;
+  padding: .5rem 1rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+/******************
+Footer
+******************/
+
+footer {
+  background-color: #dae7e2;
+  clear: both;
+  margin-top: 0;
+}
+
+footer p {
+  color: red;
+  font-size: .5em;
+  margin-top: 0;
+  text-align: center;
+}
