@@ -1,0 +1,259 @@
+/*font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Biryani', sans-serif;
+font-family: 'Bungee', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+/*font-family: 'Linden Hill', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Lekton', sans-serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Pavanam', sans-serif;*/
+
+h1,h2,h3, h4,li {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: 'Harmattan', sans-serif;
+  font-size: 1.3em;
+}
+
+html {
+  overflow-x:hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  background-color: cyan;
+  margin-top: 100px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+body {
+  /*background-image: url("http://www.freepik.com/free-vector/tropical-leaves-pattern-background_1111195.htm");*/
+  /*background-image: "images/banana.jpg"*/
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*HEADER */
+
+@media all and (min-width: 600px) {
+  header h1 { flex: 1 auto; }
+  ul  { flex: 1 0; }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 5px;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4em;
+  font-family: 'Rubik Mono One', sans-serif;
+  /*border: 10px dotted purple;*/
+  margin: 0px;
+  padding-left: 10px;
+}
+
+nav {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+nav ul {
+  display: inline-flex;
+  /*border: 10px dotted blue;*/
+}
+
+nav ul li {
+  list-style-type: none;
+  padding-right: 60px;
+
+}
+
+header a:hover {
+  color: orange;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*HOME PAGE: ARROW AND HEADSHOT BELOW HEADER*/
+
+/*@media all and (min-width: 600px) {
+  .arrow { flex: 1 0; }
+  .headshot { flex: 1 0; }
+}*/
+
+.arrow-headshot {
+  display:flex;
+  flex-wrap: nowrap;
+  padding-left: 190px;
+  /*background-image: url(https://mdn.mozillademos.org/files/12005/starsolid.gif)*/
+}
+
+.arrow {
+  max-height: 200px;
+  align-self:flex-start;
+}
+
+.headshot {
+  max-height: 300px;
+  border-radius: 50%
+}
+
+/*TRYING TO MAKE THE PHOTO DIAMOND SHAPED (OR OTHER IDEAS IN THIS CODEPEN)*/
+/*https://codepen.io/CreativeJuiz/pen/Hizkh*/
+/*.diamond, .dia {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+}
+
+.diamond {
+  transform: rotate(45deg) translateY(-25px) translateX(-25px);
+}
+
+.diamond .dia {
+  transform: rotate(-45deg);
+}*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*FOOTER- TO EVENTUALLY INCLUDE LINKS AND ICONS TO LINKEDIN AND GITHUB*/
+/*footer-links.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*HOBBY BLOG*/
+.projectdescription a {
+  text-decoration: none;
+  color: black;
+}
+
+.projectdescription a:hover {
+  color: orange;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*PORTFOLIO PAGE*/
+.project-posts-and-hobbies-container {
+  /*width: 960px;*/
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.page-heading {
+  text-align: center;
+  margin: 40px;
+  font-weight:800;
+  font-size: 3em;
+  /*text-decoration: underline;*/
+
+}
+
+.project {
+  display: flex;
+  flex-wrap: nowrap;
+  /*border: 10px dotted green;*/
+}
+
+.project-info {
+  /*padding-right: 20px*/
+  padding-top: 10px
+}
+
+.projectname {
+  font-size: 2em;
+  font-weight:600;
+  /*border: 10px dotted purple;*/
+}
+
+.projectname:hover {
+  color: orange;
+}
+
+.projectimage {
+  display:inline-flex;
+  max-width: auto;
+  height:300px;
+  margin: 10px;
+  padding:10px;
+  border: 2px solid gray;
+}
+
+.projectdate, .technology {
+  margin-top: 10px;
+}
+
+.projectdescription {
+  /*border: 10px dotted yellow;*/
+  line-height: 1.4em;
+
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*ABOUT ME PAGE*/
+
+.about-me {
+
+}
+
+.introduction {
+  display: flex;
+  /*width: 60%;*/
+  justify-content:center;
+  align-items: center;
+  /*width: 960px;*/
+  /*border: 10px dotted blue;*/
+  padding-top: 50px;
+}
+
+.about-me-photo {
+  /*order: 2;*/
+  max-width: auto;
+  max-height: 300px;
+  /*border: 10px dotted purple;*/
+
+}
+
+.about-me-text {
+  /*order: 1;*/
+  width:600px;
+  /*align-self:center;*/
+  /*border: 10px dotted purple;*/
+  padding-left: 50px;
+}
+
+.about-me-text ul {
+  line-height: 1.3em;
+
+}
