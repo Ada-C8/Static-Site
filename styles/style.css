@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Asap);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Acme);
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+* {
+  font-family: Lato;
+}
+
+.wrapper {
+margin: 0 3%;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+/** {
+border: solid;
+}*/
+
+header {
+  /*background-color: #66CCFF;*/
+  background-color: #3a7f92;
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  padding: 0 10%;
+  /*position: fixed;*/
+  /*text-align: center;*/
+}
+
+header h1 {
+
+  float: left;
+  clear: both;
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  font-family: Acme;
+  /*padding-left: 5%;*/
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  clear: right;
+  width: 35%;
+  text-align: left;
+  padding-right: 7%;
+}
+
+header nav ul {
+  width: 95%;
+  display: inline-block;
+}
+header nav li {
+  display: inline-block;
+  list-style: none;
+  border-radius: 10px;
+  /*border: solid;*/
+  text-align: center;
+  padding: 1%;
+  padding-right: 1%;
+  margin-right: 10px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  /*color: #3a7f92;*/
+
+}
+
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+  background-color: lightgrey;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+a:visited {
+
+  color: blue;
+
+}
+
+footer {
+  clear: both;
+  /*position: relative;
+  display: inline-block;*/
+  padding-left: 42%;
+  padding-top: 2%;
+}
+
+/*footer nav {
+padding 50%
+}*/
+
+footer nav li {
+  display: inline-block;
+  list-style: none;
+  /*border-radius: 10px;*/
+  /*border: solid;*/
+  text-align: center;
+  /*padding: 2%;*/
+  /*padding-right: 1%;*/
+  margin-right: 10px;
+}
+
+.homepage-intro h2{
+  color: #3a7f92;
+}
+
+.homepage-intro a:hover {
+  background-color: white;
+  padding: 0
+}
+
+.homepage-intro a {
+  color: #3a7f92;
+}
+
+.homepage-intro {
+  text-align: center;
+  padding: 5%
+}
+
+.homepage-intro img {
+  width: 25%;
+  padding-bottom: 2%;
+  border-radius: 50%;
+}
+
+.about {
+  clear: both;
+  padding: 2%;
+  padding-bottom: 10%;
+}
+
+.about aside {
+  clear: left;
+  float: left;
+  max-width: 30%;
+  /*display: inline-block;*/
+  /*overflow: hidden;*/
+  padding-top: 2%;
+  vertical-align: top;
+  border-right: solid;
+  padding-bottom: 5%;
+
+  /*border-style: outset;*/
+}
+
+.about aside img {
+  border-radius: 25%;
+  width: 85%;
+  margin-left: 8%;
+}
+
+.about li{
+  width: 100%;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+
+.about h2, p {
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  /*padding: 10px;*/
+  clear: right;
+  width: 68%;
+}
+
+
+
+
+/*.about article {
+padding: 10px;
+min-width: 350px;
+}*/
+
+.about h2 {
+  /*text-align: center;*/
+}
+
+.about p {
+  vertical-align: top;
+  text-align: justify;
+  /*width: 65%;*/
+  /*min-width: 10em;*/
+  margin: top;
+}
+
+/*Hobbies*/
+
+.hobby-banner {
+  vertical-align: top;
+  background-image: url(/Users/kzell/Documents/Ada/Static-Site/images/Indo-yoga-flipped-dog.jpg);
+  height: 400px;
+  width: 60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  padding: 10%;
+  z-index: 1;
+  align-content: center;
+  margin: 1% 10%;
+  font-weight: bold;
+  font: white;
+  font: 50px;
+}
+
+#hobby-headline {
+  text-align: right;
+  margin-right: -8%;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  font-family: Acme;
+}
+
+.image-collage img {
+  width: auto;
+  height: 250px;
+  max-width: 325px;
+  display: inline-block;
+}
+
+.image-collage {
+  margin: 0 5%;
+  align-items: stretch;
+  align-content: center;
+  text-align: center;
+}
+
+#Namaste {
+  font-family: Pacifico;
+  color: #3a7f92;
+}
