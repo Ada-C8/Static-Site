@@ -1,0 +1,19 @@
+main.code-journal article {
+  float: left;
+}
+
+article.jan img, article.april img {
+  width: 300px;
+  float: left;
+}
+
+article.may img {
+  height: 300px;
+  float: left;
+  border-radius: 1em;
+}
+
+article.sept img {
+  width: 10%;
+  border-radius: 10em;
+}
