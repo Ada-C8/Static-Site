@@ -67,6 +67,10 @@ p {
   background-color: grey;
 }
 
+.active {
+    background-color: #4CAF50;
+}
+
 /* Footer */
 .footer #copyright {
   position: absolute;
