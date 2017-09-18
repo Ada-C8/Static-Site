@@ -7,6 +7,11 @@ a:hover {
   color: #39c300;
 }
 
+p {
+  color: white;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
 h1 {
   font-family: 'Righteous', serif;
   color: white;
@@ -210,6 +215,7 @@ article.project p {
   text-align: left;
   padding: 1em 2em;
   margin: 0 auto;
+  color: black;
 }
 
 article.blog-post {
@@ -233,9 +239,35 @@ article.blog-post h3 {
 }
 
 article.blog-post p {
-  color: white;
-  font-family: 'Miriam Libre', sans-serif;
   padding: 4px;
   max-width: 55em;
   margin: 5px auto;
+}
+
+.about h2 {
+  display: inline-block;
+  margin: 0 1.5em;
+}
+
+.about img {
+  width: 15em;
+  border: solid white 6px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.about p {
+  width: 40%;
+  padding: 1em;
+  margin: 0 1em 0 2em;
+  float: left;
+}
+
+section#photo-strip {
+  position: relative;
+  bottom: 3em;
+  width: 30%;
+  float: right;
+  margin-right: 3em;
+  text-align: justify;
 }
