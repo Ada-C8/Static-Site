@@ -23,7 +23,7 @@ main h1 {
 
 /******** FOOTER ********/
 
-footer {
+/*footer {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -49,20 +49,20 @@ footer ul {
 
 footer img {
   width: 2% ;
-}
+}*/
 
 /******** CLEARFIX ********/
 
-.clearfix:after {
+/*.clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
   height: 0;
-}
-.clearfix { display: inline-block; }
+}*/
+/*.clearfix { display: inline-block; }*/
 /* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
+/** html .clearfix { height: 1%; }
+.clearfix { display: block; }*/
 /* close commented backslash hack */

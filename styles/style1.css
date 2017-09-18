@@ -1,3 +1,6 @@
+/******** TEMPLATE FOR ALL PAGES ********/
+/******** MAIN SECTION DIFFERS FOR ALL PAGES ********/
+
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
@@ -61,3 +64,49 @@ body {
   font-family: 'Varela Round', sans-serif;
   color: black;
 }
+
+/******** FOOTER ********/
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+}
+
+footer header {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer img {
+  width: 2% ;
+}
+
+/******** CLEARFIX ********/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

@@ -13,7 +13,7 @@ main header {
 }
 
 main article {
-  padding: 0 2em 0 2em; 
+  padding: 0 2em 0 2em;
   border-bottom: 1px dashed black;
 }
 
@@ -28,7 +28,7 @@ main article {
 }
 /******** FOOTER ********/
 
-footer {
+/*footer {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -55,7 +55,7 @@ footer ul {
 footer nav li {
   display: inline-block;
   padding: 5px;
-}
+}*/
 
 /******** CLEARFIX ********/
 
