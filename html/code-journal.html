@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Tanisha Hampden</title>
   <link rel="stylesheet" href="../styles/main.css">
-<script src="https://use.fontawesome.com/9ff7ff7a76.js"></script>
+  <link rel="stylesheet" href="../styles/portfolio.css">
+  <script src="https://use.fontawesome.com/9ff7ff7a76.js"></script>
   <style>@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');</style>
 </head>
 <body>
@@ -28,50 +29,64 @@
   <!--  -->
   <main>
     <section class="popular-posts center-text wrapper">
+      <div class="module line-clamp center-text">
+
+
         <h2> Popular Posts </h2>
 
         <article class="inline-block">
-          <h3> Steal the Warm Chair </h3>
+          <h3> Working With Google Time Zone Api </h3>
           <p>
-            Hide when guests come over if it smells like fish eat as much as you wish. Meow. Scream at teh bath mewl for food at 4am for eat all the power cords and the dog smells bad and steal the warm chair right after you get up.
+            I am working on a World Clock app and the first step was to get access to Google’s Time Zone API.</p>
+
+            <p>The Google docs state “The Google Maps Time Zone API provides a simple interface to request the time zone for a location on the earth, as well as that location’s time offset from UTC.”</p>
+
+            <p>To access the API I used a plain javascript helper function to make an API call:</p>
+
+            <code>
+              function getCORS(url, success) {
+                var xhr = new XMLHttpRequest();
+                if (!('withCredentials' in xhr)) xhr = new     XDomainRequest(); // fix IE8/9
+                xhr.open('GET', url);
+                xhr.onload = success;
+                xhr.send();
+                return xhr;
+              }
+            </code>
           </p>
+
+          <p>When I call the function I used a custom url that I built by concatenating the base url, the latitude and longitude coordinates, and the api key.</p>
+
           <p><a href="#post1"> Learn More </a></p>
         </article>
 
 
         <article class="inline-block">
-          <h3> Cat not Kitten Around </h3>
-          <p>
-             Curl up and sleep on the freshly laundered towels please stop looking at your phone and pet me cat slap dog in face. Cat not kitten around.
-          </p>
-          <p><a href="#post2"> Learn More </a></p>
+          <h3> Embeding Twiiter Feeds </h3>
+          <p>Twitter has a <a href="https://publish.twitter.com/#">simple wizard</a> to help generate a feed embed code. They include feed template examples and a custom generator where you enter the user timeline URL, style, and add other custom settings to generate the code. The code and output are below:</p>
+
+          <code><a class="twitter-timeline" data-width="220" data-height="400" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></code>
+
+          Twitter also has a debugger tool called the <a href="https://cards-dev.twitter.com/validator">card validator</a>
         </article>
 
         <article class="inline-block">
-          <h3> Fancy Feasts </h3>
-          <p>
-            Spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce catch mouse and gave it as a present lie on your belly and purr when you are asleep and scamper for thinking longingly about tuna brine.
+          <h3> Building A Wikipedia Viewer </h3>
+          <p>This is not at all a tutorial but a reflection of the things that I learned and the problems I faced while building a Wikipedia viewer.</p>
+          <h4>Event Handlers</h4>
+          <p>Somehow I got into the habit of adding onclick events to html files. This works fine but my mentor mentioned that it’s better practice to keep all of your Javascript self-contained to make debugging easier.</p>
+          <p>While rewriting the functions that required an addEventListener object I ran into the error below:
           </p>
+          <code>error: Cannot read property 'addEventListener' of null</code>
+          <p>I found that the function returned null because it executed before the DOM was fully loaded. I fixed this problem by adding window.onload. MDN notes that “The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.”</p>
+          <h4>Scope</h4>
+          <p>I was reminded a few times of the importance of understanding scope and how it can affect your code structure. I had to move functions around a bit to ensure that all of my variables were able to be accessed properly.</p>
+          <p>In some cases, I would get an error that a variable is undefined. To fix this I’d either make the variable global or I would move the function to allow it access to that variable.</p>
           <p><a href="#post3"> Learn More </a></p>
         </article>
+      </div>
 
-        <article class="inline-block">
-          <h3> Control your Human </h3>
-          <p>
-            Refuse to drink water except out of someone's glass meow to be let in sweet beast. The dog smells bad howl uncontrollably for no reason or eat and than sleep on your face.
-          </p>
-          <p><a href="#post4"> Learn More </a></p>
-        </article>
-
-        <article class="inline-block">
-          <h3> Defense against the Dark Arts </h3>
-          <p>
-            Flee in terror at cucumber discovered on floor. Kitty power! destroy couch as revenge but have my breakfast. Spaghetti yarn but meow meow so friends are not food.
-          </p>
-          <p><a href="#post5"> Learn More </a></p>
-        </article>
-
-      </section>
+    </section>
 
   </main>
 

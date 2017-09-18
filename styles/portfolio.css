@@ -1,0 +1,31 @@
+article {
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+a[href*="post"] {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 45%;
+  color: black;
+  font-weight: bold;
+}
+
+.module {
+  max-width: 75%;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+}
+.module p {
+  margin: 0;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
