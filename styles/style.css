@@ -1,0 +1,284 @@
+/*COLORS:
+#ffdbdb - light pink
+#d28d8d - pink
+#c5e9df - light teal, rgb(197,233,223)
+#97beb9 - teal
+#f9f0df - light milk
+#c9b898 - milk
+#b7b6b6 - light gray
+#9b9690 - olive gray
+#7a664d - olive brown
+*/
+
+/*GLOBAL*/
+* {
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body {
+  color: #9b9690;
+}
+
+body {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
+}
+
+body a:hover, .active {
+  font-weight: bold;
+}
+
+/*GENERAL*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.wrapper {
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 864px;
+  margin: auto;
+}
+
+/*HEADER*/
+nav.social-nav ul * {
+  display: inline-block;
+  float: right;
+}
+
+nav.social-nav li {
+  padding: .3rem;
+}
+
+nav.social-nav {
+  border-bottom: 1px solid #7a664d;
+}
+
+#signature img {
+  display: block;
+  margin: 1.2rem auto;
+  width: 40%;
+}
+
+header li {
+  list-style: none;
+}
+
+header a:visited {
+  color: #9b9690;
+}
+
+nav.main-nav ul * {
+  display: inline-block;
+  margin: 0 .4rem;
+}
+
+nav.main-nav ul {
+  text-align: center;
+  margin: .5rem;
+}
+
+/*MAIN*/
+main {
+  position: relative;
+}
+
+main h2 {
+  color: #7a664d;
+}
+
+main #spotlight {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+main.index h1, h4 {
+  display: inline-block;
+  position: absolute;
+}
+
+main.index h1 {
+  color: #7a664d;
+  left: 55%;
+  top: 45%;
+}
+
+main.index h4 {
+  left: 50%;
+  top: 60%;
+}
+
+main.index div.line {
+  width: 10%;
+  padding: 1rem;
+  border-bottom: 1px solid #7a664d;
+  position: absolute;
+  left: 59%;
+  top: 51.5%;
+}
+
+main.index section {
+  text-align: center;
+  margin: .5rem 0 3rem 0;
+}
+
+main.index section a * {
+  display: inline-block;
+  width: 32%;
+  max-width: 310px;
+}
+
+main.index section a:first-of-type * {
+  float: left;
+}
+
+main.index section a:last-of-type * {
+  float: right;
+}
+
+main.index section a:nth-of-type(2) * {
+  margin: 0 1.47%;
+}
+
+/*MAIN CODE*/
+main.code h2{
+  padding-top: 2rem;
+}
+
+main.code h5 {
+  padding: .2rem 0 .5rem 0;
+  border-top: 1px solid #9b9690;
+}
+
+main.code img {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  padding-right: .5rem;
+}
+
+main.code a {
+  color: inherit;
+}
+
+main.code section:last-of-type {
+  margin-bottom: 2rem;
+}
+
+
+
+/*MAIN ABOUT*/
+main.about img {
+  display: inline-block;
+  width: 45%;
+  margin-top: 1rem;
+  padding-bottom: 12.5rem;
+  top: 40%;
+}
+
+main.about h2 {
+  padding: 1rem;
+}
+
+main.about p {
+  padding: 1rem 1rem 0 1rem;
+}
+
+main.about section {
+  width: 55%;
+  background-color: rgba(197,233,223,.6);
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  display: inline-block;
+}
+
+/*MAIN PORTFOLIO*/
+main.portfolio article {
+  display: inline-block;
+  width: 21%;
+  height: 150px;
+  margin: 4.35%;
+  vertical-align: top;
+  text-align: center;
+}
+
+main.portfolio article:nth-of-type(3n+1) {
+  margin-left: 8.7%;
+}
+
+main.portfolio article:nth-of-type(3n+3) {
+  margin-right: 8.7%;
+}
+
+main.portfolio article section:first-of-type {
+  height: 80%;
+}
+
+main.portfolio article section:last-of-type {
+  height: 20%;
+}
+
+main.portfolio article section h2 {
+  height: 75%;
+  position: relative;
+  top: 20%;
+}
+
+main.portfolio article section h5 {
+  height: 25%;
+  display: inline-block;
+}
+
+main.portfolio article:nth-of-type(4n+1) {
+  background-color: #c5e9df;
+  box-shadow: -1rem 1rem #97beb9;
+}
+
+main.portfolio article:nth-of-type(4n+2) {
+  background-color: #ffdbdb;
+  box-shadow: -1rem 1rem #d28d8d;
+}
+
+main.portfolio article:nth-of-type(4n+3) {
+  background-color: #f9f0df;
+  box-shadow: -1rem 1rem #c9b898;
+}
+
+main.portfolio article:nth-of-type(4n+4) {
+  background-color: #b7b6b6;
+  box-shadow: -1rem 1rem #9b9690;
+}
+
+/*FOOTER*/
+footer {
+  border-top: 3px solid #7a664d;
+}
+
+footer p {
+  font-size: .8rem;
+  margin: .8rem 0 1rem 0;
+  text-align: center;
+}
