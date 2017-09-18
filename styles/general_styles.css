@@ -6,6 +6,10 @@ h1, h2, li, p, a {
   font-family: 'Arima Madurai', cursive;
 }
 
+h1 {
+  color: #9C873C;
+}
+
 body {
   position: relative;
   background: #EBF7F7;
