@@ -2,37 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 * {
-    font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
 /* Background*/
 
 body {
-    background-image: url(../images/cat.jpg) no-repeat fixed center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  background-image: url(../images/cat.jpg) no-repeat fixed center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 /* Styling for content */
 h1 {
-    font-size: 75px;
-    text-align: center;
-    color: white;
-    text-shadow: 4px 4px 4px grey;
-    
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 4px grey;
+  
 }
 
 p {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
 
 .navbar {
-    font-size: 20px;
-    color: white;
-    
+  font-size: 20px;
+  color: white;
+  
 }
 
 /* Navbar */
@@ -42,4 +42,12 @@ p {
 
 
 /* Footer */
-
+.footer #copyright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .10rem;
+  text-align: center;
+  font-size: 18px;
+}
