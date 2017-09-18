@@ -2,44 +2,61 @@
 * {
   box-sizing: border-box;
   font-family: 'Fira Sans Extra Condensed', Helvetica;
-  background-color: #62e6ac;
 }
 
 h1 {
   margin: 0.2em 0;
 }
 
-#wrapper {
-  min-height: 100%;
-  /*position:relative;*/
-  width: 100%;
+/*html {
   height: 100%;
-  vertical-align: middle;
+  min-height: 100%;
+}*/
+
+body {
+
 }
 
-header {
+#wrapper {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  /*min-height: 100vh;*/
+  /*vertical-align: middle;*/
+  background: linear-gradient(135deg,#62e6ac 50%,#62e6da 110%);
+  /*background-size: cover;
+  background-repeat:no-repeat;*/
+
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
   padding: 2em 2em;
-  height: 10em; /* TODO change?*/
+  width: 100%;
+  /*height: 10em; /* TODO change?*/*/
 }
 
-header a {
+#header a {
   text-decoration: none;
   /*color: #efefef;
   opacity: 0.7;*/
   color: #efefef;
 }
 
-header li {
+#header li {
   /*background-color: #fff;
   opacity: 0.8;*/
 }
 
-#nav-left {
+#nav-left a {
   padding: 0 0.23em;
   font-family: 'Mrs Sheppards';
   font-size: 3em;
   border-radius: 50%;
   border: 1px solid;
+  color: #191919;
 }
 
 #nav-right {
@@ -69,11 +86,7 @@ header li {
   padding-left: 5vw;
   /*line-height: 0.5;*/
   color: #191919;
-  margin-top: 0em;
-}
-
-#front-page {
-  margin: -1em 0;
+  margin-top: 2em;
 }
 
 #front-page a {
@@ -94,7 +107,7 @@ header li {
 
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -166,6 +179,20 @@ footer img {
   animation-delay: 0s, 5s;
 }
 
+.typewriter h3.page {
+  width: 20%;
+  font-size: 2em;
+  color: #efefef;
+  text-transform: uppercase;
+  animation-delay: 0s;
+  -webkit-animation:
+  typing3 2.5s steps(12, end),
+  blink-caret .5s step-end infinite;
+  animation:
+  typing3 2.5s steps(12, end),
+  blink-caret .5s step-end infinite;
+}
+
 /* The typing effect */
 @-webkit-keyframes typing1 {
   from { width: 0 }
@@ -185,6 +212,15 @@ footer img {
   to { width: 90% }
 }
 
+@-webkit-keyframes typing3 {
+  from { width: 0 }
+  to { width: 20% }
+}
+@keyframes typing3 {
+  from { width: 0 }
+  to { width: 20% }
+}
+
 @-webkit-keyframes hide {
   from { opacity: 0; } to { opacity: 0 }
 }
@@ -201,4 +237,160 @@ footer img {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
+
+#about-me {
+  margin: 8em 5vw;
+  text-align: center;
+  overflow: scroll;
+  height: 75vh;
+}
+
+#about-me h2 {
+  text-transform: uppercase;
+}
+
+#about-left, #about-right {
+  padding: 1em;
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+#about-left p, #about-right p {
+  text-align: justify;
+}
+
+#about-left p::before {
+  content: '>>';
+}
+
+#about-right p.lang {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 4.5em;
+  height: 4.5em;
+  padding: 1.5em 0.2em;
+  text-align: center;
+  /*line-height: 4em;*/
+  vertical-align: middle;
+  margin: 0 0.3em;
+}
+
+#about-me strong {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#blog {
+  margin: 7em 5vw;
+  /*text-align: center;*/
+  overflow: scroll;
+  height: 75vh;
+}
+
+/*#blog h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #efefef;
+  animation:
+  typing3 4.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}*/
+
+.post {
+  text-align: justify;
+  background-color: #efefef;
+  opacity: 0.8;
+  /*border-left: 1px solid;
+  border-right: 1px solid;*/
+  padding: 2em;
+  margin-top: 2em;
+  min-height: 16em;
+}
+.post h3, .post h4 {
+  text-transform: uppercase;
+  margin: 0.1em 0;
+  font-size: 1.2em;
+}
+.post p {
+  padding-left: 1em;
+  line-height: 1.3;
+  font-size: 1em;
+  opacity: 1;
+}
+
+.post p::before {
+  content: '>>'
+}
+
+dl.alt {
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+dl.alt dt {
+  display: block;
+  width: 5em;
+  margin: 0;
+  clear: left;
+  float: left;
+}
+
+dl.alt dd {
+  margin: 0 0 0.85em 5.5em;
+}
+
+.alt dt::after {
+  content: ' >>';
+}
+/*dl.alt:after {
+  content: '';
+  display: block;
+  clear: both;
+}*/
+
+dl a {
+  color: #191919;
+  text-decoration: none;
+}
+
+dl a:hover {
+  text-decoration: underline;
+}
+
+#about-me h2 {
+  /*color: #efefef;*/
+  font-size: 2em;
+}
+
+#about-me p {
+  font-size: 1.1em;
+}
+
+li#select {
+  background-color: #191919;
+  border: 1px solid #191919;
+}
+
+.post img {
+  float:left;
+  padding-right: 1em;
+}
+/*
+.post:nth-child(odd) {
+  float: right;
+  width: 60%;
+}*/
+
+/*.post:nth-child(even) img {
+  float: right;
+}*/
+
+.blog h2, .blog h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.3em 0;
 }
