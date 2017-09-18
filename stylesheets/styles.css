@@ -238,6 +238,8 @@
   color: white;
 }
 
+
+/*---contact main section---*/
 .contact_info {
   margin-top: 7%;
 }
@@ -255,7 +257,6 @@
 .contact_info div nav ul {
   list-style-type: none;
   text-align: center;
-
 }
 
 .contact_info div nav ul li {
@@ -264,6 +265,12 @@
   margin-left: 15px;
   margin-right: 15px;
 }
+
+
+.contact_info div nav ul li a i{
+  color: black;
+}
+
 /*---------------CONTACT END-----------------*/
 /*---------------PORTFOLIO START-----------------*/
 
@@ -377,6 +384,73 @@ section article p:last-child a {
 
 /*---------------BLOG START-----------------*/
 
+/*.body_class {
+  margin:0;
+}*/
+
+.blog_header {
+  background-color: #00ffff;
+  background: url(../images/blurr2.jpg) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 145px;
+}
+
+.left_blog_h1 {
+  width: 45%;
+  float: left;
+  margin-top: 0.1%;
+
+}
+
+.right_blog_nav {
+  width: 45%;
+  float: left;
+  margin-top: 7.3%;
+  margin-left: 10%;
+}
+
+/*add hover affect*/
+.blog_header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0 0% 0 5%;
+  padding-right: 0;
+  font-size: 120px;
+  color: white;
+}
+
+.blog_header nav{
+  /*border: 0.1px solid yellow;*/
+}
+
+.blog_header ul {
+  list-style-type: none;
+  text-align: right;
+  max width: 40%;
+}
+
+.blog_header ul li {
+  font-family: 'Julius Sans One', sans-serif;
+  border: 0.5px solid white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 3%;
+  display: inline;
+  font-size: 15px;
+  border-radius: 25px;
+  color: white;
+}
+
+.blog_header ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+.blog h1 {
+  text-align: center;
+  font-size: 80px;
+}
 
 
 /*---------------BLOG END-----------------*/
