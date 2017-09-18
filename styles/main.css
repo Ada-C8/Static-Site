@@ -1,3 +1,4 @@
+/*GENERAL RULES*/
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -20,16 +21,10 @@ body {
   /*width: 100%;*/
 }
 
-header h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
-
-header h2 {
-  font-size: 1.2em;
-  text-align: left;
+a:hover {
+  /*color: #696969;*/
+  /*color: rgba(0,0,0,0.6);*/
+  color: #FF7E75;
 }
 
 /*p {
@@ -37,22 +32,10 @@ header h2 {
   text-align: justify;
 }*/
 
-header a {
-  color: #746F72;
-  text-decoration: none;
-}
-
-a:hover {
-  /*color: #696969;*/
-  /*color: rgba(0,0,0,0.6);*/
-  color: #FF7E75;
-}
-
+/*HEADER*/
 header {
   height: 50px;
   padding: 0 20px;
-  /*-moz-box-shadow:0px 1px 2px gray;
-  box-shadow:0px 1px 2px #555153;*/
   position: fixed;
   top: 0;
   left: 0;
@@ -60,12 +43,27 @@ header {
   background: #DDF6D5;
   font-family: 'Open Sans', sans-serif;
   min-width: 560px;
+  z-index: 999;
 }
 
 header h2, header nav, header nav li {
   display: inline-block;
 }
 
+/*FULLNAME LINK-LEFT*/
+header h2 {
+  font-size: 1.2em;
+  text-align: left;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+header a {
+  color: #746F72;
+  text-decoration: none;
+}
+
+/*NAV LINKS-RIGHT*/
 header nav {
   float: right;
   text-align: right;
@@ -79,7 +77,8 @@ header nav li {
   padding: 6px;
 }
 
-.banner img {
+/*HOME PAGE*/
+.home-banner img {
   position: relative;
   background-size: cover;
   z-index: -1;
@@ -88,11 +87,11 @@ header nav li {
   float: left;
 }
 
-.banner h1{
+.home-banner h1{
   position: absolute;
   font-family: 'Open Sans', sans-serif;
-  color: #BFBDBE;
-  /*color: #CCCACB;*/
+  /*color: #BFBDBE;*/
+  color: #807C7E;
   font-size: 4em;
   text-align: center;
   text-transform: uppercase;
@@ -102,9 +101,10 @@ header nav li {
   width: 100%;
 }
 
-/*.banner h1 {
-  padding-top: 100px;
-}*/
+.home p {
+  padding: 0px 30px 20px 30px;
+  font-size: 1.1em;
+}
 
 
 /*FOOTER*/
@@ -137,6 +137,12 @@ footer a {
   color: #746F72;
   text-decoration: none;
 }
+
+/*header h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}*/
 
 
 /*main {
