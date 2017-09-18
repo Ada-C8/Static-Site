@@ -205,9 +205,9 @@ footer {
 
 /* align title & img to left; description to right */
 .proj-description {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
   padding: 1rem 0;
+  align-items: center;
 }
 
 .all-projects h2 {
@@ -219,4 +219,11 @@ footer {
 .all-projects img {
   width: 16rem;
   height: auto;
+  margin: 1rem 2.5rem 2rem 0;
+}
+
+.all-projects p {
+  width: 60%;
+  font-family: 'Arial', helvetica, sans-serif;
+  font-size: 1.25rem;
 }
