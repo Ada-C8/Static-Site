@@ -43,6 +43,17 @@ a {
 .about {
   background-color: #009FB7;
 }
+main.about {
+  background-color: #FED766;
+}
+
+.portfolio {
+  background-color: #FE4A49;
+}
+
+main.portfolio {
+  background-color: #009FB7;
+}
 
 /*********** BODY ***********/
 html {
@@ -77,50 +88,52 @@ header h1 {
 nav li {
   display: inline-block;
   font-size: 2em;
+  margin-right: 10px;
 }
 
 /*********** MAIN ***********/
 main {
   height: 68%;
   overflow: scroll;
-  background-color: #FED766;
   padding-top: 2%;
 }
 
 div.about-wrapper {
   display: flex; /* flex display */
   justify-content: space-between; /* left and right */
+  width: 100%
 }
 
-div.profile-wrapper {
+div.contact-wrapper {
   text-align: center;
   float: left;
+  width: 33%;
 }
 
-div.profile-wrapper img {
+div.contact-wrapper img {
   border-radius: 100em;
   height: 150px;
+  background-color: white;
 }
 
-article p {
-  margin: 50px 75px;
+div.contact-wrapper li {
+  justify-content: space-between; /* left and right */
+  display: inline-block;
 }
 
+article.about-me {
+  width: 33%;
+}
+
+div.profile-img {
+  width: 33%;
+}
 div.profile-img img {
   height: 450px;
   border-radius: 2em;
 }
 
-img.contact {
-  height: 60px;
-}
-
-ul.contact li {
-  display: inline-block;
-  margin-left: 75px;
-}
-
-span {
+span.sara-eff {
   font-family: 'Berkshire Swash', cursive;
 }
 
