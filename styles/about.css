@@ -2,66 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  background-image: url("../images/wallpaper.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bold;
-}
-
-/******** HEADER ********/
-
-#top-header {
-  padding: 2% 5%;
-  background-color:rgba(245, 245, 245, 0.5);
-}
-
-#top-header h1 {
-  float: left;
-  display: inline-block;
-  font-family: 'Sacramento', cursive;
-}
-
-#top-header nav {
-  overflow: hidden;
-}
-
-#top-header nav ul {
-  float: right;
-  display: block;
-}
-
-#top-header nav li {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  color: grey;
-}
-
-#top-header li:hover {
-  border-bottom: 1px black solid;
-}
-
-#top-header li a:visited {
-  color: black;
-}
-
-#top-header li a {
-  text-decoration: none;
-  font-family: 'Varela Round', sans-serif;
-  color: black;
-}
 /******** MAIN ********/
 
 main {
@@ -73,19 +13,18 @@ main header {
   text-align: center;
 }
 
-section.column-container {
+.column-container {
   position: absolute;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   width: 100%;
-  top: 50%;
-  transform: translateY(-50%)
+  max-height: 300px;
 }
 
 .left-column {
   float: left;
-  height: 200px;
-  width: 40%;
+  width: 50%;
   text-align: right;
+  height: 300px;
 }
 
 .left-column img {
@@ -95,15 +34,16 @@ section.column-container {
 
 .right-column {
   float: right;
-  width: 60%;
+  width: 50%;
   margin: 0;
   text-align: justify;
+  max-height: 300px;
+  overflow: auto;
 }
 
 .right-column p {
   padding: 15px;
-  height: 170px;
-  width: 60%;
+  width: 45%;
   margin: 0;
   background-color: white;
 }
@@ -119,12 +59,11 @@ footer {
   text-align: center;
   font-size: 8px;
   color: white;
-
 }
 
 footer header {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
 footer nav {
@@ -135,11 +74,9 @@ footer ul {
   padding: 0;
 }
 
-footer nav li {
-  display: inline-block;
-  padding: 5px;
+footer img {
+  width: 2% ;
 }
-
 
 /******** CLEARFIX ********/
 .clearfix:after {

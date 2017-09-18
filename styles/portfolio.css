@@ -2,65 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  background-image: url("../images/wallpaper.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-weight: bold;
-}
-/******** HEADER ********/
-
-#top-header {
-  padding: 2% 5%;
-  background-color:rgba(245, 245, 245, 0.5);
-}
-
-#top-header h1 {
-  float: left;
-  display: inline-block;
-  font-family: 'Sacramento', cursive;
-}
-
-#top-header nav {
-  overflow: hidden;
-}
-
-#top-header nav ul {
-  float: right;
-  display: block;
-}
-
-#top-header nav li {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  color: grey;
-}
-
-#top-header li:hover {
-  border-bottom: 1px black solid;
-}
-
-#top-header li a:visited {
-  color: black;
-}
-
-#top-header li a {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-}
-
 /******** MAIN ********/
 
 main {
@@ -75,23 +16,29 @@ main header {
 main a:visited {
   color: black;
 }
+
 .articles-wrapper {
-  width: 90%;
+  max-width: 80%;
   margin: 0 auto;
-  vertical-align: middle:
+  padding-top: 1em;
 }
 
-main article {
-  max-width: 20%;
+.articles-wrapper article {
+  width: 20%;
   display: inline-block;
   background-color: blue;
   padding: 1em;
   background-color: white;
   text-align: justify;
   transition: all 0.3s ease-in-out;
+  border-radius: 20%;
 }
 
-main article:hover {
+.articles-wrapper header {
+  border-bottom: 1px solid black;
+}
+
+.articles-wrapper article:hover {
   box-shadow:
     0 0 30px rgba(0,0,0,1);
 }
@@ -122,10 +69,9 @@ footer ul {
   padding: 0;
 }
 
-footer nav li {
-  display: inline-block;
+footer img {
+  width: 2% ;
 }
-
 /******** CLEARFIX ********/
 .clearfix:after {
   visibility: hidden;
