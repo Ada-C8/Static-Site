@@ -44,7 +44,7 @@ header h3 {
 
 .main-background-image {
   background-image: url("../images/stars.jpg");
-  padding: 0 0 10% 0;
+  padding: 0 0 7% 0;
 }
 
 /* articles */
@@ -60,11 +60,10 @@ main .main-content {
   left: 45px;
 }
 
-.project {
+.post-container {
   background: rgba(204, 204, 204, 0.1);
   width: 80%;
   height: 350px;
-  display: inline-block;
   margin: 5%;
 }
 
@@ -75,7 +74,7 @@ main .main-content {
   margin: 5% 0 0 0;
 }
 
-.project .post {
+.post-container .post {
   color: rgb(250, 249, 244);
   margin: 5%;
   height: 210px;
@@ -90,7 +89,7 @@ main .main-content {
   display: none;
 }
 
-.project a {
+.post-container a {
   color: black;
 }
 

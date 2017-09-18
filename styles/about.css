@@ -44,7 +44,7 @@ header h3 {
 
 .main-background-image {
   background-image: url("../images/pale_blue_dot.jpg");
-  padding: 0 0 10% 0;
+  padding: 0 0 7% 0;
 }
 
 /* articles */
@@ -62,11 +62,10 @@ main .main-content {
 
 article {
   background: rgba(204, 204, 204, 0.1);
-  width: 310px;
-  height: 310px;
+  width: 350px;
+  height: 350px;
   border: 1px solid rgba(251, 251, 251, 0.6);
   border-radius: 50%;
-  display: inline-block;
   padding: 7%;
   margin: 5% 2% 2% 1%;
 }
@@ -102,8 +101,7 @@ img {
   padding: 0 0 0 2%;
 }
 
-.inline-block {
-  display: inline-block;
+#last-line-about {
   padding: 8% 0 0 17%;
 }
 
