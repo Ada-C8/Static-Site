@@ -184,8 +184,8 @@ p>span {
 /* FOOTER */
 /*****   *****/
 
-footer {
-  background-color: black;
+#mediabar {
+  background-color: #171617;
 }
 
 /* Media bar*/
@@ -199,7 +199,7 @@ footer {
   /*border-radius: 50%;*/
 }
 
-#mediabar .flex-container {
+footer .flex-container {
   display: flex;
   /*padding: 10%;*/
   margin-right: 30px;
@@ -210,6 +210,21 @@ footer {
   color: #333;
 }
 #mediabar a:hover {
+  /*border-bottom: 0.2em solid #de6162;*/
+  color: #de6162;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-content a{
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 1.5em;
+}
+
+.footer-content a:hover {
   border-bottom: 0.2em solid #de6162;
   color: #de6162;
 }
