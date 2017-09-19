@@ -67,6 +67,10 @@ body{
 	float: right;
 }
 
+footer{
+	padding-left: 15px;
+}
+
 /*
 #head h2 a{
 	float: left;
