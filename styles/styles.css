@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 * {
-  font-family: "Courier New";
+  font-family: 'VT323', monospace;
+}
+
+p {
+  font-size: 20pt;
 }
 
 body {
@@ -22,6 +28,10 @@ header h2 {
   color: white;
   margin-left: 20px;
   float: left;
+}
+
+header h2 a{
+  font-size: 30pt;
 }
 
 header a, a.button{
@@ -47,8 +57,8 @@ header nav ul li, a.button{
   border: none;
 }
 
-/* When window is smaller than 592px... */
-@media (max-width: 592px) {
+/* When window is smaller than 700px... */
+@media (max-width: 700px) {
   header h2, header nav ul{
     float: none;
   }
@@ -205,7 +215,8 @@ main{
   margin: 20px;
   display: inline-block;
   z-index: 5;
-  height: 480px;
+  height: 500px;
+  font-size: 16pt;
   vertical-align: top;
 }
 
@@ -223,7 +234,12 @@ main{
   padding-right: 10px;
 }
 
-@media (max-width: 592px) {
+.portfolio-description p:nth-child(n + 2){
+  font-size: 14pt;
+}
+
+/* 3 col */
+@media (max-width: 700px) {
   article.portfolio-item {
     height: inherit;
     padding-bottom: 20px;
@@ -237,11 +253,16 @@ main{
   }
 }
 
-@media (max-width: 1078px) {
+/* 2 col */
+@media (max-width: 1150px) {
   .portfolio-item{
     width: 45%;
     margin: 10px;
     height: 500px;
+  }
+
+  .portfolio-description p:nth-child(n + 2){
+    font-size: 15pt;
   }
 
   section.posts{
@@ -263,6 +284,10 @@ main{
   border-bottom: 2px #8ba0c1 solid;
   margin-bottom: 30px;
 }
+
+.posts .post h3{
+  font-size: 20pt;
+}
 /* End Code Journal */
 
 /* About CSS */
@@ -276,7 +301,12 @@ main{
   font-size: 14pt;
 }
 
-@media (max-width: 592px) {
+.top-text h1{
+  font-size: 25pt;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
   .flip-image{
     height: 100%;
     width: 100%;
