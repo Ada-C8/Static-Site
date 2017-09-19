@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -16,7 +20,9 @@
 /*GENERAL STYLE*/
 /*************/
 body {
-  font-family: helvetica;
+  /*font-family: Birdseye;*/
+
+  font-family: "Lato";
 }
 
 h1 {
@@ -25,10 +31,31 @@ h1 {
   width: 50%;
 }
 
+h2 {
+  font-family: "Lato";
+  color: #626262
+}
+
+h3 {
+  font-family: "Droid Serif";
+  color: #626262
+}
+
+h4 {
+  color: #818181;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 1.15;
+letter-spacing: 0.15em;
+}
 
 p {
   text-align: justify;
   padding: .5em;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #818181;
 }
 
 
@@ -45,7 +72,7 @@ nav li {
   align-items: center;
 }
 
-.content img {
+.content > img {
   width: 45%;
   padding: 2%;
 
@@ -119,8 +146,6 @@ main {
 /*TITLE AND QUOTE BANNERS*/
 /*************/
 
-.background {
-}
 
 .photo_back {
   height: 500px;
@@ -130,7 +155,6 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: black;
 
 }
 
@@ -145,20 +169,24 @@ main {
   opacity: .5;*/
   background-image: url('../website_photos/arms-up-rainier.jpg');
   background-size: cover;
-
 }
 
 #top_photo h2 {
   position: relative;
-  /*color: White;
-  z-index: 5;
-  opacity: 1.4;*/
+  color: lightgrey;
   font-size: 3em;
+  font-family: "Droid Serif";
   margin: 0;
 }
 #top_photo h4 {
   margin-bottom: .3em;
+  color: #5e5e5e;
 }
+#top_photo h3 {
+  color: grey;
+}
+
+
 
 #bottom_photo {
   background-image: url('../website_photos/bridge-into-mist.jpg');
