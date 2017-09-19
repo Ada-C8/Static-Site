@@ -1,10 +1,12 @@
 body {
-  background-color: #FFBFA0 /*#AEE8D5*/;
+  /*background-color: #FFBFA0 #AEE8D5;*/
+  background-color: #929487;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   box-sizing: content-box;
+  height: 100%;
 }
-body:after {
+/*body:after {
     background: #654F6F;
     background: #929487;
     position:fixed;
@@ -14,7 +16,7 @@ body:after {
     left:0;
     content:" ";
     z-index:-1;
-}
+}*/
 
 /* HEADER */
 header {
@@ -148,4 +150,15 @@ span .triangle {
   background-color: #1F363D;
   margin-top: 110px;
   margin-right: 0px;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #FFBFA0;
+  text-align: center;
+  height: 15px;
+  z-index: -9;
 }

@@ -1,13 +1,15 @@
 body {
-  background-color: #FFBFA0 /*#AEE8D5*/;
+  /*background-color: #FFBFA0 #AEE8D5;*/
+  background-color: #BCD979;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   box-sizing: content-box;
+  height: 100%;
 }
-body:after {
-    background: #654F6F ;/* KEEPING AS AN OPTION */
-    background: #B6A6CA; /* KEEPING AS AN OPTION */
-    background: #CDE7B0; /* KEEPING AS AN OPTION */
+/*body:after {
+    background: #654F6F;
+    background: #B6A6CA;
+    background: #CDE7B0;
     background: #BCD979;
     position:fixed;
     top:0;
@@ -16,7 +18,7 @@ body:after {
     left:0;
     content:" ";
     z-index:-1;
-}
+}*/
 
 /* HEADER */
 header {
@@ -148,4 +150,16 @@ ul li a:hover {
 .project-list li:hover .triangle-l, .project-list li:hover .triangle-r {
   visibility: visible;
   color: #7D827A;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #FFBFA0;
+  text-align: center;
+  height: 15px;
+  z-index: -9;
 }

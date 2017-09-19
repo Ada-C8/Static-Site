@@ -1,11 +1,13 @@
 body {
-  background-color: /*#DB5461 #AEE8D5*/#FFBFA0;
+  /*background-color: #FFBFA0 #AEE8D5;*/
+  background-color: #62B6CB;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   box-sizing: content-box;
+  height: 100%;
 }
-body:after {
-    background:/*#FFBFA0*/#7EB4D3;
+/*body:after {
+    background:#FFBFA0 #7EB4D3;
     background: #62B6CB;
     position:fixed;
     top:0;
@@ -14,7 +16,7 @@ body:after {
     left:0;
     content:" ";
     z-index:-1;
-}
+}*/
 
 /* HEADER */
 ul {
@@ -145,11 +147,21 @@ ul li a:hover {
 
 /* FOOTER */
 
-footer {
-}
+
 [src="images/phone.png"] {
   width: 200px;
   position: absolute;
   right: 2vw;
   bottom: 3vh;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #FFBFA0;
+  text-align: center;
+  height: 15px;
+  z-index: -9;
 }
