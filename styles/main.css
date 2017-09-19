@@ -210,12 +210,12 @@ footer .flex-container {
   color: #333;
 }
 #mediabar a:hover {
-  /*border-bottom: 0.2em solid #de6162;*/
   color: #de6162;
 }
 
 footer {
   background-color: black;
+  margin:0;
 }
 
 .footer-content a{
@@ -223,8 +223,11 @@ footer {
   color: #f9f9f9;
   font-size: 1.5em;
 }
-
 .footer-content a:hover {
   border-bottom: 0.2em solid #de6162;
   color: #de6162;
+}
+footer p {
+  color: white;
+  text-align: center;
 }
