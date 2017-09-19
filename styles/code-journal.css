@@ -1,0 +1,9 @@
+h1 {
+  width: 100%;
+}
+
+.content {
+  margin: ;
+  flex-wrap: wrap;
+  /*justify-content: flex-start;*/
+}
