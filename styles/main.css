@@ -12,6 +12,9 @@ header {
   background-color: rgb(249, 249, 249);
 }
 
+main p {
+  font-family: "minion-pro",serif;
+}
 
 .flex-container {
   width: 100%;
@@ -118,19 +121,13 @@ p>span {
   background-position: 95% 5%;
 }
 
-/*#about-me-intro h3 {
-  color: #2F2F2D;
-}*/
+
 
 #journal-intro {
-  /*background-image: url('http://i.huffpost.com/gen/1976688/images/o-BOOK-COFFEE-facebook.jpg');
-  background-repeat: no-repeat;
-  background-position: top center;*/
   background-size: cover;
   width: 100%;
   display: table;
   background-color: #5DBCD2;
-  /*background-position: 95% 5%;*/
 }
 
 
