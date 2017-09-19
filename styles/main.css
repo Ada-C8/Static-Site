@@ -118,9 +118,9 @@ p>span {
   background-position: 95% 5%;
 }
 
-#about-me-intro h3 {
+/*#about-me-intro h3 {
   color: #2F2F2D;
-}
+}*/
 
 #journal-intro {
   /*background-image: url('http://i.huffpost.com/gen/1976688/images/o-BOOK-COFFEE-facebook.jpg');
@@ -166,7 +166,7 @@ p>span {
   font-size: 1.1em;
   border: 2px solid #f9f9f9;
   border-radius: 4px;
-  padding: 1em 0.8em;
+  padding: 0.8em 0.6em;
   color: #f9f9f9;
   text-decoration: none;
 }
