@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  font-size: 20pt;
+}
+
+body {
+  margin: 0;
+}
+/* Header */
+header{
+  overflow: auto;
+  content: "";
+  width: 100%;
+  z-index: 10;
+  background-color: #4C5556;
+}
+
+header a:visited{
+  color: white;
+}
+
+header h2 {
+  color: white;
+  margin-left: 20px;
+  float: left;
+}
+
+header h2 a{
+  font-size: 30pt;
+}
+
+header a, a.button{
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+}
+
+header nav ul{
+  float: right;
+  margin-top: 15px;
+}
+
+header nav ul li{
+  margin-right: 15px;
+  display: inline-block;
+}
+
+header nav ul li, a.button{
+  background-color: #6ABAD0;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+/* When window is smaller than 700px... */
+@media (max-width: 700px) {
+  header h2, header nav ul{
+    float: none;
+  }
+
+  header h2{
+    text-align: center;
+  }
+  header nav ul {
+    margin-top: 20px;
+    display: block;
+  }
+  header nav ul li{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+  }
+}
+/*End Header*/
+
+/* Footer */
+footer{
+  text-align: center;
+  border-top: 2px #ccc solid;
+  padding: 20px;
+}
+footer h4, footer p {
+  display: inline;
+}
+
+
+/* Main */
+main{
+  overflow: auto;
+  background-color: #EEEEEE;
+}
+/* End Main */
+
+/* Intro With Text */
+#intro {
+  margin: auto;
+  width: 90vw;
+  font-size: 14pt;
+}
+/* End Intro With Text */
+
+/* Terimal Code Font CSS */
+#terminal_body *, #terminal_code:before, .not-index-terminal p, .not-index-terminal .dollarsign{
+  color: lime;
+  font-size: 20pt;
+}
+
+#terminal_code, .not-index-terminal > p{
+  position: absolute;
+  margin: 0;
+  margin-left: 50px; /* space between dollar sign and code */
+}
+
+@keyframes typing { from { width: 0; } }
+
+#terminal_code, .dollarsign, .not-index-terminal > p{
+  font: bold 20pt Consolas, Monaco, monospace;
+  display: inline-block;
+}
+/* Terminal */
+#terminal_body, #terminal_title_bar{
+  border-radius: 5px;
+}
+
+#terminal_body{
+  margin: auto;
+  height: 350px;
+  width: 75vw;
+  background-color: rgba(50,50,90,0.8);
+  margin-bottom: 20px;
+}
+
+#terminal_title_bar {
+  background-color: #ccc;
+  padding-left: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.terminal_button{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin: 6px 2.5px;
+}
+
+#terminal_close_button{
+  background-color: red;
+}
+
+#terminal_hide_button{
+  background-color: yellow;
+}
+
+#terminal_fullscreen_button{
+  background-color: green;
+}
+
+.terminal_choice a{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.terminal_choice a:before{
+  content: "> ";
+}
+
+/* To animate the terminal code */
+/* Text Cursor */
+.terminal_choice:hover ~ #terminal_code:before, .not-index-terminal p{
+  border-right: .7em solid; /* blinking cursor */
+  padding-right: 2px;
+	overflow: auto;
+	animation: blink-caret .5s step-end infinite alternate;
+}
+
+#portfolio_choice:hover ~ #terminal_code:before{
+  content: "isaac show portfolio";
+}
+
+#codejournal_choice:hover ~ #terminal_code:before{
+  content: "isaac show code_journal";
+}
+
+#about_choice:hover ~ #terminal_code:before{
+  content: "isaac history";
+}
+
+
+.dollarsign{
+  margin-left: 10px;
+  position: absolute;
+}
+
+@keyframes blink-caret { 50% { border-color: transparent; } }
+/* End terminal code animation */
+/* End Terminal */
+
+/* END INDEX */
+
+/* Begin Portfolio CSS */
+.portfolio-items{
+  margin-left: 3vw;
+  overflow: hidden;
+}
+
+.portfolio-item{
+  border: 1px solid black;
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+  z-index: 5;
+  height: 500px;
+  font-size: 16pt;
+  vertical-align: top;
+}
+
+.portfolio-item img{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.portfolio-description{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portfolio-description p:nth-child(n + 2){
+  font-size: 14pt;
+}
+
+/* 3 col */
+@media (max-width: 700px) {
+  article.portfolio-item {
+    height: inherit;
+    padding-bottom: 20px;
+    width: 90%;
+  }
+
+  article.portfolio-item img{
+    width: 100%;
+    height: 90vw;
+    margin-top: 0;
+  }
+}
+
+/* 2 col */
+@media (max-width: 1150px) {
+  .portfolio-item{
+    width: 45%;
+    margin: 10px;
+    height: 500px;
+  }
+
+  .portfolio-description p:nth-child(n + 2){
+    font-size: 15pt;
+  }
+
+  section.posts{
+    padding-right: 0;
+  }
+}
+
+
+/* End Portfolio CSS */
+
+/* Code Journal */
+.posts{
+  padding: 30px 0;
+  padding-right: 20%;
+}
+
+.posts .post{
+  padding-bottom: 30px;
+  border-bottom: 2px #8ba0c1 solid;
+  margin-bottom: 30px;
+}
+
+.posts .post h3{
+  font-size: 20pt;
+}
+/* End Code Journal */
+
+/* About CSS */
+/*.profile-pic{
+  height: 250px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}*/
+.about.top-text{
+  font-size: 14pt;
+}
+
+.top-text h1{
+  font-size: 25pt;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .flip-image{
+    height: 100%;
+    width: 100%;
+  }
+
+  .about.top-text{
+    padding-right: 20px;
+  }
+}
+	/* flip the pane when hovered */
+	.flip-image:hover .flipper, .flip-image.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-image, .front, .back {
+	width: 300px;
+	height: 300px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+/* flip speed goes here */
+.flip-image .flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/*Flip Animation*/
+/* hide back of pane during swap */
+.flip-image .front, .flip-image .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.flip-image .front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.flip-image .back {
+	transform: rotateY(180deg);
+}
+/* End of Flip Animation CSS */
+/* End About CSS */
+
+/* Non-index.html CSS*/
+aside.not-index-terminal{
+  margin-top: 10px;
+  margin-left: 41px;
+  margin-bottom: 50px;
+}
+
+.not-index-terminal p, .not-index-terminal .dollarsign{
+  color: black;
+}
+
+/* typing animation */
+.not-index-terminal p {
+	white-space: nowrap;
+}
+
+#portfolio p{
+  width: 20ch; /* # of chars */
+  	animation: typing 2s steps(20, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
+
+#about p{
+  width: 13ch; /* # of chars */
+  animation: typing 2s steps(13, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
+
+#code-journal p{
+  width: 23ch; /* # of chars */
+  animation: typing 2s steps(23, end), /* # of steps = # of chars */
+  	           blink-caret .5s step-end infinite alternate;
+}
+
+main > section{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+/* End Non-index.html CSS*/
