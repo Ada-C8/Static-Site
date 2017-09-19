@@ -179,3 +179,37 @@ p>span {
   /*height: 100%;*/
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/*****   *****/
+/* FOOTER */
+/*****   *****/
+
+footer {
+  background-color: black;
+}
+
+/* Media bar*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  /*border-radius: 50%;*/
+}
+
+#mediabar .flex-container {
+  display: flex;
+  /*padding: 10%;*/
+  margin-right: 30px;
+  justify-content: center;
+}
+
+#mediabar a {
+  color: #333;
+}
+#mediabar a:hover {
+  border-bottom: 0.2em solid #de6162;
+  color: #de6162;
+}
