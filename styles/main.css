@@ -24,7 +24,8 @@ header {
 .flex-container ul {
   display: flex;
   /*padding: 10%;*/
-  margin-right: 30px;
+  margin: 30px;
+  padding: 0px;
 }
 
 .flex-container li {
