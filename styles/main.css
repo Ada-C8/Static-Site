@@ -115,7 +115,7 @@ p>span {
 
 .portfolio-intro {
   background: url(http://dbhurley.com/media/uploads/2014/09/clean_office_desk.jpg);
-  background-position: 50% 50%;
+  background-position: 60% 40%;
 }
 
 .about-me-intro {
@@ -129,7 +129,6 @@ p>span {
 
 .box2{
   background-repeat: no-repeat;
-  background-position: top center;
   background-size: cover;
   width: 100%;
   display: table;
