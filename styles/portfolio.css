@@ -1,4 +1,13 @@
 /* images */
 img {
-  max-height: 300px;
+  max-height: 200px;
+  background-color: pink;
+}
+
+.card-box {
+  background-color: var(--grey3);
+}
+
+.flex-container {
+  justify-content: space-around;
 }
