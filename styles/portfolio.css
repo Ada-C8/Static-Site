@@ -6,17 +6,19 @@ img {
 
 .card-container {
   background-color: var(--grey3);
+
 }
 
 .flex-container {
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 }
 .card-box {
-  height: 300px;
+  height: 400px;
   width: 300px;
   display: flex;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
   background-color: var(--lightred);
+  flex-direction: column;
 }
