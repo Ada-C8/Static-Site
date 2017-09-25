@@ -1,0 +1,28 @@
+article {
+  text-align: left;
+}
+.section-content p {
+  width: 70%;
+  font-size: 1.3em;
+}
+
+section .box2 h3 {
+  text-align: center;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 2em;
+  color: var(--deepred);
+}
+section:nth-child(odd){
+  background-color: var(--grey1);
+
+}
+section:nth-child(odd) p{
+  color: var(--grey4);
+}
+/*section:nth-child(odd) h4{
+  color: var(--grey5);
+}*/
+
+section:nth-child(even){
+  background-color: var(--teal);
+}
