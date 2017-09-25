@@ -1,0 +1,11 @@
+.box2:first-of-type{
+  /*background-color: #EA4C89;*/
+  background-color: var(--deepred)
+}
+
+.box2 img {
+  /*max-width: 300px;*/
+  max-height: 70%;
+  border-radius: 50%;
+  margin: 2%;
+}
