@@ -1,0 +1,238 @@
+/*COLORS*/
+:root {
+  --lightred: #de6162;
+  --deepred: #ED2030;
+  --white: #FFFFFF;
+  --grey1: #F9F9F9;
+  --grey2: #C9C9C9;
+  --grey3: #707070;
+  --grey4: #4e4e4e;
+  --grey5: #333333;
+  --teal: #5DBCD2;
+  --black: #171617;
+  --yellow: #F5C41F;
+  --pink: #EA4C89;
+}
+
+/*Big broad styles*/
+html{
+  font-family: "proxima-nova",sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+main p {
+  font-family: "minion-pro",serif;
+}
+
+/**********/
+/* Header */
+/**********/
+header {
+  background-color: var(--grey1);
+}
+
+.flex-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  margin: 10px 30px;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+header a {
+  color: var(--grey4);
+  font-size: 1.5em;
+}
+
+header a:hover, .footer-content a:hover {
+  border-bottom: 0.2em solid var(--lightred);
+  color: var(--lightred);
+}
+#header-title a{
+  color: var(--grey4);
+  margin-left: 30px;
+  font-size: 3em;
+}
+
+/*****   *****/
+/* Section 1 */
+/*****   *****/
+
+.box1 {
+  display: block;
+  width: 100%;
+  background-color: var(--grey1);
+}
+
+.box1-content {
+  text-align: left;
+  padding: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+  position: relative;
+  height: auto;
+}
+
+.box1 h2 {
+  display: block;
+  color: var(--grey2);
+  font-weight: 600;
+  font-size: 3em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.box1 p {
+  font-size: 2em;
+  font-weight: 400;
+  color: var(--grey3);
+}
+
+p>span {
+  font-style: italic;
+  color: var(--lightred);
+}
+
+.box1 p a {
+  color: var(--grey3);
+}
+
+/*****   *****/
+/* Section 2 link to portfolio site */
+/*****   *****/
+
+.portfolio-intro {
+  background: url(http://dbhurley.com/media/uploads/2014/09/clean_office_desk.jpg);
+  background-position: 60% 40%;
+}
+
+.about-me-intro {
+  background: url('../images/ClubNats_2016_SRB.jpg');
+  background-position: 95% 5%;
+}
+
+.journal-intro {
+  background-color: var(--teal);
+}
+
+.box2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: table;
+}
+
+.darken-overlay div {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-content {
+  height: 30em;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: var(--grey1)
+}
+
+.section-content h4 {
+  font-size: 1.3em;
+  padding: 0;
+  font-weight: 100;
+}
+
+.section-content h3 {
+  color: var(--deepred);
+  font-size: 3.2em;
+  font-weight: 700;
+}
+
+.section-content p {
+  padding: 1em 0 1em;
+  width: 15em;
+  margin: 0 auto;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-content a {
+  font-size: 1.1em;
+  border: 2px solid var(--grey1);
+  border-radius: 4px;
+  padding: 0.8em 0.6em;
+  color: var(--grey1);
+}
+
+.section-content a:hover {
+  background-color: var(--grey1);
+  color: var(--grey3);
+}
+
+
+/*****   *****/
+/* FOOTER */
+/*****   *****/
+
+
+/* Media bar*/
+
+footer .flex-container:first-child {
+  background-color: var(--black);
+}
+
+/*icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  /*text-align: center;*/
+}
+
+footer .flex-container {
+  display: flex;
+  /*padding: 10%;*/
+  margin-right: 30px;
+  justify-content: center;
+}
+
+#mediabar a {
+  color: var(--grey5);
+}
+#mediabar a:hover {
+  color: var(--lightred);
+  border-bottom: none;
+}
+
+/*post media bar footer*/
+footer {
+  background-color: black;
+  margin:0;
+}
+
+.footer-content {
+  padding: 20px;
+}
+.footer-content a{
+  color: var(--grey1);
+  font-size: 1.5em;
+}
+
+footer p {
+  color: var(--grey1);
+  text-align: center;
+}
