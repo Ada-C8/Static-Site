@@ -1,6 +1,7 @@
 article {
   text-align: left;
 }
+
 .section-content p {
   width: 70%;
   font-size: 1.3em;
@@ -19,9 +20,6 @@ section:nth-child(odd){
 section:nth-child(odd) p{
   color: var(--grey4);
 }
-/*section:nth-child(odd) h4{
-  color: var(--grey5);
-}*/
 
 section:nth-child(even){
   background-color: var(--teal);
