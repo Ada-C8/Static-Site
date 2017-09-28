@@ -6,7 +6,7 @@ ul {
   list-style-type: none;
 }
 header {
-  height: 300px;
+  height: 100px;
   background-image: url("../images_style_sheets/fronds2.jpg");
   background-size: cover;
 }
@@ -14,8 +14,13 @@ header {
   font-family: 'Londrina Shadow', cursive;
   float: right;
   clear: right;
+  padding-top: 5px;
+  padding-right: 5px;
   font-size: 50px;
-  background-color: rgba(229, 255, 222, 0.65);
+  background-color: rgba(254, 254, 254, 0.65);
+}
+.icon img {
+  height: 50px;
 }
 .nav:hover {
   color: rgb(19, 137, 179);
