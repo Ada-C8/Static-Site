@@ -5,10 +5,16 @@ header {
 ul {
   list-style-type: none;
   margin: -10px;
+  display: flex;
+  flex-directon: row;
+  justify-content: center;
 }
-ul li {
-  display: inline;
+.icon img {
+  height: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
+
 .nav {
   /*color: white;*/
   /*font-weight: bold;*/
@@ -25,16 +31,14 @@ ul li {
 /*.nav:hover {
   color: rgb(242, 255, 134);
 }*/
-.icon img {
-  height: 50px;
-  padding-top: 20px;
-  padding-right: 4px;
-}
+
 .hello {
   display: flex;
   justify-content: center;
   background-color: rgb(233, 177, 211);
+  height: 600px;
 }
+
 .hello img {
   height: 500px;
   padding-right: 50px;
@@ -69,4 +73,69 @@ footer p {
 }
 html {
   margin-bottom: 0;
+}
+
+.read {
+  text-decoration: none;
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2px;
+  margin-top: 0;
+  padding-top: 20px;
+  color: rgb(244, 23, 208);
+}
+
+/* Blog links*/
+.blogs {
+  height: 500px;
+  background-color: #FFDDCF;
+}
+.logo, .container  {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+.blogs img {
+  height: 300px;
+
+}
+.logo  {
+  background-color: #FFDDCF;
+}
+
+/* GITHUB LINK HOVER CSS */
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  /*width: 100px;*/
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: rgb(244, 23, 208);
+  text-align: center;
+  font-size: 25px;
 }
