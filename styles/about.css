@@ -1,0 +1,36 @@
+section h2 {
+  color: white;
+  margin-left: 20px;
+}
+
+section img {
+  float:left;
+  width: 250px;
+  height: 265px;
+  border-radius: 100%;
+  border: solid 4px gray;
+  margin-left: 50px;
+}
+
+#content p {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-right: 60px;
+  padding:2px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }

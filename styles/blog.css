@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/*body {
+  font-size: 16px;
+  font-family: helvetica;
+}*/
+
+/*hr {
+  border-color: orange;
+}*/
+
+.title h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.title p {
+  color: gray;
+  text-align: center;
+}
+
+article h3, article h4 {
+  text-align: center;
+  color: #ff6633;
+}
+
+article p {
+  line-height: 150%;
+}
+
+article img {
+  /*margin: auto;*/
+  width: 250px;
+  height: 350px;
+}
+
+article {
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  /*top, right, bottom, left*/
+  /*margin: 0 1%;*/
+  margin right: 20px;
+  margin-left: 50px;
+  padding: 0 1.5%;
+  background-color: lightgray;
+  border-radius: 2%;
+  /*position: relative;*/
+}
+
+footer {
+  color: white;
+  position: relative;
+  }
