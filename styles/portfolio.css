@@ -1,10 +1,12 @@
 main h2 {
   color: white;
+  margin-left: 20px;
 }
 
 main p {
-  color: #ff6633;
-  font-size: 20px;
+  color: white;
+  font-size: 22px;
+  margin-left: 20px;
 }
 
 main ul li {

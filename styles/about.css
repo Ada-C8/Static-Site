@@ -1,18 +1,24 @@
 section h2 {
   color: white;
+  margin-left: 20px;
 }
 
 section img {
   float:left;
   width: 250px;
-  height: 275px;
+  height: 265px;
   border-radius: 100%;
+  border: solid 4px gray;
+  margin-left: 50px;
 }
 
 #content p {
-  color: #ff6633;
-
+  color: white;
+  padding: 10px;
   font-size: 20px;
+  margin-top: 1px;
+  margin-right: 60px;
+  padding:2px;
 }
 
 
