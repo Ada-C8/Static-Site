@@ -1,0 +1,377 @@
+* {
+  /*border: 1px solid lawngreen;*/
+  margin: 0;
+}
+
+/********/
+/*colors*/
+/********/
+
+/*
+dark blue-grey: #666A86
+dark sky blue: #95B8D1
+japanese indigo: #2E3B48
+darker japanese indigo: #181F26
+dutch white: #E8DDB5
+nadeshiko pink: #EDAFB8
+*/
+
+/********/
+/*layout*/
+/********/
+
+body {
+  background-attachment: fixed;
+  background-color: grey;
+  background-image: url(../images/mountain03.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  clear: both;
+  height: 800px;
+  margin: 0 0 20rem 0;
+  min-width: 1027px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Megrim', sans-serif;
+  font-size: 5rem;
+  margin: auto;
+  opacity: 0.9;
+  position: relative;
+  text-shadow: 0 0 10px #2e3b48;
+  /*text-shadow: 0 0 10px #EDAFB8;*/
+  top: 35%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin: auto;
+  opacity: 0.9;
+  position: relative;
+  text-shadow: 0 0 10px #2e3b48;
+  top: 35%;
+}
+
+h3 {
+  color: #2E3B48;
+  display: inline;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #666A86;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 1rem auto;
+  opacity: 0.9;
+}
+
+p {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+p a {
+  color: #EDAFB8;
+  text-decoration: none;
+}
+
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 2rem auto;
+  max-width: 60rem;
+  vertical-align: top;
+}
+
+.holder li {
+  margin: auto;
+}
+
+.header-top {
+  top: 0;
+}
+
+/***********/
+/*hero page*/
+/***********/
+
+.hero {
+  margin: 0;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Cormorant Garamond';
+  margin: 1rem;
+}
+
+nav li a {
+  color: #666A86;
+  text-decoration: none;
+}
+
+hr {
+  color: #666A86;
+  margin: auto;
+  width: 30%;
+}
+
+/*******/
+/*about*/
+/*******/
+
+.about {
+  background-color: #2e3b48;
+  vertical-align: middle;
+}
+
+.about h2 {
+  display: inline-block;
+  position: relative;
+  right: 18%;
+  text-shadow: 4px 2px 0 #181F26;
+  top: 15%;
+  transform: rotate(-8deg);
+}
+
+.about p {
+  float: left;
+  left: 5%;
+  position: relative;
+  top: 27%;
+  width: 50%;
+}
+
+.container {
+  clear: both;
+  display: inline-block;
+  height: 90%;
+  margin: auto;
+  min-width: 955px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.center-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#author-pic {
+  border-radius: 5rem;
+  display: block;
+  float: left;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  width: auto;
+}
+
+/******/
+/*blog*/
+/******/
+
+.blog {
+  /*background-color: #EDAFB8;*/
+  background-color: #E8DDB5;
+}
+
+.blog h1 {
+  color: #2E3B48;
+  text-shadow: 3px 2px 0 #95B8D1;
+}
+
+.blog .container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blog-post {
+  /*background-color: white;*/
+  background-color: #95B8D1;
+  border-radius: 2rem;
+  display: inline-block;
+  height: 30rem;
+  padding: 2rem;
+  width: 12rem;
+}
+
+.blog-post h3 {
+  display: inline-block;
+  height: 12rem;
+}
+
+.blog-post p {
+  color: #2E3B48;
+  height: 12rem;
+  margin: 1rem auto;
+}
+
+.blog-post button {
+  /*background-color: #95B8D1;*/
+  background-color: #EDAFB8;
+  border-radius: 3rem;
+  font-family: 'Megrim';
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.blog-post button:hover {
+  background-color: #666A86;
+}
+
+.blog-post button a {
+  color: white;
+  text-decoration: none;
+}
+
+/***********/
+/*portfolio*/
+/***********/
+
+.portfolio {
+  background-color: #666A86;
+}
+
+.portfolio h1 {
+  color: #E8DDB5;
+  text-shadow: 3px 2px 0 #2E3B48;
+}
+
+.portfolio h4 {
+  color: #2E3B48;
+}
+
+.project {
+  background-color: #2E3B48;
+  border-radius: 3rem;
+  box-shadow: 0 3px 0 #95B8D1;
+  display: inline-block;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  width: 13rem;
+}
+
+.project li:nth-of-type(even) {
+  border: 2px solid white;
+}
+
+.project h3 {
+  color: white;
+  display: block;
+  font-family: 'Megrim', sans-serif;
+  font-size: 2.5rem;
+  padding: 10% 0 0 0;
+}
+
+.project h5 {
+  color: #E8DDB5;
+  display: inline;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.125rem;
+  /*font-style: italic;*/
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.project h5:after {
+  content: '.';
+}
+
+.project p {
+  display: inline;
+  font-size: 1.0625rem;
+  line-height: 1;
+  padding: 0.5rem;
+}
+
+.project button {
+  background-color: #EDAFB8;
+  border-radius: 2rem;
+  font-family: 'Megrim';
+  font-size: 1rem;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+.project button:hover {
+  background-color: #95B8D1;
+}
+
+.project button a {
+  color: white;
+  text-decoration: none;
+}
+
+/*********/
+/*contact*/
+/*********/
+
+.contact {
+  background-color: #95B8D1;
+  margin-bottom: 0;
+}
+
+.contact h1 {
+  color: #2E3B48;
+  text-shadow: 3px 2px 0 #E8DDB5;
+}
+
+.contact p {
+  color: #666A86;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: #666A86;
+}
+
+.contact li {
+  display: inline-block;
+  margin: 3%;
+  vertical-align: top;
+  width: 25%;
+}
+
+.contact .holder {
+  margin-top: 4rem;
+}
+
+i {
+  color: #2E3B48;
+  text-shadow: 3px 2px 0 #E8DDB5;
+  width: 25%;
+}
+
+i:hover {
+  color: #EDAFB8;
+  text-shadow: 3px 2px 0 #666A86;
+}
